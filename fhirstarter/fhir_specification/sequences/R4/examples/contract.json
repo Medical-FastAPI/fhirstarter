@@ -1,0 +1,123 @@
+{
+    "C-123": {
+        "summary": "General Contract Example", 
+        "description": "General Contract Example", 
+        "value": {
+            "resourceType": "Contract", 
+            "id": "C-123", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">A human-readable rendering of the contract</div>"
+            }, 
+            "identifier": [
+                {
+                    "system": "http://happyvalley.com/contract", 
+                    "value": "12347"
+                }
+            ], 
+            "term": [
+                {
+                    "offer": {
+                        "text": "Can't refuse"
+                    }, 
+                    "asset": [
+                        {
+                            "type": [
+                                {
+                                    "coding": [
+                                        {
+                                            "system": "urn:ietf:rfc:3986", 
+                                            "code": "RicardianContract"
+                                        }
+                                    ]
+                                }
+                            ], 
+                            "subtype": [
+                                {
+                                    "text": "sample"
+                                }
+                            ], 
+                            "period": [
+                                {
+                                    "start": "2017-06-01"
+                                }
+                            ], 
+                            "valuedItem": [
+                                {
+                                    "entityCodeableConcept": {
+                                        "text": "Ford Bobcat"
+                                    }, 
+                                    "identifier": {
+                                        "system": "http://somewhere.motor-vehicle.com/vin", 
+                                        "value": "XXSVT34-7665t952236"
+                                    }, 
+                                    "effectiveTime": "1995", 
+                                    "quantity": {
+                                        "value": 1
+                                    }, 
+                                    "unitPrice": {
+                                        "value": 200.0, 
+                                        "currency": "CAD"
+                                    }, 
+                                    "factor": 1.0, 
+                                    "points": 1.0, 
+                                    "net": {
+                                        "value": 200.0, 
+                                        "currency": "CAD"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ], 
+            "rule": [
+                {
+                    "contentAttachment": {
+                        "contentType": "application/txt", 
+                        "url": "http://www.rfc-editor.org/bcp/bcp13.txt"
+                    }
+                }
+            ], 
+            "legallyBindingAttachment": {
+                "contentType": "application/pdf", 
+                "url": "http://www.aws3.com/storage/doc.pdf"
+            }
+        }
+    }, 
+    "pcd-example-notOrg": {
+        "summary": "ConsentDirective Example", 
+        "description": "ConsentDirective Example", 
+        "externalValue": "https://hl7.org/fhir/R4/pcd-example-notOrg.json"
+    }, 
+    "pcd-example-notThem": {
+        "summary": "ConsentDirective Example", 
+        "description": "ConsentDirective Example", 
+        "externalValue": "https://hl7.org/fhir/R4/pcd-example-notThem.json"
+    }, 
+    "pcd-example-notThis": {
+        "summary": "ConsentDirective Example", 
+        "description": "ConsentDirective Example", 
+        "externalValue": "https://hl7.org/fhir/R4/pcd-example-notThis.json"
+    }, 
+    "pcd-example-notAuthor": {
+        "summary": "ConsentDirective Example", 
+        "description": "ConsentDirective Example", 
+        "externalValue": "https://hl7.org/fhir/R4/pcd-example-notAuthor.json"
+    }, 
+    "pcd-example-notLabs": {
+        "summary": "ConsentDirective Example", 
+        "description": "ConsentDirective Example", 
+        "externalValue": "https://hl7.org/fhir/R4/pcd-example-notLabs.json"
+    }, 
+    "C-2121": {
+        "summary": "42 CFR Part 2 Consent Directive", 
+        "description": "42 CFR Part 2 Consent Directive", 
+        "externalValue": "https://hl7.org/fhir/R4/contract-example-42cfr-part2.json"
+    }, 
+    "INS-101": {
+        "summary": "Health Insurance Policy", 
+        "description": "Health Insurance Policy", 
+        "externalValue": "https://hl7.org/fhir/R4/contract-example-ins-policy.json"
+    }
+}

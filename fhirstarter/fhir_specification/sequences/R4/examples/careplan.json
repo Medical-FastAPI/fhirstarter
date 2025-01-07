@@ -1,0 +1,213 @@
+{
+    "example": {
+        "summary": "Care plan to address obesity that has a goal of weight loss", 
+        "description": "Care plan to address obesity that has a goal of weight loss", 
+        "value": {
+            "resourceType": "CarePlan", 
+            "id": "example", 
+            "text": {
+                "status": "additional", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p> A simple care plan to indicate a patient taking their weight once a day because of obesity.</p>\n    </div>"
+            }, 
+            "contained": [
+                {
+                    "resourceType": "Condition", 
+                    "id": "p1", 
+                    "clinicalStatus": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-clinical", 
+                                "code": "active"
+                            }
+                        ]
+                    }, 
+                    "verificationStatus": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/condition-ver-status", 
+                                "code": "confirmed"
+                            }
+                        ]
+                    }, 
+                    "code": {
+                        "text": "Obesity"
+                    }, 
+                    "subject": {
+                        "reference": "Patient/example", 
+                        "display": "Peter James Chalmers"
+                    }
+                }
+            ], 
+            "identifier": [
+                {
+                    "value": "12345"
+                }
+            ], 
+            "instantiatesUri": [
+                "http://example.org/protocol-for-obesity"
+            ], 
+            "basedOn": [
+                {
+                    "display": "Management of Type 2 Diabetes"
+                }
+            ], 
+            "replaces": [
+                {
+                    "display": "Plan from urgent care clinic"
+                }
+            ], 
+            "partOf": [
+                {
+                    "display": "Overall wellness plan"
+                }
+            ], 
+            "status": "active", 
+            "intent": "plan", 
+            "category": [
+                {
+                    "text": "Weight management plan"
+                }
+            ], 
+            "description": "Manage obesity and weight loss", 
+            "subject": {
+                "reference": "Patient/example", 
+                "display": "Peter James Chalmers"
+            }, 
+            "encounter": {
+                "reference": "Encounter/home"
+            }, 
+            "period": {
+                "end": "2017-06-01"
+            }, 
+            "created": "2016-01-01", 
+            "author": {
+                "reference": "Practitioner/example", 
+                "display": "Dr Adam Careful"
+            }, 
+            "careTeam": [
+                {
+                    "reference": "CareTeam/example"
+                }
+            ], 
+            "addresses": [
+                {
+                    "reference": "#p1", 
+                    "display": "obesity"
+                }
+            ], 
+            "goal": [
+                {
+                    "reference": "Goal/example"
+                }
+            ], 
+            "activity": [
+                {
+                    "outcomeCodeableConcept": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "http://snomed.info/sct", 
+                                    "code": "161832001", 
+                                    "display": "Progressive weight loss"
+                                }
+                            ]
+                        }
+                    ], 
+                    "outcomeReference": [
+                        {
+                            "reference": "Observation/example", 
+                            "display": "Weight Measured"
+                        }
+                    ], 
+                    "detail": {
+                        "code": {
+                            "coding": [
+                                {
+                                    "system": "http://loinc.org", 
+                                    "code": "3141-9", 
+                                    "display": "Weight Measured"
+                                }, 
+                                {
+                                    "system": "http://snomed.info/sct", 
+                                    "code": "27113001", 
+                                    "display": "Body weight"
+                                }
+                            ]
+                        }, 
+                        "status": "completed", 
+                        "statusReason": {
+                            "text": "Achieved weight loss to mitigate diabetes risk."
+                        }, 
+                        "doNotPerform": false, 
+                        "scheduledTiming": {
+                            "repeat": {
+                                "frequency": 1, 
+                                "period": 1, 
+                                "periodUnit": "d"
+                            }
+                        }, 
+                        "location": {
+                            "display": "Patient's home"
+                        }, 
+                        "performer": [
+                            {
+                                "reference": "Patient/example", 
+                                "display": "Peter James Chalmers"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }, 
+    "preg": {
+        "summary": "Care plan to address pregnancy", 
+        "description": "Care plan to address pregnancy", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-pregnancy.json"
+    }, 
+    "integrate": {
+        "summary": "Integrated care plan with multiple goals & conditions (from Mayo)", 
+        "description": "Integrated care plan with multiple goals & conditions (from Mayo)", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-integrated.json"
+    }, 
+    "gpvisit": {
+        "summary": "Encounter-specific care plan for GP visit", 
+        "description": "Encounter-specific care plan for GP visit", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-GPVisit.json"
+    }, 
+    "f001": {
+        "summary": "Care plan for an operative procedure on heart", 
+        "description": "Care plan for an operative procedure on heart", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-f001-heart.json"
+    }, 
+    "f002": {
+        "summary": "Care plan for a partial lobectomy of lung", 
+        "description": "Care plan for a partial lobectomy of lung", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-f002-lung.json"
+    }, 
+    "f003": {
+        "summary": "Care plan with goal of retropharyngeal abscess removal", 
+        "description": "Care plan with goal of retropharyngeal abscess removal", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-f003-pharynx.json"
+    }, 
+    "f201": {
+        "summary": "Care plan to address renal insufficiency", 
+        "description": "Care plan to address renal insufficiency", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-f201-renal.json"
+    }, 
+    "f202": {
+        "summary": "Care plan to address head-neck tumor by chemotherapy", 
+        "description": "Care plan to address head-neck tumor by chemotherapy", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-f202-malignancy.json"
+    }, 
+    "f203": {
+        "summary": "Care plan to address sepsis", 
+        "description": "Care plan to address sepsis", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-f203-sepsis.json"
+    }, 
+    "obesity-narrative": {
+        "summary": "Primarily narrative care plan to address obesity", 
+        "description": "Primarily narrative care plan to address obesity", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan-example-obesity-narrative.json"
+    }
+}

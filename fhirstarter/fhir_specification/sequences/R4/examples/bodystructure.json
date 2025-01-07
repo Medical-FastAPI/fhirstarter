@@ -1,0 +1,44 @@
+{
+    "fetus": {
+        "summary": "This example demonstrates using the bodystructure resource to identify a fetus within systems that choose not to treat a fetus as a Patient", 
+        "description": "This example demonstrates using the bodystructure resource to identify a fetus within systems that choose not to treat a fetus as a Patient", 
+        "value": {
+            "resourceType": "BodyStructure", 
+            "id": "fetus", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: fetus</p><p><b>identifier</b>: 12345</p><p><b>location</b>: Fetus <span>(Details : {SNOMED CT code '83418008' = 'Fetus', given as 'Entire fetus (body structure)'})</span></p><p><b>description</b>: EDD 1/1/2017 confirmation by LMP</p><p><b>patient</b>: <a>Patient/example</a></p></div>"
+            }, 
+            "identifier": [
+                {
+                    "system": "http://goodhealth.org/bodystructure/identifiers", 
+                    "value": "12345"
+                }
+            ], 
+            "location": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct", 
+                        "code": "83418008", 
+                        "display": "Entire fetus (body structure)"
+                    }
+                ], 
+                "text": "Fetus"
+            }, 
+            "description": "EDD 1/1/2017 confirmation by LMP", 
+            "patient": {
+                "reference": "Patient/example"
+            }
+        }
+    }, 
+    "tumor": {
+        "summary": "This example demonstrates using the bodystructure resource to identify a specific tumor or lesion that will have multiple observations and/or procedures performed on it over time", 
+        "description": "This example demonstrates using the bodystructure resource to identify a specific tumor or lesion that will have multiple observations and/or procedures performed on it over time", 
+        "externalValue": "https://hl7.org/fhir/R4/bodystructure-example-tumor.json"
+    }, 
+    "skin-patch": {
+        "summary": "This example demonstrates using the bodystructure resource to identify skin patches or other portions of a person or animal that are a focus of a clinical trial and that are subject to repeated observations and/or procedures over time", 
+        "description": "This example demonstrates using the bodystructure resource to identify skin patches or other portions of a person or animal that are a focus of a clinical trial and that are subject to repeated observations and/or procedures over time", 
+        "externalValue": "https://hl7.org/fhir/R4/bodystructure-example-skin-patch.json"
+    }
+}

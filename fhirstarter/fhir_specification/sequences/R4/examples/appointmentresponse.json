@@ -1,0 +1,28 @@
+{
+    "example": {
+        "summary": "General Person Example", 
+        "description": "General Person Example", 
+        "value": {
+            "resourceType": "AppointmentResponse", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Accept Brian MRI results discussion</div>"
+            }, 
+            "appointment": {
+                "reference": "Appointment/example", 
+                "display": "Brian MRI results discussion"
+            }, 
+            "actor": {
+                "reference": "Patient/example", 
+                "display": "Peter James Chalmers"
+            }, 
+            "participantStatus": "accepted"
+        }
+    }, 
+    "exampleresp": {
+        "summary": "Response to renegotiate an appointmet request", 
+        "description": "Response to renegotiate an appointmet request", 
+        "externalValue": "https://hl7.org/fhir/R4/appointmentresponse-example-req.json"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "example": {
+        "summary": "Wheelchair assignment", 
+        "description": "Wheelchair assignment", 
+        "value": {
+            "resourceType": "DeviceRequest", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: example</p><p><b>status</b>: completed</p><p><b>intent</b>: original-order</p><p><b>code</b>: <a>Device/example</a></p><p><b>subject</b>: <a>Patient/example</a></p></div>"
+            }, 
+            "status": "completed", 
+            "intent": "original-order", 
+            "codeReference": {
+                "reference": "Device/example"
+            }, 
+            "subject": {
+                "reference": "Patient/example"
+            }
+        }
+    }, 
+    "insulinpump": {
+        "summary": "Insulin Pump request", 
+        "description": "Insulin Pump request", 
+        "externalValue": "https://hl7.org/fhir/R4/devicerequest-example-insulinpump.json"
+    }, 
+    "right-lens": {
+        "summary": "Right Lens prescription using the parameters element", 
+        "description": "Right Lens prescription using the parameters element", 
+        "externalValue": "https://hl7.org/fhir/R4/devicerequest-right-lens.json"
+    }, 
+    "left-lens": {
+        "summary": "Left Lens prescription using the parameters element", 
+        "description": "Left Lens prescription using the parameters element", 
+        "externalValue": "https://hl7.org/fhir/R4/devicerequest-left-lens.json"
+    }
+}

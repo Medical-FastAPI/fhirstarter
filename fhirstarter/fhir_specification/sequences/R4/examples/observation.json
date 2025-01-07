@@ -1,0 +1,378 @@
+{
+    "example": {
+        "summary": "Simple Weight Example", 
+        "description": "Simple Weight Example", 
+        "value": {
+            "resourceType": "Observation", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: example</p><p><b>status</b>: final</p><p><b>category</b>: Vital Signs <span>(Details : {http://terminology.hl7.org/CodeSystem/observation-category code 'vital-signs' = 'Vital Signs', given as 'Vital Signs'})</span></p><p><b>code</b>: Body Weight <span>(Details : {LOINC code '29463-7' = 'Body weight', given as 'Body Weight'}; {LOINC code '3141-9' = 'Body weight Measured', given as 'Body weight Measured'}; {SNOMED CT code '27113001' = 'Body weight', given as 'Body weight'}; {http://acme.org/devices/clinical-codes code 'body-weight' = 'body-weight', given as 'Body Weight'})</span></p><p><b>subject</b>: <a>Patient/example</a></p><p><b>encounter</b>: <a>Encounter/example</a></p><p><b>effective</b>: 28/03/2016</p><p><b>value</b>: 185 lbs<span> (Details: UCUM code [lb_av] = 'lb_av')</span></p></div>"
+            }, 
+            "status": "final", 
+            "category": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://terminology.hl7.org/CodeSystem/observation-category", 
+                            "code": "vital-signs", 
+                            "display": "Vital Signs"
+                        }
+                    ]
+                }
+            ], 
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://loinc.org", 
+                        "code": "29463-7", 
+                        "display": "Body Weight"
+                    }, 
+                    {
+                        "system": "http://loinc.org", 
+                        "code": "3141-9", 
+                        "display": "Body weight Measured"
+                    }, 
+                    {
+                        "system": "http://snomed.info/sct", 
+                        "code": "27113001", 
+                        "display": "Body weight"
+                    }, 
+                    {
+                        "system": "http://acme.org/devices/clinical-codes", 
+                        "code": "body-weight", 
+                        "display": "Body Weight"
+                    }
+                ]
+            }, 
+            "subject": {
+                "reference": "Patient/example"
+            }, 
+            "encounter": {
+                "reference": "Encounter/example"
+            }, 
+            "effectiveDateTime": "2016-03-28", 
+            "valueQuantity": {
+                "value": 185, 
+                "unit": "lbs", 
+                "system": "http://unitsofmeasure.org", 
+                "code": "[lb_av]"
+            }
+        }
+    }, 
+    "respiratory-rate": {
+        "summary": "Simple Respiratory Rate Example", 
+        "description": "Simple Respiratory Rate Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-respiratory-rate.json"
+    }, 
+    "heart-rate": {
+        "summary": "Simple Heart Rate Example", 
+        "description": "Simple Heart Rate Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-heart-rate.json"
+    }, 
+    "body-temperature": {
+        "summary": "Simple Body Temperature Example", 
+        "description": "Simple Body Temperature Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-body-temperature.json"
+    }, 
+    "body-height": {
+        "summary": "Simple Body Height Example", 
+        "description": "Simple Body Height Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-body-height.json"
+    }, 
+    "body-length": {
+        "summary": "Simple Body Length Example", 
+        "description": "Simple Body Length Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-body-length.json"
+    }, 
+    "head-circumference": {
+        "summary": "Simple Head Circumference Example", 
+        "description": "Simple Head Circumference Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-head-circumference.json"
+    }, 
+    "bmi": {
+        "summary": "Simple BMI Example", 
+        "description": "Simple BMI Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bmi.json"
+    }, 
+    "bmi-using-related": {
+        "summary": "BMI with links to Height and Weight", 
+        "description": "BMI with links to Height and Weight", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bmi-using-related.json"
+    }, 
+    "satO2": {
+        "summary": "Oxygen Saturation by Pulse Oximetry Example (DeviceMetricObservation profile)", 
+        "description": "Oxygen Saturation by Pulse Oximetry Example (DeviceMetricObservation profile)", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-satO2.json"
+    }, 
+    "blood-pressure": {
+        "summary": "Blood Pressure Measurement", 
+        "description": "Blood Pressure Measurement", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bloodpressure.json"
+    }, 
+    "blood-pressure-dar": {
+        "summary": "Blood Pressure Measurement with an absent Diastolic measurement", 
+        "description": "Blood Pressure Measurement with an absent Diastolic measurement", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bloodpressure-dar.json"
+    }, 
+    "mbp": {
+        "summary": "Simple Mean Arterial Blood Pressure Example", 
+        "description": "Simple Mean Arterial Blood Pressure Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-mbp.json"
+    }, 
+    "vitals-panel": {
+        "summary": "Simple Panel of Heart Rate, Repiratory Rate. Blood Pressure and Body Temperature", 
+        "description": "Simple Panel of Heart Rate, Repiratory Rate. Blood Pressure and Body Temperature", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-vitals-panel.json"
+    }, 
+    "blood-pressure-cancel": {
+        "summary": "Blood Pressure Measurement cancelled", 
+        "description": "Blood Pressure Measurement cancelled", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bloodpressure-cancel.json"
+    }, 
+    "f001": {
+        "summary": "Real-world patient - glucose", 
+        "description": "Real-world patient - glucose", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f001-glucose.json"
+    }, 
+    "unsat": {
+        "summary": "Specimen Reject Example", 
+        "description": "Specimen Reject Example", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-unsat.json"
+    }, 
+    "f002": {
+        "summary": "Real-world patient -base excess", 
+        "description": "Real-world patient -base excess", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f002-excess.json"
+    }, 
+    "f003": {
+        "summary": "Real-world patient - CO2", 
+        "description": "Real-world patient - CO2", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f003-co2.json"
+    }, 
+    "f004": {
+        "summary": "Real-world patient - erythrocyte", 
+        "description": "Real-world patient - erythrocyte", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f004-erythrocyte.json"
+    }, 
+    "f005": {
+        "summary": "Real-world patient - hemoglobin", 
+        "description": "Real-world patient - hemoglobin", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f005-hemoglobin.json"
+    }, 
+    "date-lastmp": {
+        "summary": "An \"ask at order\" response using the datetime datetype for the result value", 
+        "description": "An \"ask at order\" response using the datetime datetype for the result value", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-date-lastmp.json"
+    }, 
+    "f202": {
+        "summary": "Real-world patient - temperature", 
+        "description": "Real-world patient - temperature", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f202-temperature.json"
+    }, 
+    "f203": {
+        "summary": "Real-world patient - CO2", 
+        "description": "Real-world patient - CO2", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f203-bicarbonate.json"
+    }, 
+    "f204": {
+        "summary": "Real-world patient - creatinine", 
+        "description": "Real-world patient - creatinine", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f204-creatinine.json"
+    }, 
+    "f205": {
+        "summary": "Real-world patient - estimated gfr", 
+        "description": "Real-world patient - estimated gfr", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f205-egfr.json"
+    }, 
+    "f206": {
+        "summary": "Real-world patient - staphylococcus", 
+        "description": "Real-world patient - staphylococcus", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-f206-staphylococcus.json"
+    }, 
+    "ekg": {
+        "summary": "EKG Example using SampledData data type", 
+        "description": "EKG Example using SampledData data type", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-sample-data.json"
+    }, 
+    "glasgow": {
+        "summary": "Clinical assessment tool example - GCS with individual score as components", 
+        "description": "Clinical assessment tool example - GCS with individual score as components", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-glasgow.json"
+    }, 
+    "gcs-qa": {
+        "summary": "Clinical assessment tool example - GCS with individual scores as related QuestionnaireAnswer", 
+        "description": "Clinical assessment tool example - GCS with individual scores as related QuestionnaireAnswer", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-glasgow-qa.json"
+    }, 
+    "1minute-apgar-score": {
+        "summary": "Example of a 1 minute Apgar score with individual score as components", 
+        "description": "Example of a 1 minute Apgar score with individual score as components", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-1minute-apgar-score.json"
+    }, 
+    "2minute-apgar-score": {
+        "summary": "Example of a 2 minute Apgar score with individual score as components", 
+        "description": "Example of a 2 minute Apgar score with individual score as components", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-2minute-apgar-score.json"
+    }, 
+    "5minute-apgar-score": {
+        "summary": "Example of a 5 minute Apgar score with individual score as components", 
+        "description": "Example of a 5 minute Apgar score with individual score as components", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-5minute-apgar-score.json"
+    }, 
+    "10minute-apgar-score": {
+        "summary": "Example of a 10 minute Apgar score with individual score as components", 
+        "description": "Example of a 10 minute Apgar score with individual score as components", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-10minute-apgar-score.json"
+    }, 
+    "20minute-apgar-score": {
+        "summary": "Example of a 20 minute Apgar score with individual score as components", 
+        "description": "Example of a 20 minute Apgar score with individual score as components", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-20minute-apgar-score.json"
+    }, 
+    "clinical-gender": {
+        "summary": "Example of a clinical gender observation.  For a discussion on representing a patient's gender the Patient Resource.", 
+        "description": "Example of a clinical gender observation.  For a discussion on representing a patient's gender the Patient Resource.", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-clinical-gender.json"
+    }, 
+    "eye-color": {
+        "summary": "Example of a very simple personal characteristic observation", 
+        "description": "Example of a very simple personal characteristic observation", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-eye-color.json"
+    }, 
+    "bmd": {
+        "summary": "Example of an encoded BMD measurements of left femur", 
+        "description": "Example of an encoded BMD measurements of left femur", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bmd.json"
+    }, 
+    "656": {
+        "summary": "Spirometry Example referencing DeviceComponent", 
+        "description": "Spirometry Example referencing DeviceComponent", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-spirometry.json"
+    }, 
+    "alcohol-type": {
+        "summary": "Example of a multi-select values/answers Observation with individual answers/values as components", 
+        "description": "Example of a multi-select values/answers Observation with individual answers/values as components", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-alcohol-type.json"
+    }, 
+    "vp-oyster": {
+        "summary": "Example of an Observations made about a location - an oyster farm", 
+        "description": "Example of an Observations made about a location - an oyster farm", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-vp-oyster.json"
+    }, 
+    "herd1": {
+        "summary": "An example of a herd screening ELISA assay for Mycoplasmal Pneumonia in Pigs.", 
+        "description": "An example of a herd screening ELISA assay for Mycoplasmal Pneumonia in Pigs.", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-herd1.json"
+    }, 
+    "vomiting": {
+        "summary": "An example of a finding of vomiting", 
+        "description": "An example of a finding of vomiting", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-vomiting.json"
+    }, 
+    "secondsmoke": {
+        "summary": "An example of a finding of second hand smoke exposure", 
+        "description": "An example of a finding of second hand smoke exposure", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-secondsmoke.json"
+    }, 
+    "trachcare": {
+        "summary": "An example of capturing whether the mother is trained to change her child's tracheostomy tube. In this example, the child is the patient of record and the mother is the focus.", 
+        "description": "An example of capturing whether the mother is trained to change her child's tracheostomy tube. In this example, the child is the patient of record and the mother is the focus.", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-trachcare.json"
+    }, 
+    "bgpanel": {
+        "summary": "An example of a simple blood typing panel.", 
+        "description": "An example of a simple blood typing panel.", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bgpanel.json"
+    }, 
+    "bloodgroup": {
+        "summary": "An example of a  blood group (ABO) measurement.", 
+        "description": "An example of a  blood group (ABO) measurement.", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-bloodgroup.json"
+    }, 
+    "rhstatus": {
+        "summary": "An example of a blood Rh antigen measurement.", 
+        "description": "An example of a blood Rh antigen measurement.", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-rhstatus.json"
+    }, 
+    "decimal": {
+        "summary": "Explores the edge cases of the decimal data type", 
+        "description": "Explores the edge cases of the decimal data type", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-decimal.json"
+    }, 
+    "map-sitting": {
+        "summary": "An example to demonstrate using the bodyPosition and delta extensions", 
+        "description": "An example to demonstrate using the bodyPosition and delta extensions", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-map-sitting.json"
+    }, 
+    "abdo-tender": {
+        "summary": "An exam finding using pattern 3 described in the \"Using Codes in Observation\" Section", 
+        "description": "An exam finding using pattern 3 described in the \"Using Codes in Observation\" Section", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-abdo-tender.json"
+    }, 
+    "example-genetics-1": {
+        "summary": "Genetics example 1", 
+        "description": "Genetics example 1", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-genetics-1.json"
+    }, 
+    "example-genetics-2": {
+        "summary": "Genetics example 2", 
+        "description": "Genetics example 2", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-genetics-2.json"
+    }, 
+    "example-genetics-3": {
+        "summary": "Genetics example 3", 
+        "description": "Genetics example 3", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-genetics-3.json"
+    }, 
+    "example-genetics-4": {
+        "summary": "Genetics example 4", 
+        "description": "Genetics example 4", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-genetics-4.json"
+    }, 
+    "example-genetics-5": {
+        "summary": "Genetics example 5", 
+        "description": "Genetics example 5", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-genetics-5.json"
+    }, 
+    "example-diplotype1": {
+        "summary": "Example of diplotype data (with haplotypes observation as reference)", 
+        "description": "Example of diplotype data (with haplotypes observation as reference)", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-diplotype1.json"
+    }, 
+    "example-haplotype1": {
+        "summary": "Example of haplotype data that is basis of a diplotype data", 
+        "description": "Example of haplotype data that is basis of a diplotype data", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-haplotype1.json"
+    }, 
+    "example-haplotype2": {
+        "summary": "Example of another haplotype data that is basis of a diplotype data", 
+        "description": "Example of another haplotype data that is basis of a diplotype data", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-haplotype2.json"
+    }, 
+    "example-phenotype": {
+        "summary": "Example of phenotype data", 
+        "description": "Example of phenotype data", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-phenotype.json"
+    }, 
+    "example-TPMT-diplotype": {
+        "summary": "Example of a TPMT diplotype that link to two TPMT haplotype observations", 
+        "description": "Example of a TPMT diplotype that link to two TPMT haplotype observations", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-TPMT-diplotype.json"
+    }, 
+    "example-TPMT-haplotype-one": {
+        "summary": "Example of a TPMT haplotype observation", 
+        "description": "Example of a TPMT haplotype observation", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-TPMT-haplotype-one.json"
+    }, 
+    "example-TPMT-haplotype-two": {
+        "summary": "Example of another TPMT haplotype observation", 
+        "description": "Example of another TPMT haplotype observation", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-TPMT-haplotype-two.json"
+    }, 
+    "example-genetics-brcapat": {
+        "summary": "Example of breast cancer genetic observation", 
+        "description": "Example of breast cancer genetic observation", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-example-genetics-brcapat.json"
+    }
+}

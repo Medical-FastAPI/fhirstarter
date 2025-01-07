@@ -1,0 +1,59 @@
+{
+    "E2500": {
+        "summary": "General Person Primary Coverage Example", 
+        "description": "General Person Primary Coverage Example", 
+        "value": {
+            "resourceType": "CoverageEligibilityResponse", 
+            "id": "E2500", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">A human-readable rendering of the CoverageEligibilityResponse.</div>"
+            }, 
+            "identifier": [
+                {
+                    "system": "http://www.BenefitsInc.com/fhir/coverageeligibilityresponse", 
+                    "value": "881234"
+                }
+            ], 
+            "status": "active", 
+            "purpose": [
+                "validation"
+            ], 
+            "patient": {
+                "reference": "Patient/pat1"
+            }, 
+            "created": "2014-08-16", 
+            "request": {
+                "reference": "http://www.BenefitsInc.com/fhir/coverageeligibilityrequest/225476332402"
+            }, 
+            "outcome": "complete", 
+            "disposition": "Policy is currently in-force.", 
+            "insurer": {
+                "reference": "Organization/2"
+            }, 
+            "insurance": [
+                {
+                    "coverage": {
+                        "reference": "Coverage/9876B1"
+                    }, 
+                    "inforce": true
+                }
+            ]
+        }
+    }, 
+    "E2501": {
+        "summary": "General Person Primary Coverage  with Benefit Details", 
+        "description": "General Person Primary Coverage  with Benefit Details", 
+        "externalValue": "https://hl7.org/fhir/R4/coverageeligibilityresponse-example-benefits.json"
+    }, 
+    "E2502": {
+        "summary": "General Person Primary Coverage  with Benefit Details  and new insurance", 
+        "description": "General Person Primary Coverage  with Benefit Details  and new insurance", 
+        "externalValue": "https://hl7.org/fhir/R4/coverageeligibilityresponse-example-benefits-2.json"
+    }, 
+    "E2503": {
+        "summary": "General Person Primary Coverage  with error", 
+        "description": "General Person Primary Coverage  with error", 
+        "externalValue": "https://hl7.org/fhir/R4/coverageeligibilityresponse-example-error.json"
+    }
+}

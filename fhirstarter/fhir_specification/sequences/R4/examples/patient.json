@@ -1,0 +1,286 @@
+{
+    "example": {
+        "summary": "General Person Example", 
+        "description": "General Person Example", 
+        "value": {
+            "resourceType": "Patient", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<table>\n\t\t\t\t<tbody>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Name</td>\n\t\t\t\t\t\t<td>Peter James \n              <b>Chalmers</b> (&quot;Jim&quot;)\n            </td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Address</td>\n\t\t\t\t\t\t<td>534 Erewhon, Pleasantville, Vic, 3999</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Contacts</td>\n\t\t\t\t\t\t<td>Home: unknown. Work: (03) 5555 6473</td>\n\t\t\t\t\t</tr>\n\t\t\t\t\t<tr>\n\t\t\t\t\t\t<td>Id</td>\n\t\t\t\t\t\t<td>MRN: 12345 (Acme Healthcare)</td>\n\t\t\t\t\t</tr>\n\t\t\t\t</tbody>\n\t\t\t</table>\n\t\t</div>"
+            }, 
+            "identifier": [
+                {
+                    "use": "usual", 
+                    "type": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0203", 
+                                "code": "MR"
+                            }
+                        ]
+                    }, 
+                    "system": "urn:oid:1.2.36.146.595.217.0.1", 
+                    "value": "12345", 
+                    "period": {
+                        "start": "2001-05-06"
+                    }, 
+                    "assigner": {
+                        "display": "Acme Healthcare"
+                    }
+                }
+            ], 
+            "active": true, 
+            "name": [
+                {
+                    "use": "official", 
+                    "family": "Chalmers", 
+                    "given": [
+                        "Peter", 
+                        "James"
+                    ]
+                }, 
+                {
+                    "use": "usual", 
+                    "given": [
+                        "Jim"
+                    ]
+                }, 
+                {
+                    "use": "maiden", 
+                    "family": "Windsor", 
+                    "given": [
+                        "Peter", 
+                        "James"
+                    ], 
+                    "period": {
+                        "end": "2002"
+                    }
+                }
+            ], 
+            "telecom": [
+                {
+                    "use": "home"
+                }, 
+                {
+                    "system": "phone", 
+                    "value": "(03) 5555 6473", 
+                    "use": "work", 
+                    "rank": 1
+                }, 
+                {
+                    "system": "phone", 
+                    "value": "(03) 3410 5613", 
+                    "use": "mobile", 
+                    "rank": 2
+                }, 
+                {
+                    "system": "phone", 
+                    "value": "(03) 5555 8834", 
+                    "use": "old", 
+                    "period": {
+                        "end": "2014"
+                    }
+                }
+            ], 
+            "gender": "male", 
+            "birthDate": "1974-12-25", 
+            "_birthDate": {
+                "extension": [
+                    {
+                        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime", 
+                        "valueDateTime": "1974-12-25T14:35:45-05:00"
+                    }
+                ]
+            }, 
+            "deceasedBoolean": false, 
+            "address": [
+                {
+                    "use": "home", 
+                    "type": "both", 
+                    "text": "534 Erewhon St PeasantVille, Rainbow, Vic  3999", 
+                    "line": [
+                        "534 Erewhon St"
+                    ], 
+                    "city": "PleasantVille", 
+                    "district": "Rainbow", 
+                    "state": "Vic", 
+                    "postalCode": "3999", 
+                    "period": {
+                        "start": "1974-12-25"
+                    }
+                }
+            ], 
+            "contact": [
+                {
+                    "relationship": [
+                        {
+                            "coding": [
+                                {
+                                    "system": "http://terminology.hl7.org/CodeSystem/v2-0131", 
+                                    "code": "N"
+                                }
+                            ]
+                        }
+                    ], 
+                    "name": {
+                        "family": "du March\u00e9", 
+                        "_family": {
+                            "extension": [
+                                {
+                                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-own-prefix", 
+                                    "valueString": "VV"
+                                }
+                            ]
+                        }, 
+                        "given": [
+                            "B\u00e9n\u00e9dicte"
+                        ]
+                    }, 
+                    "telecom": [
+                        {
+                            "system": "phone", 
+                            "value": "+33 (237) 998327"
+                        }
+                    ], 
+                    "address": {
+                        "use": "home", 
+                        "type": "both", 
+                        "line": [
+                            "534 Erewhon St"
+                        ], 
+                        "city": "PleasantVille", 
+                        "district": "Rainbow", 
+                        "state": "Vic", 
+                        "postalCode": "3999", 
+                        "period": {
+                            "start": "1974-12-25"
+                        }
+                    }, 
+                    "gender": "female", 
+                    "period": {
+                        "start": "2012"
+                    }
+                }
+            ], 
+            "managingOrganization": {
+                "reference": "Organization/1"
+            }
+        }
+    }, 
+    "pat1": {
+        "summary": "Patient 1 for linking", 
+        "description": "Patient 1 for linking", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-a.json"
+    }, 
+    "pat2": {
+        "summary": "Patient 2 for linking", 
+        "description": "Patient 2 for linking", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-b.json"
+    }, 
+    "pat3": {
+        "summary": "Deceased patient (using time)", 
+        "description": "Deceased patient (using time)", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-c.json"
+    }, 
+    "pat4": {
+        "summary": "Deceased patient (using boolean)", 
+        "description": "Deceased patient (using boolean)", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-d.json"
+    }, 
+    "b248b1b2-1686-4b94-9936-37d7a5f94b51": {
+        "summary": "Stock people (defined by HL7 publishing)", 
+        "description": "Stock people (defined by HL7 publishing)", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-examples-general.json"
+    }, 
+    "b0a5e4277-83c4-4adb-87e2-e3efe3369b6f": {
+        "summary": "Example People from cypress project", 
+        "description": "Example People from cypress project", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-examples-cypress-template.json"
+    }, 
+    "xcda": {
+        "summary": "2nd person example", 
+        "description": "2nd person example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-xcda.json"
+    }, 
+    "xds": {
+        "summary": "XDS Patient", 
+        "description": "XDS Patient", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-xds.json"
+    }, 
+    "animal": {
+        "summary": "An example of an animal", 
+        "description": "An example of an animal", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-animal.json"
+    }, 
+    "dicom": {
+        "summary": "Taken from a DICOM sample", 
+        "description": "Taken from a DICOM sample", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-dicom.json"
+    }, 
+    "ihe-pcd": {
+        "summary": "Example from IHE-PCD example", 
+        "description": "Example from IHE-PCD example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-ihe-pcd.json"
+    }, 
+    "f001": {
+        "summary": "Real-world patient example (anonymized)", 
+        "description": "Real-world patient example (anonymized)", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-f001-pieter.json"
+    }, 
+    "f201": {
+        "summary": "Real-world patient example (anonymized)", 
+        "description": "Real-world patient example (anonymized)", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-f201-roel.json"
+    }, 
+    "glossy": {
+        "summary": "Example for glossy", 
+        "description": "Example for glossy", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-glossy-example.json"
+    }, 
+    "proband": {
+        "summary": "Genetic Risk Assessment Person", 
+        "description": "Genetic Risk Assessment Person", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-proband.json"
+    }, 
+    "genetics-example1": {
+        "summary": "Additional Genetics Example", 
+        "description": "Additional Genetics Example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-genetics-example1.json"
+    }, 
+    "ch-example": {
+        "summary": "Example Patient resource with Chinese content", 
+        "description": "Example Patient resource with Chinese content", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-chinese.json"
+    }, 
+    "newborn": {
+        "summary": "Newborn Patient Example", 
+        "description": "Newborn Patient Example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-newborn.json"
+    }, 
+    "mom": {
+        "summary": "Mother of Newborn Patient Example", 
+        "description": "Mother of Newborn Patient Example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-mom.json"
+    }, 
+    "infant-twin-1": {
+        "summary": "Newborn Eldest Twin Example", 
+        "description": "Newborn Eldest Twin Example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-infant-twin-1.json"
+    }, 
+    "infant-twin-2": {
+        "summary": "Newborn Youngest Twin Example", 
+        "description": "Newborn Youngest Twin Example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-infant-twin-2.json"
+    }, 
+    "infant-fetal": {
+        "summary": "Pre-birth fetal infant Example", 
+        "description": "Pre-birth fetal infant Example", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-infant-fetal.json"
+    }, 
+    "infant-mom": {
+        "summary": "Mother of infant twins and fetal infant.", 
+        "description": "Mother of infant twins and fetal infant.", 
+        "externalValue": "https://hl7.org/fhir/R4/patient-example-infant-mom.json"
+    }
+}

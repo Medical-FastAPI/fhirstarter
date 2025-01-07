@@ -1,0 +1,68 @@
+{
+    "example": {
+        "summary": "Encounter example", 
+        "description": "Encounter example", 
+        "value": {
+            "resourceType": "Encounter", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Encounter with patient @example</div>"
+            }, 
+            "status": "in-progress", 
+            "class": {
+                "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode", 
+                "code": "IMP", 
+                "display": "inpatient encounter"
+            }, 
+            "subject": {
+                "reference": "Patient/example"
+            }
+        }
+    }, 
+    "home": {
+        "summary": "Encounter example - virtual encounter", 
+        "description": "Encounter example - virtual encounter", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-home.json"
+    }, 
+    "f201": {
+        "summary": "Real-world encounter example", 
+        "description": "Real-world encounter example", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-f201-20130404.json"
+    }, 
+    "f202": {
+        "summary": "Real-world encounter example (with primaryDiagnosis extension added)", 
+        "description": "Real-world encounter example (with primaryDiagnosis extension added)", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-f202-20130128.json"
+    }, 
+    "f203": {
+        "summary": "Real-world encounter example", 
+        "description": "Real-world encounter example", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-f203-20130311.json"
+    }, 
+    "f001": {
+        "summary": "Real-world encounter example", 
+        "description": "Real-world encounter example", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-f001-heart.json"
+    }, 
+    "f002": {
+        "summary": "Real-world encounter example", 
+        "description": "Real-world encounter example", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-f002-lung.json"
+    }, 
+    "f003": {
+        "summary": "Real-world encounter example", 
+        "description": "Real-world encounter example", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-f003-abscess.json"
+    }, 
+    "xcda": {
+        "summary": "for Clinical Document example patient", 
+        "description": "for Clinical Document example patient", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-xcda.json"
+    }, 
+    "emerg": {
+        "summary": "Emergency transitioning into inpatient example", 
+        "description": "Emergency transitioning into inpatient example", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter-example-emerg.json"
+    }
+}

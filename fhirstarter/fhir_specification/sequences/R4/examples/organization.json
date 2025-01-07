@@ -1,0 +1,108 @@
+{
+    "hl7": {
+        "summary": "HL7 itself", 
+        "description": "HL7 itself", 
+        "value": {
+            "resourceType": "Organization", 
+            "id": "hl7", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      Health Level Seven International\n      <br/>\n\t\t\t\t3300 Washtenaw Avenue, Suite 227\n      <br/>\n\t\t\t\tAnn Arbor, MI 48104\n      <br/>\n\t\t\t\tUSA\n      <br/>\n\t\t\t\t(+1) 734-677-7777 (phone)\n      <br/>\n\t\t\t\t(+1) 734-677-6622 (fax)\n      <br/>\n\t\t\t\tE-mail:  \n      <a href=\"mailto:hq@HL7.org\">hq@HL7.org</a>\n    \n    </div>"
+            }, 
+            "name": "Health Level Seven International", 
+            "alias": [
+                "HL7 International"
+            ], 
+            "telecom": [
+                {
+                    "system": "phone", 
+                    "value": "(+1) 734-677-7777"
+                }, 
+                {
+                    "system": "fax", 
+                    "value": "(+1) 734-677-6622"
+                }, 
+                {
+                    "system": "email", 
+                    "value": "hq@HL7.org"
+                }
+            ], 
+            "address": [
+                {
+                    "line": [
+                        "3300 Washtenaw Avenue, Suite 227"
+                    ], 
+                    "city": "Ann Arbor", 
+                    "state": "MI", 
+                    "postalCode": "48104", 
+                    "country": "USA"
+                }
+            ], 
+            "endpoint": [
+                {
+                    "reference": "Endpoint/example"
+                }
+            ]
+        }
+    }, 
+    "1": {
+        "summary": "Gastroenterology team at ACME Healthcare", 
+        "description": "Gastroenterology team at ACME Healthcare", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-gastro.json"
+    }, 
+    "1832473e-2fe0-452d-abe9-3cdb9879522f": {
+        "summary": "Clinical Laboratory at ACME Healthcare", 
+        "description": "Clinical Laboratory at ACME Healthcare", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-lab.json"
+    }, 
+    "2": {
+        "summary": "XYZ Insurance", 
+        "description": "XYZ Insurance", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-insurer.json"
+    }, 
+    "2.16.840.1.113883.19.5": {
+        "summary": "Good Health Clinic", 
+        "description": "Good Health Clinic", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-good-health-care.json"
+    }, 
+    "f001": {
+        "summary": "Real-world organization example (Burgers MC)", 
+        "description": "Real-world organization example (Burgers MC)", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-f001-burgers.json"
+    }, 
+    "f002": {
+        "summary": "Real-world organization example (Burgers MC Cardiology)", 
+        "description": "Real-world organization example (Burgers MC Cardiology)", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-f002-burgers-card.json"
+    }, 
+    "f201": {
+        "summary": "Real-world organization example (Artis UMC)", 
+        "description": "Real-world organization example (Artis UMC)", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-f201-aumc.json"
+    }, 
+    "f203": {
+        "summary": "Real-world organization example (Blijdorp MC)", 
+        "description": "Real-world organization example (Blijdorp MC)", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-f203-bumc.json"
+    }, 
+    "f003": {
+        "summary": "Real-world organization example (ENT)", 
+        "description": "Real-world organization example (ENT)", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-f003-burgers-ENT.json"
+    }, 
+    "mmanu": {
+        "summary": "Medication Manufacturer", 
+        "description": "Medication Manufacturer", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-mmanu.json"
+    }, 
+    "3": {
+        "summary": "Government Department of Health", 
+        "description": "Government Department of Health", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-mihealth.json"
+    }, 
+    "hl7pay": {
+        "summary": "HL7 Payer Network", 
+        "description": "HL7 Payer Network", 
+        "externalValue": "https://hl7.org/fhir/R4/organization-example-hl7pay.json"
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "medrx002": {
+        "summary": "Order for a medication that includes the dosage of a prescription in text", 
+        "description": "Order for a medication that includes the dosage of a prescription in text", 
+        "value": {
+            "resourceType": "MedicationRequest", 
+            "id": "medrx002", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: medrx002</p><p><b>identifier</b>: 12345 (OFFICIAL)</p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>medication</b>: <a>prescribed medication</a></p><p><b>subject</b>: <a>Donald Duck</a></p><p><b>encounter</b>: <a>encounter that leads to this prescription</a></p><p><b>authoredOn</b>: 01/03/2015</p><p><b>requester</b>: <a>Patrick Pump</a></p><p><b>reasonCode</b>: Essential hypertension (disorder) <span>(Details : {SNOMED CT code '59621000' = 'Essential hypertension', given as 'Essential hypertension (disorder)'})</span></p><p><b>dosageInstruction</b>: </p></div>"
+            }, 
+            "identifier": [
+                {
+                    "use": "official", 
+                    "system": "http://www.bmc.nl/portal/prescriptions", 
+                    "value": "12345"
+                }
+            ], 
+            "status": "active", 
+            "intent": "order", 
+            "medicationReference": {
+                "reference": "Medication/med0316", 
+                "display": "prescribed medication"
+            }, 
+            "subject": {
+                "reference": "Patient/pat1", 
+                "display": "Donald Duck"
+            }, 
+            "encounter": {
+                "reference": "Encounter/f001", 
+                "display": "encounter that leads to this prescription"
+            }, 
+            "authoredOn": "2015-03-01", 
+            "requester": {
+                "reference": "Practitioner/f007", 
+                "display": "Patrick Pump"
+            }, 
+            "reasonCode": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://snomed.info/sct", 
+                            "code": "59621000", 
+                            "display": "Essential hypertension (disorder)"
+                        }
+                    ]
+                }
+            ], 
+            "dosageInstruction": [
+                {
+                    "sequence": 1, 
+                    "text": "Take one tablet daily as directed"
+                }
+            ]
+        }
+    }, 
+    "medrx0302": {
+        "summary": "Active Order with link to encounter, reasonCode, note multiple dosage lines, dispenseRequest and substitution - Azithromycin", 
+        "description": "Active Order with link to encounter, reasonCode, note multiple dosage lines, dispenseRequest and substitution - Azithromycin", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0302.json"
+    }, 
+    "medrx0301": {
+        "summary": "Order with as needed (PRN) dosage with pre-condition - Oxycodone - active with reasonCode, note, dispenseRequest and substitution", 
+        "description": "Order with as needed (PRN) dosage with pre-condition - Oxycodone - active with reasonCode, note, dispenseRequest and substitution", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0301.json"
+    }, 
+    "medrx0303": {
+        "summary": "Order for Tapering Dose - Prednisone - active with note and multiple DosageInstructions with boundsPeriod", 
+        "description": "Order for Tapering Dose - Prednisone - active with note and multiple DosageInstructions with boundsPeriod", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0303.json"
+    }, 
+    "medrx0304": {
+        "summary": "Order for Oral Drops - Nystatin Suspension - completed - with Dispense Request", 
+        "description": "Order for Oral Drops - Nystatin Suspension - completed - with Dispense Request", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0304.json"
+    }, 
+    "medrx0305": {
+        "summary": "Order with Dosage with a Pre-Condition - Alprazolam - dosageInstructions includes boundsPeriod with periodMax and asNeededCodeableConcept", 
+        "description": "Order with Dosage with a Pre-Condition - Alprazolam - dosageInstructions includes boundsPeriod with periodMax and asNeededCodeableConcept", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0305.json"
+    }, 
+    "medrx0306": {
+        "summary": "Oral Chemotherapy Order - Myleran - completed - with reasonCode", 
+        "description": "Oral Chemotherapy Order - Myleran - completed - with reasonCode", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0306.json"
+    }, 
+    "medrx0307": {
+        "summary": "Order with as needed (PRN) dosage - Percocet - completed with link to encounter, dispenseRequest and substitution", 
+        "description": "Order with as needed (PRN) dosage - Percocet - completed with link to encounter, dispenseRequest and substitution", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0307.json"
+    }, 
+    "medrx0308": {
+        "summary": "Order for as needed (PRN) dosage - Vicodin - completed with dosageInstruction with additionalInstruction (coded) and as needed with reason, dispenseRequest and substitution", 
+        "description": "Order for as needed (PRN) dosage - Vicodin - completed with dosageInstruction with additionalInstruction (coded) and as needed with reason, dispenseRequest and substitution", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0308.json"
+    }, 
+    "medrx0309": {
+        "summary": "Oral Chemotherapy Order - Capecitabine - active medication with dosing by Body Surface Area (BSA) (mg/m2)", 
+        "description": "Oral Chemotherapy Order - Capecitabine - active medication with dosing by Body Surface Area (BSA) (mg/m2)", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0309.json"
+    }, 
+    "medrx0310": {
+        "summary": "Request for Over the Counter Medication - Tylenol PM - with dosage range as needed with pre-condition for use", 
+        "description": "Request for Over the Counter Medication - Tylenol PM - with dosage range as needed with pre-condition for use", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0310.json"
+    }, 
+    "medrx0311": {
+        "summary": "Fully populated example of a MedicationRequest - Chlorthalidone - active - with link to encounter, reasonReference, note, dispenseRequest, substitution and eventHistory", 
+        "description": "Fully populated example of a MedicationRequest - Chlorthalidone - active - with link to encounter, reasonReference, note, dispenseRequest, substitution and eventHistory", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequestexample1.json"
+    }, 
+    "medrx0312": {
+        "summary": "Liquid Medication - Phenytoin with link to prior prescription", 
+        "description": "Liquid Medication - Phenytoin with link to prior prescription", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0312.json"
+    }, 
+    "medrx0313": {
+        "summary": "Request with a single dosage line - Azithromycin - completed - with link to prior prescription and reason code", 
+        "description": "Request with a single dosage line - Azithromycin - completed - with link to prior prescription and reason code", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0313.json"
+    }, 
+    "medrx0314": {
+        "summary": "Request - Levothyroxine - completed with reasonCode, dosageInstructions and dispenseRequest", 
+        "description": "Request - Levothyroxine - completed with reasonCode, dosageInstructions and dispenseRequest", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0314.json"
+    }, 
+    "medrx0315": {
+        "summary": "Request for an injectable medication - Lorazepam - active - with link to encounter, reasonCode and dosageInstruction", 
+        "description": "Request for an injectable medication - Lorazepam - active - with link to encounter, reasonCode and dosageInstruction", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0315.json"
+    }, 
+    "medrx0316": {
+        "summary": "Request for Intravenous Chemotherapy (inpatient order) - Brentuximab Vedotin - completed", 
+        "description": "Request for Intravenous Chemotherapy (inpatient order) - Brentuximab Vedotin - completed", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0316.json"
+    }, 
+    "medrx0317": {
+        "summary": "Request for Intravenous Chemotherapy (inpatient order) - Alemtuzumab - completed with multiple dosageInstruction lines", 
+        "description": "Request for Intravenous Chemotherapy (inpatient order) - Alemtuzumab - completed with multiple dosageInstruction lines", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0317.json"
+    }, 
+    "medrx0318": {
+        "summary": "Request for Intravenous Antibiotic - Vancomycin - active - with link to encounter, reasonCode, and note", 
+        "description": "Request for Intravenous Antibiotic - Vancomycin - active - with link to encounter, reasonCode, and note", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0318.json"
+    }, 
+    "medrx0319": {
+        "summary": "Request for Intravenous Antibiotic with a Dosage Rate - Piperacillin - completed with reason code", 
+        "description": "Request for Intravenous Antibiotic with a Dosage Rate - Piperacillin - completed with reason code", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0319.json"
+    }, 
+    "medrx0320": {
+        "summary": "Request for Subcutaneous injection - Insulin - Lantus - completed, with reason code and dispense request", 
+        "description": "Request for Subcutaneous injection - Insulin - Lantus - completed, with reason code and dispense request", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0320.json"
+    }, 
+    "medrx0321": {
+        "summary": "Request for Subcutaneous injection with multiple dosage lines - Insulin - Novolog - active - includes reasonCode and note.  Dosage includes additionalInstructions as text", 
+        "description": "Request for Subcutaneous injection with multiple dosage lines - Insulin - Novolog - active - includes reasonCode and note.  Dosage includes additionalInstructions as text", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0321.json"
+    }, 
+    "medrx0322": {
+        "summary": "Request for Intravenous Admixture - Potassium Chloride in D5W - completed with reason code", 
+        "description": "Request for Intravenous Admixture - Potassium Chloride in D5W - completed with reason code", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0322.json"
+    }, 
+    "medrx0323": {
+        "summary": "Request for TPN Solution - completed", 
+        "description": "Request for TPN Solution - completed", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0323.json"
+    }, 
+    "medrx0324": {
+        "summary": "Request using Medication Code for Rectal Suppository - Acetaminophen - completed with reasonCode, dispenseRequest and substitution", 
+        "description": "Request using Medication Code for Rectal Suppository - Acetaminophen - completed with reasonCode, dispenseRequest and substitution", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0324.json"
+    }, 
+    "medrx0325": {
+        "summary": "Request using Medication Code for Topical Ointment - Nystatin - on hold and with dispense request", 
+        "description": "Request using Medication Code for Topical Ointment - Nystatin - on hold and with dispense request", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0325.json"
+    }, 
+    "medrx0326": {
+        "summary": "Request using Medication Code for Inhaler - Proventil - on hold with dispenseRequest and substitution", 
+        "description": "Request using Medication Code for Inhaler - Proventil - on hold with dispenseRequest and substitution", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0326.json"
+    }, 
+    "medrx0327": {
+        "summary": "Request using Medication Code for Patch - Fentanyl - active, with dispense request", 
+        "description": "Request using Medication Code for Patch - Fentanyl - active, with dispense request", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0327.json"
+    }, 
+    "medrx0328": {
+        "summary": "Request referencing Medication Resource for Nasal Spray - Nasonex", 
+        "description": "Request referencing Medication Resource for Nasal Spray - Nasonex", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0328.json"
+    }, 
+    "medrx0329": {
+        "summary": "Request referencing Medication Resource for Compounded Product - HC 1%, Salicylic Acid 5% in Glaxal Base - on hold with dispenseRequest", 
+        "description": "Request referencing Medication Resource for Compounded Product - HC 1%, Salicylic Acid 5% in Glaxal Base - on hold with dispenseRequest", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0329.json"
+    }, 
+    "medrx0330": {
+        "summary": "Request referencing Medication Resource for Eye Drops - Timoptic - active - with link to encounter, dispenseRequest and substitution flag", 
+        "description": "Request referencing Medication Resource for Eye Drops - Timoptic - active - with link to encounter, dispenseRequest and substitution flag", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0330.json"
+    }, 
+    "medrx0331": {
+        "summary": "Request for a Dosage that needs to be dispensed as different strength tablets - Warfarin - active", 
+        "description": "Request for a Dosage that needs to be dispensed as different strength tablets - Warfarin - active", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0331.json"
+    }, 
+    "medrx0332": {
+        "summary": "Request for a medication that is intended to be given as a single, once only dose", 
+        "description": "Request for a medication that is intended to be given as a single, once only dose", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0332.json"
+    }, 
+    "medrx0333": {
+        "summary": "Request for a medication that is intended to be given in the morning", 
+        "description": "Request for a medication that is intended to be given in the morning", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0333.json"
+    }, 
+    "medrx0334": {
+        "summary": "Request for a medication that is intended to be given on a specific day", 
+        "description": "Request for a medication that is intended to be given on a specific day", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0334.json"
+    }, 
+    "medrx0335": {
+        "summary": "Request for a medication that is intended to be given at a specific time", 
+        "description": "Request for a medication that is intended to be given at a specific time", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0335.json"
+    }, 
+    "medrx0336": {
+        "summary": "Request for Intravenous Dopamine - Weight based calculation with rateQuantity", 
+        "description": "Request for Intravenous Dopamine - Weight based calculation with rateQuantity", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0336.json"
+    }, 
+    "medrx0337": {
+        "summary": "Request for Intravenous Admixture Dopamine - with rateQuantity", 
+        "description": "Request for Intravenous Admixture Dopamine - with rateQuantity", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0337.json"
+    }, 
+    "medrx0338": {
+        "summary": "Request for Intravenous Admixture Dopamine - with doseQuantity and rateQuantity", 
+        "description": "Request for Intravenous Admixture Dopamine - with doseQuantity and rateQuantity", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0338.json"
+    }, 
+    "medrx0339": {
+        "summary": "Request for a product that contains multiple dosage forms", 
+        "description": "Request for a product that contains multiple dosage forms", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest0339.json"
+    }
+}

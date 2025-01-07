@@ -1,0 +1,139 @@
+{
+    "example": {
+        "summary": "General Person Example", 
+        "description": "General Person Example", 
+        "value": {
+            "resourceType": "Practitioner", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Dr Adam Careful is a Referring Practitioner for Acme Hospital from 1-Jan 2012 to 31-Mar\n        2012</p>\n    </div>"
+            }, 
+            "identifier": [
+                {
+                    "system": "http://www.acme.org/practitioners", 
+                    "value": "23"
+                }
+            ], 
+            "active": true, 
+            "name": [
+                {
+                    "family": "Careful", 
+                    "given": [
+                        "Adam"
+                    ], 
+                    "prefix": [
+                        "Dr"
+                    ]
+                }
+            ], 
+            "address": [
+                {
+                    "use": "home", 
+                    "line": [
+                        "534 Erewhon St"
+                    ], 
+                    "city": "PleasantVille", 
+                    "state": "Vic", 
+                    "postalCode": "3999"
+                }
+            ], 
+            "qualification": [
+                {
+                    "identifier": [
+                        {
+                            "system": "http://example.org/UniversityIdentifier", 
+                            "value": "12345"
+                        }
+                    ], 
+                    "code": {
+                        "coding": [
+                            {
+                                "system": "http://terminology.hl7.org/CodeSystem/v2-0360/2.7", 
+                                "code": "BS", 
+                                "display": "Bachelor of Science"
+                            }
+                        ], 
+                        "text": "Bachelor of Science"
+                    }, 
+                    "period": {
+                        "start": "1995"
+                    }, 
+                    "issuer": {
+                        "display": "Example University"
+                    }
+                }
+            ]
+        }
+    }, 
+    "xcda-author": {
+        "summary": "CDA Example Author", 
+        "description": "CDA Example Author", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-xcda-author.json"
+    }, 
+    "3ad0687e-f477-468c-afd5-fcc2bf897809": {
+        "summary": "HL7 Defined Practitioner Examples", 
+        "description": "HL7 Defined Practitioner Examples", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-examples-general.json"
+    }, 
+    "f001": {
+        "summary": "Fictive KNO-physician", 
+        "description": "Fictive KNO-physician", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f001-evdb.json"
+    }, 
+    "f002": {
+        "summary": "Fictive Cardiothoracal surgeon", 
+        "description": "Fictive Cardiothoracal surgeon", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f002-pv.json"
+    }, 
+    "f003": {
+        "summary": "Fictive Cardiothoracal surgeon", 
+        "description": "Fictive Cardiothoracal surgeon", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f003-mv.json"
+    }, 
+    "f004": {
+        "summary": "Fictive KNO-physician", 
+        "description": "Fictive KNO-physician", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f004-rb.json"
+    }, 
+    "f005": {
+        "summary": "Fictive KNO-physician", 
+        "description": "Fictive KNO-physician", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f005-al.json"
+    }, 
+    "f201": {
+        "summary": "Fictive Oncologist/Pulmonologist", 
+        "description": "Fictive Oncologist/Pulmonologist", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f201-ab.json"
+    }, 
+    "f202": {
+        "summary": "Fictive Lab worker", 
+        "description": "Fictive Lab worker", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f202-lm.json"
+    }, 
+    "f203": {
+        "summary": "Fictive Physiotherapist", 
+        "description": "Fictive Physiotherapist", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f203-jvg.json"
+    }, 
+    "f204": {
+        "summary": "Fictive Nurse", 
+        "description": "Fictive Nurse", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f204-ce.json"
+    }, 
+    "f006": {
+        "summary": "Fictive Pharmacist", 
+        "description": "Fictive Pharmacist", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f006-rvdb.json"
+    }, 
+    "f007": {
+        "summary": "Fictive physician", 
+        "description": "Fictive physician", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-f007-sh.json"
+    }, 
+    "xcda1": {
+        "summary": "2nd CDA Example Author", 
+        "description": "2nd CDA Example Author", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner-example-xcda1.json"
+    }
+}

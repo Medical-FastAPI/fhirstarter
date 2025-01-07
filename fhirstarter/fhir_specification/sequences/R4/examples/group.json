@@ -1,0 +1,62 @@
+{
+    "101": {
+        "summary": "General Group Example, Characteristic Based", 
+        "description": "General Group Example, Characteristic Based", 
+        "value": {
+            "resourceType": "Group", 
+            "id": "101", 
+            "text": {
+                "status": "additional", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>Herd of 25 horses</p>\n      <p>Gender: mixed</p>\n      <p>Owner: John Smith</p>\n    </div>"
+            }, 
+            "identifier": [
+                {
+                    "system": "http://someveterinarianclinic.org/fhir/NamingSystem/herds", 
+                    "value": "12345"
+                }
+            ], 
+            "type": "animal", 
+            "actual": true, 
+            "code": {
+                "text": "Horse"
+            }, 
+            "name": "John's herd", 
+            "quantity": 25, 
+            "characteristic": [
+                {
+                    "code": {
+                        "text": "gender"
+                    }, 
+                    "valueCodeableConcept": {
+                        "text": "mixed"
+                    }, 
+                    "exclude": false
+                }, 
+                {
+                    "code": {
+                        "text": "owner"
+                    }, 
+                    "valueCodeableConcept": {
+                        "text": "John Smith"
+                    }, 
+                    "exclude": false
+                }
+            ]
+        }
+    }, 
+    "102": {
+        "summary": "General Group Example, Member Based", 
+        "description": "General Group Example, Member Based", 
+        "externalValue": "https://hl7.org/fhir/R4/group-example-member.json"
+    }, 
+    "herd1": {
+        "summary": "Herd of 2500 breeding sows", 
+        "description": "Herd of 2500 breeding sows", 
+        "externalValue": "https://hl7.org/fhir/R4/group-example-herd1.json"
+    }, 
+    "example-patientlist": {
+        "summary": "Patients primarily attributed to Practitioner 123", 
+        "description": "Patients primarily attributed to Practitioner 123", 
+        "externalValue": "https://hl7.org/fhir/R4/group-example-patientlist.json"
+    }
+}

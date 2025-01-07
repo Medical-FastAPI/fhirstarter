@@ -1,0 +1,127 @@
+{
+    "medicationexample1": {
+        "summary": "Name element only populated - Amoxicillin 250mg/5ml Suspension", 
+        "description": "Name element only populated - Amoxicillin 250mg/5ml Suspension", 
+        "value": {
+            "resourceType": "Medication", 
+            "id": "medicationexample1", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Amoxicillin 250mg/5ml Suspension</div>"
+            }, 
+            "code": {
+                "text": "Amoxicillin 250mg/5ml Suspension"
+            }
+        }
+    }, 
+    "medexample015": {
+        "summary": "Oral Chemotherapy Example - Manufactured Product - Xeloda - includes a reference to a substance in ingredient element", 
+        "description": "Oral Chemotherapy Example - Manufactured Product - Xeloda - includes a reference to a substance in ingredient element", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample15.json"
+    }, 
+    "med0301": {
+        "summary": "IV injection (inpatient order) - Manufactured Product - Vancomycin", 
+        "description": "IV injection (inpatient order) - Manufactured Product - Vancomycin", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0301.json"
+    }, 
+    "med0302": {
+        "summary": "IV Injection with a Rate Example - Manufactured Product - Piperacillin", 
+        "description": "IV Injection with a Rate Example - Manufactured Product - Piperacillin", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0302.json"
+    }, 
+    "med0303": {
+        "summary": "IV Chemotherapy Example - Manufactured Product - Alemtuzumab", 
+        "description": "IV Chemotherapy Example - Manufactured Product - Alemtuzumab", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0303.json"
+    }, 
+    "med0304": {
+        "summary": "Oral Chemotherapy Example - Manufactured Product - Myleran", 
+        "description": "Oral Chemotherapy Example - Manufactured Product - Myleran", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0304.json"
+    }, 
+    "med0305": {
+        "summary": "Eye Drop Example - Manufactured Product - Timoptic", 
+        "description": "Eye Drop Example - Manufactured Product - Timoptic", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0305.json"
+    }, 
+    "med0306": {
+        "summary": "IV Chemotherapy Example - Manufactured Product - Adcetris", 
+        "description": "IV Chemotherapy Example - Manufactured Product - Adcetris", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0306.json"
+    }, 
+    "med0307": {
+        "summary": "Subcutaneous injection Example - Manufactured Product - Novolog", 
+        "description": "Subcutaneous injection Example - Manufactured Product - Novolog", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0307.json"
+    }, 
+    "med0308": {
+        "summary": "As needed Oral tablet - Manufactured Product - Percocet", 
+        "description": "As needed Oral tablet - Manufactured Product - Percocet", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0308.json"
+    }, 
+    "med0309": {
+        "summary": "As needed dosage range - Manufactured Product - Tylenol No 1 Caplet", 
+        "description": "As needed dosage range - Manufactured Product - Tylenol No 1 Caplet", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0309.json"
+    }, 
+    "med0310": {
+        "summary": "Generic Formulation - Oxycodone", 
+        "description": "Generic Formulation - Oxycodone", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0310.json"
+    }, 
+    "med0311": {
+        "summary": "Generic Formulation - Prednisone 5mg tablet", 
+        "description": "Generic Formulation - Prednisone 5mg tablet", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0311.json"
+    }, 
+    "med0312": {
+        "summary": "Generic Formulation - Nystatin 100,000 u/ml suspension", 
+        "description": "Generic Formulation - Nystatin 100,000 u/ml suspension", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0312.json"
+    }, 
+    "med0313": {
+        "summary": "Generic Formulation - Lorazepam 2mg/ml injection", 
+        "description": "Generic Formulation - Lorazepam 2mg/ml injection", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0313.json"
+    }, 
+    "med0314": {
+        "summary": "Generic Formulation - Alprazolam 0.25mg tablet", 
+        "description": "Generic Formulation - Alprazolam 0.25mg tablet", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0314.json"
+    }, 
+    "med0315": {
+        "summary": "Generic Formulation - Mometasone Furoate 0.05mg/Actuat", 
+        "description": "Generic Formulation - Mometasone Furoate 0.05mg/Actuat", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0315.json"
+    }, 
+    "med0316": {
+        "summary": "Generic Formulation - Fully populated example of a Medication - Chlorthalidone", 
+        "description": "Generic Formulation - Fully populated example of a Medication - Chlorthalidone", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0316.json"
+    }, 
+    "med0317": {
+        "summary": "Compounded Preparation - KCl in D5W Admixture - includes a reference to a substance in the ingredient element", 
+        "description": "Compounded Preparation - KCl in D5W Admixture - includes a reference to a substance in the ingredient element", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0317.json"
+    }, 
+    "med0318": {
+        "summary": "Compounded Preparation - TPN Solution  - includes a reference to a substance in the ingredient element", 
+        "description": "Compounded Preparation - TPN Solution  - includes a reference to a substance in the ingredient element", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0318.json"
+    }, 
+    "med0319": {
+        "summary": "Compounded Preparation - HC 1%, Salicylic Acid 5% in Glaxal Base  - includes a reference to a substance in the ingredient element", 
+        "description": "Compounded Preparation - HC 1%, Salicylic Acid 5% in Glaxal Base  - includes a reference to a substance in the ingredient element", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0319.json"
+    }, 
+    "med0320": {
+        "summary": "Generic Formulation - Azithromycin 250mg oral capsule - includes a reference to a substance in the Ingredient element", 
+        "description": "Generic Formulation - Azithromycin 250mg oral capsule - includes a reference to a substance in the Ingredient element", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0320.json"
+    }, 
+    "med0321": {
+        "summary": "Generic Formulation - Oral Chemotherapy Example - Capecitabine \u2013 includes a reference to a substance in the Ingredient element", 
+        "description": "Generic Formulation - Oral Chemotherapy Example - Capecitabine \u2013 includes a reference to a substance in the Ingredient element", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationexample0321.json"
+    }
+}

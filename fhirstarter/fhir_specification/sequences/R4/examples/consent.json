@@ -1,0 +1,115 @@
+{
+    "consent-example-basic": {
+        "summary": "General Consent Example", 
+        "description": "General Consent Example", 
+        "value": {
+            "resourceType": "Consent", 
+            "id": "consent-example-basic", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\t<p>\n\tAuthorize Normal access for Treatment\n\t\t\t</p>\n\t\t\t<p>\n    Patient &quot;P. van de Heuvel&quot; wishes to have all of the PHI collected at the Good Health Psychiatric Hospital \n   available for normal treatment use.\n\t\t\t</p>\n\t\t</div>"
+            }, 
+            "status": "active", 
+            "scope": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/consentscope", 
+                        "code": "patient-privacy"
+                    }
+                ]
+            }, 
+            "category": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://loinc.org", 
+                            "code": "59284-0"
+                        }
+                    ]
+                }
+            ], 
+            "patient": {
+                "reference": "Patient/f001", 
+                "display": "P. van de Heuvel"
+            }, 
+            "dateTime": "2016-05-11", 
+            "organization": [
+                {
+                    "reference": "Organization/f001"
+                }
+            ], 
+            "sourceAttachment": {
+                "title": "The terms of the consent in lawyer speak."
+            }, 
+            "policyRule": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode", 
+                        "code": "OPTIN"
+                    }
+                ]
+            }, 
+            "provision": {
+                "period": {
+                    "start": "1964-01-01", 
+                    "end": "2016-01-01"
+                }
+            }
+        }
+    }, 
+    "consent-example-Out": {
+        "summary": "Consent withholding access", 
+        "description": "Consent withholding access", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-Out.json"
+    }, 
+    "consent-example-Emergency": {
+        "summary": "Consent withholding access to data for Treatment exept for Emergency Treatment", 
+        "description": "Consent withholding access to data for Treatment exept for Emergency Treatment", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-Emergency.json"
+    }, 
+    "consent-example-notThis": {
+        "summary": "Withhold or withdraw consent for disclosure of records related to specific domain (e.g. DI, LAB, etc.)", 
+        "description": "Withhold or withdraw consent for disclosure of records related to specific domain (e.g. DI, LAB, etc.)", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-notThis.json"
+    }, 
+    "consent-example-notTime": {
+        "summary": "Withhold or withdraw consent for disclosure of a specific timeframe", 
+        "description": "Withhold or withdraw consent for disclosure of a specific timeframe", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-notTime.json"
+    }, 
+    "consent-example-notOrg": {
+        "summary": "Withhold or withdraw consent for disclosure to a specific provider organization", 
+        "description": "Withhold or withdraw consent for disclosure to a specific provider organization", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-notOrg.json"
+    }, 
+    "consent-example-notThem": {
+        "summary": "Withhold or withdraw consent for disclosure to a specific provider agent (an individual within an organization)", 
+        "description": "Withhold or withdraw consent for disclosure to a specific provider agent (an individual within an organization)", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-notThem.json"
+    }, 
+    "consent-example-notAuthor": {
+        "summary": "Withhold or withdraw consent for disclosure of records that were authored by a specific organization (or service delivery location).", 
+        "description": "Withhold or withdraw consent for disclosure of records that were authored by a specific organization (or service delivery location).", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-notAuthor.json"
+    }, 
+    "consent-example-grantor": {
+        "summary": "Patient grants access to a specified individual for read-only access", 
+        "description": "Patient grants access to a specified individual for read-only access", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-grantor.json"
+    }, 
+    "consent-example-pkb": {
+        "summary": "Example of Patients Know Best Usage", 
+        "description": "Example of Patients Know Best Usage", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-pkb.json"
+    }, 
+    "consent-example-smartonfhir": {
+        "summary": "Template for recording a Smart on FHIR Authorization", 
+        "description": "Template for recording a Smart on FHIR Authorization", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-smartonfhir.json"
+    }, 
+    "consent-example-signature": {
+        "summary": "Consent Example with a signature", 
+        "description": "Consent Example with a signature", 
+        "externalValue": "https://hl7.org/fhir/R4/consent-example-signature.json"
+    }
+}

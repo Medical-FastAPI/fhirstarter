@@ -1,0 +1,3529 @@
+{
+    "c694a0ca31db4802b9744f054e9db4c5": {
+        "summary": "Base Type: Element ", 
+        "description": "Base Type: Element ", 
+        "value": {
+            "resourceType": "StructureDefinition", 
+            "id": "Element", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"formats.html#table\" title=\"Legend for this format\"><img src=\"help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)\" class=\"hierarchy\"><img src=\"data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"data: image/png;base64,R0lGODlhEAAQAPQfAOvGUf7ztuvPMf/78/fkl/Pbg+u8Rvjqteu2Pf3zxPz36Pz0z+vTmPzurPvuw/npofbjquvNefHVduuyN+uuMu3Oafbgjfnqvf/3zv/3xevPi+vRjP/20/bmsP///wD/ACH5BAEKAB8ALAAAAAAQABAAAAVl4CeOZGme5qCqqDg8jyVJaz1876DsmAQAgqDgltspMEhMJoMZ4iy6I1AooFCIv+wKybziALVAoAEjYLwDgGIpJhMslgxaLR4/3rMAWoBp32V5exg8Shl1ckRUQVaMVkQ2kCstKCEAOw==\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"element-definitions.html#Element\" title=\"Element : Base definition for all elements in a resource.\">Element</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"padding-left: 3px; padding-right: 3px; color: black; null\" href=\"conformance-rules.html#constraints\" title=\"This element has or is affected by some invariants\">I</a><a style=\"padding-left: 3px; padding-right: 3px; border: 1px grey solid; font-weight: bold; color: black; background-color: #e6ffe6\" href=\"versions.html#std-process\" title=\"Standards Status = Normative\">N</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">n/a</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Base for all elements<br/><span style=\"font-style: italic\" title=\"ele-1\">+ Rule: All FHIR elements must have a @value or children</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAL0lEQVR42u3XsQ0AQAgCQHdl/xn8jxvYWB3JlTR0VJLa+OltBwAAYP6EEQAAgCsPVYVAgIJrA/sAAAAASUVORK5CYII=)\" class=\"hierarchy\"><img src=\"data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAARklEQVQ4y2P8//8/AyWAhYFCMAgMuHjx4n+KXaCv+I0szW8WpCG8kFO1lGFKW/SIjAUYgxz/MzAwMDC+nqhDUTQyjuYFBgCNmhP4OvTRgwAAAABJRU5ErkJggg==\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"element-definitions.html#Element.id\" title=\"Element.id : Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.\">id</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Unique id for inter-element referencing</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAI0lEQVR42u3QIQEAAAACIL/6/4MvTAQOkLYBAAB4kAAAANwMad9AqkRjgNAAAAAASUVORK5CYII=)\" class=\"hierarchy\"><img src=\"data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"data: image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAADdSURBVDjLY/j//z8DJZhhmBvw41KQ07dzbk5kG/Dtgu/Jb2fsT5JkwI+bqZw/rsfYA21v+XE97f+PS5H/vx5Ra/98QN7+824ZTiIMSJr580bW/x+3iv//etD9/+fdpv/fzwX+/3LY6P/n7TIzCRtwPYYZaPvGH7dKgAb0AA1o/v/tQsh/oO0bP26TZiYqDIB+1/1+wef/z3vN/3/erPr/5aAOyHZdogMRGPIe38/7gvz+Gej3z18OG/8H2u5BvAFn7GO/Htdv/3pAQejzXjkhoO3tH7dIxY7EpEwMBgAr6O5Q8udliwAAAABJRU5ErkJggg==\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Extension\" class=\"hierarchy\"/> <a href=\"element-definitions.html#Element.extension\" title=\"Element.extension : May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.\">extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..*</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Additional content defined by implementations<br/></td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"formats.html#table\" title=\"Legend for this format\"><img src=\"help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+            }, 
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status", 
+                    "valueCode": "normative"
+                }, 
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version", 
+                    "valueCode": "4.0.0"
+                }
+            ], 
+            "url": "http://hl7.org/fhir/StructureDefinition/Element", 
+            "version": "4.0.1", 
+            "name": "Element", 
+            "status": "active", 
+            "date": "2019-11-01T09:29:23+11:00", 
+            "publisher": "HL7 FHIR Standard", 
+            "contact": [
+                {
+                    "telecom": [
+                        {
+                            "system": "url", 
+                            "value": "http://hl7.org/fhir"
+                        }
+                    ]
+                }
+            ], 
+            "description": "Base StructureDefinition for Element Type: Base definition for all elements in a resource.", 
+            "fhirVersion": "4.0.1", 
+            "mapping": [
+                {
+                    "identity": "rim", 
+                    "uri": "http://hl7.org/v3", 
+                    "name": "RIM Mapping"
+                }
+            ], 
+            "kind": "complex-type", 
+            "abstract": true, 
+            "type": "Element", 
+            "snapshot": {
+                "element": [
+                    {
+                        "id": "Element", 
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status", 
+                                "valueCode": "normative"
+                            }, 
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version", 
+                                "valueCode": "4.0.0"
+                            }
+                        ], 
+                        "path": "Element", 
+                        "short": "Base for all elements", 
+                        "definition": "Base definition for all elements in a resource.", 
+                        "min": 0, 
+                        "max": "*", 
+                        "base": {
+                            "path": "Element", 
+                            "min": 0, 
+                            "max": "*"
+                        }, 
+                        "condition": [
+                            "ele-1"
+                        ], 
+                        "constraint": [
+                            {
+                                "key": "ele-1", 
+                                "severity": "error", 
+                                "human": "All FHIR elements must have a @value or children", 
+                                "expression": "hasValue() or (children().count() > id.count())", 
+                                "xpath": "@value|f:*|h:div"
+                            }
+                        ], 
+                        "isModifier": false, 
+                        "mapping": [
+                            {
+                                "identity": "rim", 
+                                "map": "n/a"
+                            }
+                        ]
+                    }, 
+                    {
+                        "id": "Element.id", 
+                        "path": "Element.id", 
+                        "representation": [
+                            "xmlAttr"
+                        ], 
+                        "short": "Unique id for inter-element referencing", 
+                        "definition": "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.", 
+                        "min": 0, 
+                        "max": "1", 
+                        "base": {
+                            "path": "Element.id", 
+                            "min": 0, 
+                            "max": "1"
+                        }, 
+                        "type": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type", 
+                                        "valueUrl": "string"
+                                    }
+                                ], 
+                                "code": "http://hl7.org/fhirpath/System.String"
+                            }
+                        ], 
+                        "isModifier": false, 
+                        "isSummary": false, 
+                        "mapping": [
+                            {
+                                "identity": "rim", 
+                                "map": "n/a"
+                            }
+                        ]
+                    }, 
+                    {
+                        "id": "Element.extension", 
+                        "path": "Element.extension", 
+                        "slicing": {
+                            "discriminator": [
+                                {
+                                    "type": "value", 
+                                    "path": "url"
+                                }
+                            ], 
+                            "description": "Extensions are always sliced by (at least) url", 
+                            "rules": "open"
+                        }, 
+                        "short": "Additional content defined by implementations", 
+                        "definition": "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.", 
+                        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.", 
+                        "alias": [
+                            "extensions", 
+                            "user content"
+                        ], 
+                        "min": 0, 
+                        "max": "*", 
+                        "base": {
+                            "path": "Element.extension", 
+                            "min": 0, 
+                            "max": "*"
+                        }, 
+                        "type": [
+                            {
+                                "code": "Extension"
+                            }
+                        ], 
+                        "constraint": [
+                            {
+                                "key": "ele-1", 
+                                "severity": "error", 
+                                "human": "All FHIR elements must have a @value or children", 
+                                "expression": "hasValue() or (children().count() > id.count())", 
+                                "xpath": "@value|f:*|h:div", 
+                                "source": "http://hl7.org/fhir/StructureDefinition/Element"
+                            }, 
+                            {
+                                "key": "ext-1", 
+                                "severity": "error", 
+                                "human": "Must have either extensions or value[x], not both", 
+                                "expression": "extension.exists() != value.exists()", 
+                                "xpath": "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])", 
+                                "source": "http://hl7.org/fhir/StructureDefinition/Extension"
+                            }
+                        ], 
+                        "isModifier": false, 
+                        "isSummary": false, 
+                        "mapping": [
+                            {
+                                "identity": "rim", 
+                                "map": "n/a"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            "differential": {
+                "element": [
+                    {
+                        "id": "Element", 
+                        "extension": [
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status", 
+                                "valueCode": "normative"
+                            }, 
+                            {
+                                "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version", 
+                                "valueCode": "4.0.0"
+                            }
+                        ], 
+                        "path": "Element", 
+                        "short": "Base for all elements", 
+                        "definition": "Base definition for all elements in a resource.", 
+                        "min": 0, 
+                        "max": "*", 
+                        "condition": [
+                            "ele-1"
+                        ], 
+                        "constraint": [
+                            {
+                                "key": "ele-1", 
+                                "severity": "error", 
+                                "human": "All FHIR elements must have a @value or children", 
+                                "expression": "hasValue() or (children().count() > id.count())", 
+                                "xpath": "@value|f:*|h:div"
+                            }
+                        ], 
+                        "mapping": [
+                            {
+                                "identity": "rim", 
+                                "map": "n/a"
+                            }
+                        ]
+                    }, 
+                    {
+                        "id": "Element.id", 
+                        "path": "Element.id", 
+                        "representation": [
+                            "xmlAttr"
+                        ], 
+                        "short": "Unique id for inter-element referencing", 
+                        "definition": "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.", 
+                        "min": 0, 
+                        "max": "1", 
+                        "type": [
+                            {
+                                "extension": [
+                                    {
+                                        "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type", 
+                                        "valueUrl": "string"
+                                    }
+                                ], 
+                                "code": "http://hl7.org/fhirpath/System.String"
+                            }
+                        ], 
+                        "mapping": [
+                            {
+                                "identity": "rim", 
+                                "map": "n/a"
+                            }
+                        ]
+                    }, 
+                    {
+                        "id": "Element.extension", 
+                        "path": "Element.extension", 
+                        "slicing": {
+                            "discriminator": [
+                                {
+                                    "type": "value", 
+                                    "path": "url"
+                                }
+                            ], 
+                            "description": "Extensions are always sliced by (at least) url", 
+                            "rules": "open"
+                        }, 
+                        "short": "Additional content defined by implementations", 
+                        "definition": "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.", 
+                        "comment": "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.", 
+                        "alias": [
+                            "extensions", 
+                            "user content"
+                        ], 
+                        "min": 0, 
+                        "max": "*", 
+                        "type": [
+                            {
+                                "code": "Extension"
+                            }
+                        ], 
+                        "mapping": [
+                            {
+                                "identity": "rim", 
+                                "map": "n/a"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }, 
+    "cbcae741ddae4b3b94b54c84c3fd620c": {
+        "summary": "Base Type: BackBoneElement ", 
+        "description": "Base Type: BackBoneElement ", 
+        "externalValue": "https://hl7.org/fhir/R4/backboneelement.profile.json"
+    }, 
+    "2a1ab5ca22ab481280d208cfd8c6bb53": {
+        "summary": "Base Type: Resource ", 
+        "description": "Base Type: Resource ", 
+        "externalValue": "https://hl7.org/fhir/R4/resource.profile.json"
+    }, 
+    "809ff28603b142369c13cd4c719d9ca8": {
+        "summary": "Base Type: DomainResource ", 
+        "description": "Base Type: DomainResource ", 
+        "externalValue": "https://hl7.org/fhir/R4/domainresource.profile.json"
+    }, 
+    "9a10d385e54c427dbd717f9302490d9d": {
+        "summary": "Base Type: base64Binary ", 
+        "description": "Base Type: base64Binary ", 
+        "externalValue": "https://hl7.org/fhir/R4/base64binary.profile.json"
+    }, 
+    "a2df3ce3e06640f5ae4f18e79ffd5f59": {
+        "summary": "Base Type: boolean ", 
+        "description": "Base Type: boolean ", 
+        "externalValue": "https://hl7.org/fhir/R4/boolean.profile.json"
+    }, 
+    "ab695dab2db6455a90410c92e8e97d4e": {
+        "summary": "Base Type: canonical ", 
+        "description": "Base Type: canonical ", 
+        "externalValue": "https://hl7.org/fhir/R4/canonical.profile.json"
+    }, 
+    "7f1c237a29504568b6cc099f1dcecbc5": {
+        "summary": "Base Type: code ", 
+        "description": "Base Type: code ", 
+        "externalValue": "https://hl7.org/fhir/R4/code.profile.json"
+    }, 
+    "a87d76ae5daf440c9502ad880de4f049": {
+        "summary": "Base Type: date ", 
+        "description": "Base Type: date ", 
+        "externalValue": "https://hl7.org/fhir/R4/date.profile.json"
+    }, 
+    "27cad0a8ede54716b7e58622e429e409": {
+        "summary": "Base Type: dateTime ", 
+        "description": "Base Type: dateTime ", 
+        "externalValue": "https://hl7.org/fhir/R4/datetime.profile.json"
+    }, 
+    "74cd7903eedc417e9ecfef5a761dfff6": {
+        "summary": "Base Type: decimal ", 
+        "description": "Base Type: decimal ", 
+        "externalValue": "https://hl7.org/fhir/R4/decimal.profile.json"
+    }, 
+    "26603e3747844c479c628e11df4aa2b6": {
+        "summary": "Base Type: id ", 
+        "description": "Base Type: id ", 
+        "externalValue": "https://hl7.org/fhir/R4/id.profile.json"
+    }, 
+    "bb714fad681b4e10abbc46a7324851e8": {
+        "summary": "Base Type: instant ", 
+        "description": "Base Type: instant ", 
+        "externalValue": "https://hl7.org/fhir/R4/instant.profile.json"
+    }, 
+    "4dcc320ffd0e430b9929a9bbd28eb768": {
+        "summary": "Base Type: integer ", 
+        "description": "Base Type: integer ", 
+        "externalValue": "https://hl7.org/fhir/R4/integer.profile.json"
+    }, 
+    "a1f9b41c373746e09e2b79d3bef2d7f2": {
+        "summary": "Base Type: markdown ", 
+        "description": "Base Type: markdown ", 
+        "externalValue": "https://hl7.org/fhir/R4/markdown.profile.json"
+    }, 
+    "fa87a202c55d442ab619daf71ab9069f": {
+        "summary": "Base Type: oid ", 
+        "description": "Base Type: oid ", 
+        "externalValue": "https://hl7.org/fhir/R4/oid.profile.json"
+    }, 
+    "d08863b922c542e69188b42faf2ceb9f": {
+        "summary": "Base Type: positiveInt ", 
+        "description": "Base Type: positiveInt ", 
+        "externalValue": "https://hl7.org/fhir/R4/positiveint.profile.json"
+    }, 
+    "8e9606db03eb4c1d9795948cffd9251f": {
+        "summary": "Base Type: string ", 
+        "description": "Base Type: string ", 
+        "externalValue": "https://hl7.org/fhir/R4/string.profile.json"
+    }, 
+    "0f91fe4d6f0b4258b4882482423faa53": {
+        "summary": "Base Type: time ", 
+        "description": "Base Type: time ", 
+        "externalValue": "https://hl7.org/fhir/R4/time.profile.json"
+    }, 
+    "a3c90550d1084d5cba6ce53a63b0df12": {
+        "summary": "Base Type: unsignedInt ", 
+        "description": "Base Type: unsignedInt ", 
+        "externalValue": "https://hl7.org/fhir/R4/unsignedint.profile.json"
+    }, 
+    "44510ed404a94f2e97e454b596b4396f": {
+        "summary": "Base Type: uri ", 
+        "description": "Base Type: uri ", 
+        "externalValue": "https://hl7.org/fhir/R4/uri.profile.json"
+    }, 
+    "df7fc96beae74ca5af8b11cc4cc5e6c1": {
+        "summary": "Base Type: url ", 
+        "description": "Base Type: url ", 
+        "externalValue": "https://hl7.org/fhir/R4/url.profile.json"
+    }, 
+    "4d045db707e84637b3e09524f0ac149f": {
+        "summary": "Base Type: uuid ", 
+        "description": "Base Type: uuid ", 
+        "externalValue": "https://hl7.org/fhir/R4/uuid.profile.json"
+    }, 
+    "332062a34a6e4dfb9a07155bd3d99006": {
+        "summary": "Base Type: Address ", 
+        "description": "Base Type: Address ", 
+        "externalValue": "https://hl7.org/fhir/R4/address.profile.json"
+    }, 
+    "c7adabe717e04776ba10d01360fca31a": {
+        "summary": "Base Type: Age ", 
+        "description": "Base Type: Age ", 
+        "externalValue": "https://hl7.org/fhir/R4/age.profile.json"
+    }, 
+    "35ed61ff42834aada252cd30e4da868e": {
+        "summary": "Base Type: Annotation ", 
+        "description": "Base Type: Annotation ", 
+        "externalValue": "https://hl7.org/fhir/R4/annotation.profile.json"
+    }, 
+    "79262d7302ae4ea1830b1f3a15af7366": {
+        "summary": "Base Type: Attachment ", 
+        "description": "Base Type: Attachment ", 
+        "externalValue": "https://hl7.org/fhir/R4/attachment.profile.json"
+    }, 
+    "1f8b83ad16574510904bc56e8d741cb4": {
+        "summary": "Base Type: BackboneElement ", 
+        "description": "Base Type: BackboneElement ", 
+        "externalValue": "https://hl7.org/fhir/R4/backboneelement.profile.json"
+    }, 
+    "937893fecaa44f63990d3e4ab7ee344f": {
+        "summary": "Base Type: CodeableConcept ", 
+        "description": "Base Type: CodeableConcept ", 
+        "externalValue": "https://hl7.org/fhir/R4/codeableconcept.profile.json"
+    }, 
+    "3be59248f331408a904a7efee42126b9": {
+        "summary": "Base Type: Coding ", 
+        "description": "Base Type: Coding ", 
+        "externalValue": "https://hl7.org/fhir/R4/coding.profile.json"
+    }, 
+    "d0b9a1ec2d514fe4a0282bf452c5132e": {
+        "summary": "Base Type: ContactDetail ", 
+        "description": "Base Type: ContactDetail ", 
+        "externalValue": "https://hl7.org/fhir/R4/contactdetail.profile.json"
+    }, 
+    "f05c8172ba704d57a258a785d9f31640": {
+        "summary": "Base Type: ContactPoint ", 
+        "description": "Base Type: ContactPoint ", 
+        "externalValue": "https://hl7.org/fhir/R4/contactpoint.profile.json"
+    }, 
+    "fb4fa61201894837905e555a70d7f669": {
+        "summary": "Base Type: Contributor ", 
+        "description": "Base Type: Contributor ", 
+        "externalValue": "https://hl7.org/fhir/R4/contributor.profile.json"
+    }, 
+    "0b16440a02e5493b9bc7aef9243b189b": {
+        "summary": "Base Type: Count ", 
+        "description": "Base Type: Count ", 
+        "externalValue": "https://hl7.org/fhir/R4/count.profile.json"
+    }, 
+    "e8f7da97a9d24ee8b33e26687bbc9b5e": {
+        "summary": "Base Type: DataRequirement ", 
+        "description": "Base Type: DataRequirement ", 
+        "externalValue": "https://hl7.org/fhir/R4/datarequirement.profile.json"
+    }, 
+    "108caacaf32f4c6e9fdb3085145fe056": {
+        "summary": "Base Type: Distance ", 
+        "description": "Base Type: Distance ", 
+        "externalValue": "https://hl7.org/fhir/R4/distance.profile.json"
+    }, 
+    "d7cc050e6d494ae4831f4834dc1a7d59": {
+        "summary": "Base Type: Dosage ", 
+        "description": "Base Type: Dosage ", 
+        "externalValue": "https://hl7.org/fhir/R4/dosage.profile.json"
+    }, 
+    "a859e4da3bfb48ffada487dd977a91ce": {
+        "summary": "Base Type: Duration ", 
+        "description": "Base Type: Duration ", 
+        "externalValue": "https://hl7.org/fhir/R4/duration.profile.json"
+    }, 
+    "88e5920f4e23406f905a899b4f00a5f3": {
+        "summary": "Base Type: Element ", 
+        "description": "Base Type: Element ", 
+        "externalValue": "https://hl7.org/fhir/R4/element.profile.json"
+    }, 
+    "c7cb9f67b19f4a4c9d3d5bf50aa8ae6d": {
+        "summary": "Base Type: ElementDefinition ", 
+        "description": "Base Type: ElementDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/elementdefinition.profile.json"
+    }, 
+    "cbb02bd822524ed0b290a19e88bea164": {
+        "summary": "Base Type: Expression ", 
+        "description": "Base Type: Expression ", 
+        "externalValue": "https://hl7.org/fhir/R4/expression.profile.json"
+    }, 
+    "da9e903e0cd046c2a3d28da008e94e84": {
+        "summary": "Base Type: Extension ", 
+        "description": "Base Type: Extension ", 
+        "externalValue": "https://hl7.org/fhir/R4/extension.profile.json"
+    }, 
+    "fcffc1db4faa442f96e74d275b07b759": {
+        "summary": "Base Type: HumanName ", 
+        "description": "Base Type: HumanName ", 
+        "externalValue": "https://hl7.org/fhir/R4/humanname.profile.json"
+    }, 
+    "70385eb90c8541aca75ad19addfea30b": {
+        "summary": "Base Type: Identifier ", 
+        "description": "Base Type: Identifier ", 
+        "externalValue": "https://hl7.org/fhir/R4/identifier.profile.json"
+    }, 
+    "8031466abc2f4cdab43f99910a3f3870": {
+        "summary": "Base Type: MarketingStatus ", 
+        "description": "Base Type: MarketingStatus ", 
+        "externalValue": "https://hl7.org/fhir/R4/marketingstatus.profile.json"
+    }, 
+    "e9d584f13ead47bc88e1a0c1f24b598f": {
+        "summary": "Base Type: Meta ", 
+        "description": "Base Type: Meta ", 
+        "externalValue": "https://hl7.org/fhir/R4/meta.profile.json"
+    }, 
+    "741d16d8364e43d6bbe7986e7abefe2f": {
+        "summary": "Base Type: Money ", 
+        "description": "Base Type: Money ", 
+        "externalValue": "https://hl7.org/fhir/R4/money.profile.json"
+    }, 
+    "691a1786ab2547ce9ec4663cd828cdc4": {
+        "summary": "Base Type: Narrative ", 
+        "description": "Base Type: Narrative ", 
+        "externalValue": "https://hl7.org/fhir/R4/narrative.profile.json"
+    }, 
+    "f537e19663784fef939685a891b4880a": {
+        "summary": "Base Type: ParameterDefinition ", 
+        "description": "Base Type: ParameterDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/parameterdefinition.profile.json"
+    }, 
+    "419a3d61ca63413494ac44031e276bb3": {
+        "summary": "Base Type: Period ", 
+        "description": "Base Type: Period ", 
+        "externalValue": "https://hl7.org/fhir/R4/period.profile.json"
+    }, 
+    "00151830843348e0a0a8286d8cf063e3": {
+        "summary": "Base Type: Population ", 
+        "description": "Base Type: Population ", 
+        "externalValue": "https://hl7.org/fhir/R4/population.profile.json"
+    }, 
+    "b2e8284a070e4ec096d0e98d6b4bbfc8": {
+        "summary": "Base Type: ProdCharacteristic ", 
+        "description": "Base Type: ProdCharacteristic ", 
+        "externalValue": "https://hl7.org/fhir/R4/prodcharacteristic.profile.json"
+    }, 
+    "d16d6b4c32904a9181afe7a2dab28733": {
+        "summary": "Base Type: ProductShelfLife ", 
+        "description": "Base Type: ProductShelfLife ", 
+        "externalValue": "https://hl7.org/fhir/R4/productshelflife.profile.json"
+    }, 
+    "e35ab66e6db1456d9221316b0ea2dffc": {
+        "summary": "Base Type: Quantity ", 
+        "description": "Base Type: Quantity ", 
+        "externalValue": "https://hl7.org/fhir/R4/quantity.profile.json"
+    }, 
+    "f7bc4386e1ec4a1693e5d45e0aa2052c": {
+        "summary": "Base Type: Range ", 
+        "description": "Base Type: Range ", 
+        "externalValue": "https://hl7.org/fhir/R4/range.profile.json"
+    }, 
+    "b3b5f75d78c44b958bde4bd95d434baa": {
+        "summary": "Base Type: Ratio ", 
+        "description": "Base Type: Ratio ", 
+        "externalValue": "https://hl7.org/fhir/R4/ratio.profile.json"
+    }, 
+    "9ee15f73ecca4f8ca54e42a2df1356d7": {
+        "summary": "Base Type: Reference ", 
+        "description": "Base Type: Reference ", 
+        "externalValue": "https://hl7.org/fhir/R4/reference.profile.json"
+    }, 
+    "3426ea2337714ae2bad84d1208acc16b": {
+        "summary": "Base Type: RelatedArtifact ", 
+        "description": "Base Type: RelatedArtifact ", 
+        "externalValue": "https://hl7.org/fhir/R4/relatedartifact.profile.json"
+    }, 
+    "e0eb77de95ca45c5a4e46b1ecff0e628": {
+        "summary": "Base Type: SampledData ", 
+        "description": "Base Type: SampledData ", 
+        "externalValue": "https://hl7.org/fhir/R4/sampleddata.profile.json"
+    }, 
+    "fb49e3b949f94cfe907dffa2ed4ca09f": {
+        "summary": "Base Type: Signature ", 
+        "description": "Base Type: Signature ", 
+        "externalValue": "https://hl7.org/fhir/R4/signature.profile.json"
+    }, 
+    "a3e27f74411f4f5995e2584443c5ecec": {
+        "summary": "Base Type: SubstanceAmount ", 
+        "description": "Base Type: SubstanceAmount ", 
+        "externalValue": "https://hl7.org/fhir/R4/substanceamount.profile.json"
+    }, 
+    "796308001c454bd79785540b512afa0d": {
+        "summary": "Base Type: Timing ", 
+        "description": "Base Type: Timing ", 
+        "externalValue": "https://hl7.org/fhir/R4/timing.profile.json"
+    }, 
+    "de9f39fa11e444009535a0e61cb0c07d": {
+        "summary": "Base Type: TriggerDefinition ", 
+        "description": "Base Type: TriggerDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/triggerdefinition.profile.json"
+    }, 
+    "606b064be6524835a460dfd8d26e2c4c": {
+        "summary": "Base Type: UsageContext ", 
+        "description": "Base Type: UsageContext ", 
+        "externalValue": "https://hl7.org/fhir/R4/usagecontext.profile.json"
+    }, 
+    "3814ad6d56454f57994b3ed48070c2a9": {
+        "summary": "Resource: Account ", 
+        "description": "Resource: Account ", 
+        "externalValue": "https://hl7.org/fhir/R4/account.profile.json"
+    }, 
+    "fda746349c4341fd8f74d4c4c84c08ec": {
+        "summary": "Resource: ActivityDefinition ", 
+        "description": "Resource: ActivityDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/activitydefinition.profile.json"
+    }, 
+    "403330b365a94fcd89351e1d78c50585": {
+        "summary": "Resource: AdverseEvent ", 
+        "description": "Resource: AdverseEvent ", 
+        "externalValue": "https://hl7.org/fhir/R4/adverseevent.profile.json"
+    }, 
+    "d4c608811d664d09a08a5c39d0a7c3ea": {
+        "summary": "Resource: AllergyIntolerance ", 
+        "description": "Resource: AllergyIntolerance ", 
+        "externalValue": "https://hl7.org/fhir/R4/allergyintolerance.profile.json"
+    }, 
+    "0c4aa114b86b4f3c9b0914d53615b4b9": {
+        "summary": "Resource: Appointment ", 
+        "description": "Resource: Appointment ", 
+        "externalValue": "https://hl7.org/fhir/R4/appointment.profile.json"
+    }, 
+    "31da2959da854ff8bcd7bf02ab3ae5b3": {
+        "summary": "Resource: AppointmentResponse ", 
+        "description": "Resource: AppointmentResponse ", 
+        "externalValue": "https://hl7.org/fhir/R4/appointmentresponse.profile.json"
+    }, 
+    "7bbf7a18983d49f3ae1c03037d368fde": {
+        "summary": "Resource: AuditEvent ", 
+        "description": "Resource: AuditEvent ", 
+        "externalValue": "https://hl7.org/fhir/R4/auditevent.profile.json"
+    }, 
+    "2b165d6101084d47b84f1ea33186ffc8": {
+        "summary": "Resource: Basic ", 
+        "description": "Resource: Basic ", 
+        "externalValue": "https://hl7.org/fhir/R4/basic.profile.json"
+    }, 
+    "46a049a4e4804c57aca5793f3e23080d": {
+        "summary": "Resource: Binary ", 
+        "description": "Resource: Binary ", 
+        "externalValue": "https://hl7.org/fhir/R4/binary.profile.json"
+    }, 
+    "dc280231f176456d88f97e54a8c857e2": {
+        "summary": "Resource: BiologicallyDerivedProduct ", 
+        "description": "Resource: BiologicallyDerivedProduct ", 
+        "externalValue": "https://hl7.org/fhir/R4/biologicallyderivedproduct.profile.json"
+    }, 
+    "800abc4ee7074935a930fe79cc6fb0a0": {
+        "summary": "Resource: BodyStructure ", 
+        "description": "Resource: BodyStructure ", 
+        "externalValue": "https://hl7.org/fhir/R4/bodystructure.profile.json"
+    }, 
+    "7b6f9905cb074f538d736adb2c0a1dc4": {
+        "summary": "Resource: Bundle ", 
+        "description": "Resource: Bundle ", 
+        "externalValue": "https://hl7.org/fhir/R4/bundle.profile.json"
+    }, 
+    "a6294fb1fb524c8185c297de5eda4069": {
+        "summary": "Resource: CapabilityStatement ", 
+        "description": "Resource: CapabilityStatement ", 
+        "externalValue": "https://hl7.org/fhir/R4/capabilitystatement.profile.json"
+    }, 
+    "25cc2d1c4cd34ac68ed40e4182e15449": {
+        "summary": "Resource: CarePlan ", 
+        "description": "Resource: CarePlan ", 
+        "externalValue": "https://hl7.org/fhir/R4/careplan.profile.json"
+    }, 
+    "b96bcd501b3f4c65a7f9e51757690785": {
+        "summary": "Resource: CareTeam ", 
+        "description": "Resource: CareTeam ", 
+        "externalValue": "https://hl7.org/fhir/R4/careteam.profile.json"
+    }, 
+    "e65374c788fa47b7ba286e62eb5eab8f": {
+        "summary": "Resource: CatalogEntry ", 
+        "description": "Resource: CatalogEntry ", 
+        "externalValue": "https://hl7.org/fhir/R4/catalogentry.profile.json"
+    }, 
+    "b119bcd37c624e13b0586bba04719f34": {
+        "summary": "Resource: ChargeItem ", 
+        "description": "Resource: ChargeItem ", 
+        "externalValue": "https://hl7.org/fhir/R4/chargeitem.profile.json"
+    }, 
+    "ff6da9faf53f464f80082cc053b37365": {
+        "summary": "Resource: ChargeItemDefinition ", 
+        "description": "Resource: ChargeItemDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/chargeitemdefinition.profile.json"
+    }, 
+    "0ab28314ee624e66b789f4a22e02549a": {
+        "summary": "Resource: Claim ", 
+        "description": "Resource: Claim ", 
+        "externalValue": "https://hl7.org/fhir/R4/claim.profile.json"
+    }, 
+    "607aa53b75d04f2eb119fca8ab6efe52": {
+        "summary": "Resource: ClaimResponse ", 
+        "description": "Resource: ClaimResponse ", 
+        "externalValue": "https://hl7.org/fhir/R4/claimresponse.profile.json"
+    }, 
+    "2e0794a37d7547a68b196db06c3383cc": {
+        "summary": "Resource: ClinicalImpression ", 
+        "description": "Resource: ClinicalImpression ", 
+        "externalValue": "https://hl7.org/fhir/R4/clinicalimpression.profile.json"
+    }, 
+    "0b23f336f83149be8a6cf7273df29614": {
+        "summary": "Resource: CodeSystem ", 
+        "description": "Resource: CodeSystem ", 
+        "externalValue": "https://hl7.org/fhir/R4/codesystem.profile.json"
+    }, 
+    "c41849c743be4fc88fd26700d02ce90c": {
+        "summary": "Resource: Communication ", 
+        "description": "Resource: Communication ", 
+        "externalValue": "https://hl7.org/fhir/R4/communication.profile.json"
+    }, 
+    "544b880c86084608928da7eee48ed439": {
+        "summary": "Resource: CommunicationRequest ", 
+        "description": "Resource: CommunicationRequest ", 
+        "externalValue": "https://hl7.org/fhir/R4/communicationrequest.profile.json"
+    }, 
+    "01f4fade02c04429abe9a176b63e70b1": {
+        "summary": "Resource: CompartmentDefinition ", 
+        "description": "Resource: CompartmentDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/compartmentdefinition.profile.json"
+    }, 
+    "150686eb6da149deabafdb6fded5b11b": {
+        "summary": "Resource: Composition ", 
+        "description": "Resource: Composition ", 
+        "externalValue": "https://hl7.org/fhir/R4/composition.profile.json"
+    }, 
+    "d5bf3b1994cc4c6a82d90f7a48bb8935": {
+        "summary": "Resource: ConceptMap ", 
+        "description": "Resource: ConceptMap ", 
+        "externalValue": "https://hl7.org/fhir/R4/conceptmap.profile.json"
+    }, 
+    "cdc16bee5fad4b708345ffc3b7916c7c": {
+        "summary": "Resource: Condition ", 
+        "description": "Resource: Condition ", 
+        "externalValue": "https://hl7.org/fhir/R4/condition.profile.json"
+    }, 
+    "7803039b68eb47da9cc3e29b3fd8ebe1": {
+        "summary": "Resource: Consent ", 
+        "description": "Resource: Consent ", 
+        "externalValue": "https://hl7.org/fhir/R4/consent.profile.json"
+    }, 
+    "7ddf7857239445ef9fae69b988435a7e": {
+        "summary": "Resource: Contract ", 
+        "description": "Resource: Contract ", 
+        "externalValue": "https://hl7.org/fhir/R4/contract.profile.json"
+    }, 
+    "3d7947d21a5f4fcfbd5e4c0179679605": {
+        "summary": "Resource: Coverage ", 
+        "description": "Resource: Coverage ", 
+        "externalValue": "https://hl7.org/fhir/R4/coverage.profile.json"
+    }, 
+    "eb943f80370e4140a9059a41215465c3": {
+        "summary": "Resource: CoverageEligibilityRequest ", 
+        "description": "Resource: CoverageEligibilityRequest ", 
+        "externalValue": "https://hl7.org/fhir/R4/coverageeligibilityrequest.profile.json"
+    }, 
+    "c892fe07f4c0497ca090175ca3e27820": {
+        "summary": "Resource: CoverageEligibilityResponse ", 
+        "description": "Resource: CoverageEligibilityResponse ", 
+        "externalValue": "https://hl7.org/fhir/R4/coverageeligibilityresponse.profile.json"
+    }, 
+    "d6cd3db7b991433e82d9bd0324217b00": {
+        "summary": "Resource: DetectedIssue ", 
+        "description": "Resource: DetectedIssue ", 
+        "externalValue": "https://hl7.org/fhir/R4/detectedissue.profile.json"
+    }, 
+    "ba9c457072a746a0a3bb6bfb40525bea": {
+        "summary": "Resource: Device ", 
+        "description": "Resource: Device ", 
+        "externalValue": "https://hl7.org/fhir/R4/device.profile.json"
+    }, 
+    "ae3fde2d548c4009823a61396e167724": {
+        "summary": "Resource: DeviceDefinition ", 
+        "description": "Resource: DeviceDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/devicedefinition.profile.json"
+    }, 
+    "4fb1b1932ce848a1916928e7bc30f33c": {
+        "summary": "Resource: DeviceMetric ", 
+        "description": "Resource: DeviceMetric ", 
+        "externalValue": "https://hl7.org/fhir/R4/devicemetric.profile.json"
+    }, 
+    "35116eba0dcd4ac7a6e34152957e1dc9": {
+        "summary": "Resource: DeviceRequest ", 
+        "description": "Resource: DeviceRequest ", 
+        "externalValue": "https://hl7.org/fhir/R4/devicerequest.profile.json"
+    }, 
+    "6016835b609845be8b080cc701d34d9d": {
+        "summary": "Resource: DeviceUseStatement ", 
+        "description": "Resource: DeviceUseStatement ", 
+        "externalValue": "https://hl7.org/fhir/R4/deviceusestatement.profile.json"
+    }, 
+    "906633c5e5054a08968d790b140de709": {
+        "summary": "Resource: DiagnosticReport ", 
+        "description": "Resource: DiagnosticReport ", 
+        "externalValue": "https://hl7.org/fhir/R4/diagnosticreport.profile.json"
+    }, 
+    "a26f4fdf0c4a45a790295d6d5adc8c3b": {
+        "summary": "Resource: DocumentManifest ", 
+        "description": "Resource: DocumentManifest ", 
+        "externalValue": "https://hl7.org/fhir/R4/documentmanifest.profile.json"
+    }, 
+    "41c34bfb59c94296a8bd73448d592455": {
+        "summary": "Resource: DocumentReference ", 
+        "description": "Resource: DocumentReference ", 
+        "externalValue": "https://hl7.org/fhir/R4/documentreference.profile.json"
+    }, 
+    "09ced3707c484505a0cdc4d6993823b1": {
+        "summary": "Resource: EffectEvidenceSynthesis ", 
+        "description": "Resource: EffectEvidenceSynthesis ", 
+        "externalValue": "https://hl7.org/fhir/R4/effectevidencesynthesis.profile.json"
+    }, 
+    "e5c759aa94a84c62b1ea8ee9a223fb89": {
+        "summary": "Resource: Encounter ", 
+        "description": "Resource: Encounter ", 
+        "externalValue": "https://hl7.org/fhir/R4/encounter.profile.json"
+    }, 
+    "8be0518dec6d41d2b4c1e8fa00e8ebdd": {
+        "summary": "Resource: Endpoint ", 
+        "description": "Resource: Endpoint ", 
+        "externalValue": "https://hl7.org/fhir/R4/endpoint.profile.json"
+    }, 
+    "93a2313ee20f4f0baeb68e1411cbd2c9": {
+        "summary": "Resource: EnrollmentRequest ", 
+        "description": "Resource: EnrollmentRequest ", 
+        "externalValue": "https://hl7.org/fhir/R4/enrollmentrequest.profile.json"
+    }, 
+    "03604a1933a743c1a1a785d66f6012a0": {
+        "summary": "Resource: EnrollmentResponse ", 
+        "description": "Resource: EnrollmentResponse ", 
+        "externalValue": "https://hl7.org/fhir/R4/enrollmentresponse.profile.json"
+    }, 
+    "8029ad8a811842adbf824335fd831a04": {
+        "summary": "Resource: EpisodeOfCare ", 
+        "description": "Resource: EpisodeOfCare ", 
+        "externalValue": "https://hl7.org/fhir/R4/episodeofcare.profile.json"
+    }, 
+    "b151d9acfdf54893a1fd104840442f8f": {
+        "summary": "Resource: EventDefinition ", 
+        "description": "Resource: EventDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/eventdefinition.profile.json"
+    }, 
+    "4bdc3f200a7c44549151a10f535ffc9f": {
+        "summary": "Resource: Evidence ", 
+        "description": "Resource: Evidence ", 
+        "externalValue": "https://hl7.org/fhir/R4/evidence.profile.json"
+    }, 
+    "a4db3874cdda42a6bf1f1114c506bfbe": {
+        "summary": "Resource: EvidenceVariable ", 
+        "description": "Resource: EvidenceVariable ", 
+        "externalValue": "https://hl7.org/fhir/R4/evidencevariable.profile.json"
+    }, 
+    "4dcdc259ea2c49639f9896af88ed2317": {
+        "summary": "Resource: ExampleScenario ", 
+        "description": "Resource: ExampleScenario ", 
+        "externalValue": "https://hl7.org/fhir/R4/examplescenario.profile.json"
+    }, 
+    "07adfe600f2d45048f77b3180b15d2cb": {
+        "summary": "Resource: ExplanationOfBenefit ", 
+        "description": "Resource: ExplanationOfBenefit ", 
+        "externalValue": "https://hl7.org/fhir/R4/explanationofbenefit.profile.json"
+    }, 
+    "7e5f8b80d5244f9594d512583e43fb54": {
+        "summary": "Resource: FamilyMemberHistory ", 
+        "description": "Resource: FamilyMemberHistory ", 
+        "externalValue": "https://hl7.org/fhir/R4/familymemberhistory.profile.json"
+    }, 
+    "1f742fec80d049f5b7202b29fa817595": {
+        "summary": "Resource: Flag ", 
+        "description": "Resource: Flag ", 
+        "externalValue": "https://hl7.org/fhir/R4/flag.profile.json"
+    }, 
+    "de7e3af89db04991a71cb081e29b6593": {
+        "summary": "Resource: Goal ", 
+        "description": "Resource: Goal ", 
+        "externalValue": "https://hl7.org/fhir/R4/goal.profile.json"
+    }, 
+    "b945330ca97f48a5ac8a63f6006c2570": {
+        "summary": "Resource: GraphDefinition ", 
+        "description": "Resource: GraphDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/graphdefinition.profile.json"
+    }, 
+    "6ac9574c85304b639f727357214b98f9": {
+        "summary": "Resource: Group ", 
+        "description": "Resource: Group ", 
+        "externalValue": "https://hl7.org/fhir/R4/group.profile.json"
+    }, 
+    "d2fe1689d83b4984baac808d6ba2be1f": {
+        "summary": "Resource: GuidanceResponse ", 
+        "description": "Resource: GuidanceResponse ", 
+        "externalValue": "https://hl7.org/fhir/R4/guidanceresponse.profile.json"
+    }, 
+    "8b43c14501f947debe642ef064dbfdbd": {
+        "summary": "Resource: HealthcareService ", 
+        "description": "Resource: HealthcareService ", 
+        "externalValue": "https://hl7.org/fhir/R4/healthcareservice.profile.json"
+    }, 
+    "e185dea603e940888df623e61e649acb": {
+        "summary": "Resource: ImagingStudy ", 
+        "description": "Resource: ImagingStudy ", 
+        "externalValue": "https://hl7.org/fhir/R4/imagingstudy.profile.json"
+    }, 
+    "12fc437511d942f1be36355b3f08b209": {
+        "summary": "Resource: Immunization ", 
+        "description": "Resource: Immunization ", 
+        "externalValue": "https://hl7.org/fhir/R4/immunization.profile.json"
+    }, 
+    "967d3cde13dd414abc58d39c6ee457a5": {
+        "summary": "Resource: ImmunizationEvaluation ", 
+        "description": "Resource: ImmunizationEvaluation ", 
+        "externalValue": "https://hl7.org/fhir/R4/immunizationevaluation.profile.json"
+    }, 
+    "54f6de1bf7494ba9921499b166b7d1e9": {
+        "summary": "Resource: ImmunizationRecommendation ", 
+        "description": "Resource: ImmunizationRecommendation ", 
+        "externalValue": "https://hl7.org/fhir/R4/immunizationrecommendation.profile.json"
+    }, 
+    "e33e13f172384f7cb142cb3a68afb0d9": {
+        "summary": "Resource: ImplementationGuide ", 
+        "description": "Resource: ImplementationGuide ", 
+        "externalValue": "https://hl7.org/fhir/R4/implementationguide.profile.json"
+    }, 
+    "16650a49353545d29030b7dcb6d9a325": {
+        "summary": "Resource: InsurancePlan ", 
+        "description": "Resource: InsurancePlan ", 
+        "externalValue": "https://hl7.org/fhir/R4/insuranceplan.profile.json"
+    }, 
+    "d32728d074304d01be23231372140be4": {
+        "summary": "Resource: Invoice ", 
+        "description": "Resource: Invoice ", 
+        "externalValue": "https://hl7.org/fhir/R4/invoice.profile.json"
+    }, 
+    "416c7e61a63d470487c041abe9ca146b": {
+        "summary": "Resource: Library ", 
+        "description": "Resource: Library ", 
+        "externalValue": "https://hl7.org/fhir/R4/library.profile.json"
+    }, 
+    "8b4f882282a148b4b52c839fcce12679": {
+        "summary": "Resource: Linkage ", 
+        "description": "Resource: Linkage ", 
+        "externalValue": "https://hl7.org/fhir/R4/linkage.profile.json"
+    }, 
+    "4c04a5354ee045fab152ae64679121aa": {
+        "summary": "Resource: List ", 
+        "description": "Resource: List ", 
+        "externalValue": "https://hl7.org/fhir/R4/list.profile.json"
+    }, 
+    "6323d6277f9849008053385f9c96d376": {
+        "summary": "Resource: Location ", 
+        "description": "Resource: Location ", 
+        "externalValue": "https://hl7.org/fhir/R4/location.profile.json"
+    }, 
+    "4756a4fd66074c3585795ce4e1729eb5": {
+        "summary": "Resource: Measure ", 
+        "description": "Resource: Measure ", 
+        "externalValue": "https://hl7.org/fhir/R4/measure.profile.json"
+    }, 
+    "4f894d4a91ea4b988825266a08e07f74": {
+        "summary": "Resource: MeasureReport ", 
+        "description": "Resource: MeasureReport ", 
+        "externalValue": "https://hl7.org/fhir/R4/measurereport.profile.json"
+    }, 
+    "fa0c594bb83c4fac9b2552bf8c13e75d": {
+        "summary": "Resource: Media ", 
+        "description": "Resource: Media ", 
+        "externalValue": "https://hl7.org/fhir/R4/media.profile.json"
+    }, 
+    "c52f8f757fcd4043822746e387111099": {
+        "summary": "Resource: Medication ", 
+        "description": "Resource: Medication ", 
+        "externalValue": "https://hl7.org/fhir/R4/medication.profile.json"
+    }, 
+    "63eed6bbb3e84479ab32ec515568527f": {
+        "summary": "Resource: MedicationAdministration ", 
+        "description": "Resource: MedicationAdministration ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationadministration.profile.json"
+    }, 
+    "b02ab9aaca11451487c5803ca004931a": {
+        "summary": "Resource: MedicationDispense ", 
+        "description": "Resource: MedicationDispense ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationdispense.profile.json"
+    }, 
+    "67c3c079b78d40dd99fa2ac29713a7ed": {
+        "summary": "Resource: MedicationKnowledge ", 
+        "description": "Resource: MedicationKnowledge ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationknowledge.profile.json"
+    }, 
+    "65fbd2b9da6941bbb64d9c12bed098b9": {
+        "summary": "Resource: MedicationRequest ", 
+        "description": "Resource: MedicationRequest ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationrequest.profile.json"
+    }, 
+    "c0d2b628c12f453ab30a59181b77bbb7": {
+        "summary": "Resource: MedicationStatement ", 
+        "description": "Resource: MedicationStatement ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicationstatement.profile.json"
+    }, 
+    "a04191c2fc3e42429b9f9fd7cb493e0c": {
+        "summary": "Resource: MedicinalProduct ", 
+        "description": "Resource: MedicinalProduct ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproduct.profile.json"
+    }, 
+    "d5091d0eb02f4899b338bf76f1fcb26b": {
+        "summary": "Resource: MedicinalProductAuthorization ", 
+        "description": "Resource: MedicinalProductAuthorization ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductauthorization.profile.json"
+    }, 
+    "a89c4d68e4544fff970714b63ccbf81c": {
+        "summary": "Resource: MedicinalProductContraindication ", 
+        "description": "Resource: MedicinalProductContraindication ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductcontraindication.profile.json"
+    }, 
+    "87af29f7c0d34f02ae1ee9850ec9c97c": {
+        "summary": "Resource: MedicinalProductIndication ", 
+        "description": "Resource: MedicinalProductIndication ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductindication.profile.json"
+    }, 
+    "b8b13a1510114a33a5c9474a69785bb0": {
+        "summary": "Resource: MedicinalProductIngredient ", 
+        "description": "Resource: MedicinalProductIngredient ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductingredient.profile.json"
+    }, 
+    "d768537758df431fa3c483d7cdb6b8dd": {
+        "summary": "Resource: MedicinalProductInteraction ", 
+        "description": "Resource: MedicinalProductInteraction ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductinteraction.profile.json"
+    }, 
+    "57e93945329f4210b663457b362cd621": {
+        "summary": "Resource: MedicinalProductManufactured ", 
+        "description": "Resource: MedicinalProductManufactured ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductmanufactured.profile.json"
+    }, 
+    "b472b98af7e041f5b35f49235d7c6ef6": {
+        "summary": "Resource: MedicinalProductPackaged ", 
+        "description": "Resource: MedicinalProductPackaged ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductpackaged.profile.json"
+    }, 
+    "9d25a80c43b246cf80dfbe6672529691": {
+        "summary": "Resource: MedicinalProductPharmaceutical ", 
+        "description": "Resource: MedicinalProductPharmaceutical ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductpharmaceutical.profile.json"
+    }, 
+    "f2b693d5867447edb5731148b61a61ae": {
+        "summary": "Resource: MedicinalProductUndesirableEffect ", 
+        "description": "Resource: MedicinalProductUndesirableEffect ", 
+        "externalValue": "https://hl7.org/fhir/R4/medicinalproductundesirableeffect.profile.json"
+    }, 
+    "d456ad2d158d4f2298482caa7fddf023": {
+        "summary": "Resource: MessageDefinition ", 
+        "description": "Resource: MessageDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/messagedefinition.profile.json"
+    }, 
+    "0b1d76ed8f43413da01037e8db4a44b1": {
+        "summary": "Resource: MessageHeader ", 
+        "description": "Resource: MessageHeader ", 
+        "externalValue": "https://hl7.org/fhir/R4/messageheader.profile.json"
+    }, 
+    "82110dbf04f242b4bc9117b291a57494": {
+        "summary": "Resource: MolecularSequence ", 
+        "description": "Resource: MolecularSequence ", 
+        "externalValue": "https://hl7.org/fhir/R4/molecularsequence.profile.json"
+    }, 
+    "47d8d6ae497248ac860ac0280a1c3f62": {
+        "summary": "Resource: NamingSystem ", 
+        "description": "Resource: NamingSystem ", 
+        "externalValue": "https://hl7.org/fhir/R4/namingsystem.profile.json"
+    }, 
+    "fab6d509f7b44327bde0dba3447e6268": {
+        "summary": "Resource: NutritionOrder ", 
+        "description": "Resource: NutritionOrder ", 
+        "externalValue": "https://hl7.org/fhir/R4/nutritionorder.profile.json"
+    }, 
+    "d7fa48f68be5413d8cd14dc3090acada": {
+        "summary": "Resource: Observation ", 
+        "description": "Resource: Observation ", 
+        "externalValue": "https://hl7.org/fhir/R4/observation.profile.json"
+    }, 
+    "5fc8ba1e016542f3ac91319ff50f8770": {
+        "summary": "Resource: ObservationDefinition ", 
+        "description": "Resource: ObservationDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/observationdefinition.profile.json"
+    }, 
+    "665a45d75da84e29b841f254e57eaf5d": {
+        "summary": "Resource: OperationDefinition ", 
+        "description": "Resource: OperationDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/operationdefinition.profile.json"
+    }, 
+    "9f2d62b209054adab0a8987922b8bc4a": {
+        "summary": "Resource: OperationOutcome ", 
+        "description": "Resource: OperationOutcome ", 
+        "externalValue": "https://hl7.org/fhir/R4/operationoutcome.profile.json"
+    }, 
+    "51dd7302a78c4b5bb76867f8fc05839e": {
+        "summary": "Resource: Organization ", 
+        "description": "Resource: Organization ", 
+        "externalValue": "https://hl7.org/fhir/R4/organization.profile.json"
+    }, 
+    "ce9fefffb2f84b6d9e51bb4a9d639e17": {
+        "summary": "Resource: OrganizationAffiliation ", 
+        "description": "Resource: OrganizationAffiliation ", 
+        "externalValue": "https://hl7.org/fhir/R4/organizationaffiliation.profile.json"
+    }, 
+    "fe5be6ce4f3a4613b9558ec7ce6c5219": {
+        "summary": "Resource: Patient ", 
+        "description": "Resource: Patient ", 
+        "externalValue": "https://hl7.org/fhir/R4/patient.profile.json"
+    }, 
+    "30b4211687cc4557a9cf5e35d60f1ca8": {
+        "summary": "Resource: PaymentNotice ", 
+        "description": "Resource: PaymentNotice ", 
+        "externalValue": "https://hl7.org/fhir/R4/paymentnotice.profile.json"
+    }, 
+    "b7daf0923f3a41db92e347dd64b00520": {
+        "summary": "Resource: PaymentReconciliation ", 
+        "description": "Resource: PaymentReconciliation ", 
+        "externalValue": "https://hl7.org/fhir/R4/paymentreconciliation.profile.json"
+    }, 
+    "a3f07328a9d14e3e83b79f0a8dbbe13d": {
+        "summary": "Resource: Person ", 
+        "description": "Resource: Person ", 
+        "externalValue": "https://hl7.org/fhir/R4/person.profile.json"
+    }, 
+    "1cbed617a51b4ed3a5ef34cfc57532c6": {
+        "summary": "Resource: PlanDefinition ", 
+        "description": "Resource: PlanDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/plandefinition.profile.json"
+    }, 
+    "81a2d3ee27a340858b4fc1490f16df49": {
+        "summary": "Resource: Practitioner ", 
+        "description": "Resource: Practitioner ", 
+        "externalValue": "https://hl7.org/fhir/R4/practitioner.profile.json"
+    }, 
+    "31423a11ca824ecda42811b6d730bbc3": {
+        "summary": "Resource: PractitionerRole ", 
+        "description": "Resource: PractitionerRole ", 
+        "externalValue": "https://hl7.org/fhir/R4/practitionerrole.profile.json"
+    }, 
+    "719d75da14db45ea9cd7094029de8938": {
+        "summary": "Resource: Procedure ", 
+        "description": "Resource: Procedure ", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure.profile.json"
+    }, 
+    "c921e6547e154375a19d48d4aa4a78bf": {
+        "summary": "Resource: Provenance ", 
+        "description": "Resource: Provenance ", 
+        "externalValue": "https://hl7.org/fhir/R4/provenance.profile.json"
+    }, 
+    "8e8847c2ae854f89b864e8fc390318c3": {
+        "summary": "Resource: Questionnaire ", 
+        "description": "Resource: Questionnaire ", 
+        "externalValue": "https://hl7.org/fhir/R4/questionnaire.profile.json"
+    }, 
+    "c56b37e7b90048b09d6bdbbe2627f499": {
+        "summary": "Resource: QuestionnaireResponse ", 
+        "description": "Resource: QuestionnaireResponse ", 
+        "externalValue": "https://hl7.org/fhir/R4/questionnaireresponse.profile.json"
+    }, 
+    "7ba510916afd4413909df9d16ac604e1": {
+        "summary": "Resource: RelatedPerson ", 
+        "description": "Resource: RelatedPerson ", 
+        "externalValue": "https://hl7.org/fhir/R4/relatedperson.profile.json"
+    }, 
+    "0a7764db352c495b886233ce7a7f4f9e": {
+        "summary": "Resource: RequestGroup ", 
+        "description": "Resource: RequestGroup ", 
+        "externalValue": "https://hl7.org/fhir/R4/requestgroup.profile.json"
+    }, 
+    "31d35e5d3c314b12aed8e9cfef8b7939": {
+        "summary": "Resource: ResearchDefinition ", 
+        "description": "Resource: ResearchDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/researchdefinition.profile.json"
+    }, 
+    "78fb92fa8aaa4a3ba17cb81c0bd54acc": {
+        "summary": "Resource: ResearchElementDefinition ", 
+        "description": "Resource: ResearchElementDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/researchelementdefinition.profile.json"
+    }, 
+    "9aee8caeee6e468abb7c5fcddb14c38e": {
+        "summary": "Resource: ResearchStudy ", 
+        "description": "Resource: ResearchStudy ", 
+        "externalValue": "https://hl7.org/fhir/R4/researchstudy.profile.json"
+    }, 
+    "dcee3cec747e409a87458f8e0b2dee76": {
+        "summary": "Resource: ResearchSubject ", 
+        "description": "Resource: ResearchSubject ", 
+        "externalValue": "https://hl7.org/fhir/R4/researchsubject.profile.json"
+    }, 
+    "29bc7ec9c061439b909f5f7988e98e6b": {
+        "summary": "Resource: RiskAssessment ", 
+        "description": "Resource: RiskAssessment ", 
+        "externalValue": "https://hl7.org/fhir/R4/riskassessment.profile.json"
+    }, 
+    "70902e4bb73c4f31865a809f4fd3dd94": {
+        "summary": "Resource: RiskEvidenceSynthesis ", 
+        "description": "Resource: RiskEvidenceSynthesis ", 
+        "externalValue": "https://hl7.org/fhir/R4/riskevidencesynthesis.profile.json"
+    }, 
+    "43619fe42de14d5191fa07d059e90bc9": {
+        "summary": "Resource: Schedule ", 
+        "description": "Resource: Schedule ", 
+        "externalValue": "https://hl7.org/fhir/R4/schedule.profile.json"
+    }, 
+    "2a4177b37fb543d8acf6085063b19a08": {
+        "summary": "Resource: SearchParameter ", 
+        "description": "Resource: SearchParameter ", 
+        "externalValue": "https://hl7.org/fhir/R4/searchparameter.profile.json"
+    }, 
+    "306cb148c7c649108231f011535e0c66": {
+        "summary": "Resource: ServiceRequest ", 
+        "description": "Resource: ServiceRequest ", 
+        "externalValue": "https://hl7.org/fhir/R4/servicerequest.profile.json"
+    }, 
+    "68b285d12ea945fea8829e5ca4079b90": {
+        "summary": "Resource: Slot ", 
+        "description": "Resource: Slot ", 
+        "externalValue": "https://hl7.org/fhir/R4/slot.profile.json"
+    }, 
+    "6888d267909248ba9bebd65f2550ace3": {
+        "summary": "Resource: Specimen ", 
+        "description": "Resource: Specimen ", 
+        "externalValue": "https://hl7.org/fhir/R4/specimen.profile.json"
+    }, 
+    "4b69784200d34cfab39ec1e3837f81f2": {
+        "summary": "Resource: SpecimenDefinition ", 
+        "description": "Resource: SpecimenDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/specimendefinition.profile.json"
+    }, 
+    "f7d1e5e03654438fa255d9dbdf8ff120": {
+        "summary": "Resource: StructureDefinition ", 
+        "description": "Resource: StructureDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/structuredefinition.profile.json"
+    }, 
+    "4b3f933e024043bda756a55383093960": {
+        "summary": "Resource: StructureMap ", 
+        "description": "Resource: StructureMap ", 
+        "externalValue": "https://hl7.org/fhir/R4/structuremap.profile.json"
+    }, 
+    "e10b62ff5aa249e6ad866e20cc0cdfa0": {
+        "summary": "Resource: Subscription ", 
+        "description": "Resource: Subscription ", 
+        "externalValue": "https://hl7.org/fhir/R4/subscription.profile.json"
+    }, 
+    "e414b9ecd30341478e0c8827a6d15022": {
+        "summary": "Resource: Substance ", 
+        "description": "Resource: Substance ", 
+        "externalValue": "https://hl7.org/fhir/R4/substance.profile.json"
+    }, 
+    "19a3c260b0094b0599bf15895ce25073": {
+        "summary": "Resource: SubstanceNucleicAcid ", 
+        "description": "Resource: SubstanceNucleicAcid ", 
+        "externalValue": "https://hl7.org/fhir/R4/substancenucleicacid.profile.json"
+    }, 
+    "e73ec15dad834d91a5f31fc753bd3918": {
+        "summary": "Resource: SubstancePolymer ", 
+        "description": "Resource: SubstancePolymer ", 
+        "externalValue": "https://hl7.org/fhir/R4/substancepolymer.profile.json"
+    }, 
+    "900d455a193d47cfb56eb90610b3a097": {
+        "summary": "Resource: SubstanceProtein ", 
+        "description": "Resource: SubstanceProtein ", 
+        "externalValue": "https://hl7.org/fhir/R4/substanceprotein.profile.json"
+    }, 
+    "5a59d122921945c6ba9151cdbd13f8d3": {
+        "summary": "Resource: SubstanceReferenceInformation ", 
+        "description": "Resource: SubstanceReferenceInformation ", 
+        "externalValue": "https://hl7.org/fhir/R4/substancereferenceinformation.profile.json"
+    }, 
+    "e49c01c6be6440ddb56b86a761344929": {
+        "summary": "Resource: SubstanceSourceMaterial ", 
+        "description": "Resource: SubstanceSourceMaterial ", 
+        "externalValue": "https://hl7.org/fhir/R4/substancesourcematerial.profile.json"
+    }, 
+    "f46844ce8dd644c3a52fb176fc3a81b8": {
+        "summary": "Resource: SubstanceSpecification ", 
+        "description": "Resource: SubstanceSpecification ", 
+        "externalValue": "https://hl7.org/fhir/R4/substancespecification.profile.json"
+    }, 
+    "ff1c5aa7d6f742a3a135794d7f5cd0e9": {
+        "summary": "Resource: SupplyDelivery ", 
+        "description": "Resource: SupplyDelivery ", 
+        "externalValue": "https://hl7.org/fhir/R4/supplydelivery.profile.json"
+    }, 
+    "d3f2c25626ad48be89553588d7da737b": {
+        "summary": "Resource: SupplyRequest ", 
+        "description": "Resource: SupplyRequest ", 
+        "externalValue": "https://hl7.org/fhir/R4/supplyrequest.profile.json"
+    }, 
+    "2008ed65f25443da83d8020488de49d5": {
+        "summary": "Resource: Task ", 
+        "description": "Resource: Task ", 
+        "externalValue": "https://hl7.org/fhir/R4/task.profile.json"
+    }, 
+    "6a6fecec35c6415283145622b47756c0": {
+        "summary": "Resource: TerminologyCapabilities ", 
+        "description": "Resource: TerminologyCapabilities ", 
+        "externalValue": "https://hl7.org/fhir/R4/terminologycapabilities.profile.json"
+    }, 
+    "fd64258e8ff34b91868232808feb8af2": {
+        "summary": "Resource: TestReport ", 
+        "description": "Resource: TestReport ", 
+        "externalValue": "https://hl7.org/fhir/R4/testreport.profile.json"
+    }, 
+    "328fdc761ed2480188ff218e5ee87482": {
+        "summary": "Resource: TestScript ", 
+        "description": "Resource: TestScript ", 
+        "externalValue": "https://hl7.org/fhir/R4/testscript.profile.json"
+    }, 
+    "1cb5e0113a9d40c5847f7537451bdae8": {
+        "summary": "Resource: ValueSet ", 
+        "description": "Resource: ValueSet ", 
+        "externalValue": "https://hl7.org/fhir/R4/valueset.profile.json"
+    }, 
+    "b94144eb54e745acac824362b7e32815": {
+        "summary": "Resource: VerificationResult ", 
+        "description": "Resource: VerificationResult ", 
+        "externalValue": "https://hl7.org/fhir/R4/verificationresult.profile.json"
+    }, 
+    "0ccac241bc4b421ca3539912b77fb2c6": {
+        "summary": "Resource: VisionPrescription ", 
+        "description": "Resource: VisionPrescription ", 
+        "externalValue": "https://hl7.org/fhir/R4/visionprescription.profile.json"
+    }, 
+    "9386a5094afa49139ba80890f1c8250f": {
+        "summary": "Constraint: ActualGroup ", 
+        "description": "Constraint: ActualGroup ", 
+        "externalValue": "https://hl7.org/fhir/R4/actualgroup.profile.json"
+    }, 
+    "51524d03d1e145beb6f2e6b10839f066": {
+        "summary": "Constraint: BMI ", 
+        "description": "Constraint: BMI ", 
+        "externalValue": "https://hl7.org/fhir/R4/bmi.profile.json"
+    }, 
+    "ec6c478b9d9e404d9a216aafba0d1b2a": {
+        "summary": "Constraint: BodyHeight ", 
+        "description": "Constraint: BodyHeight ", 
+        "externalValue": "https://hl7.org/fhir/R4/bodyheight.profile.json"
+    }, 
+    "bc3fc1115c9d483ba19dc9d6e213aa17": {
+        "summary": "Constraint: BodyTemp ", 
+        "description": "Constraint: BodyTemp ", 
+        "externalValue": "https://hl7.org/fhir/R4/bodytemp.profile.json"
+    }, 
+    "6b65675be13744a2ba63b96aade86f9e": {
+        "summary": "Constraint: BodyWeight ", 
+        "description": "Constraint: BodyWeight ", 
+        "externalValue": "https://hl7.org/fhir/R4/bodyweight.profile.json"
+    }, 
+    "33aceda8a04841eab061ffe85d9f6e6e": {
+        "summary": "Constraint: BP ", 
+        "description": "Constraint: BP ", 
+        "externalValue": "https://hl7.org/fhir/R4/bp.profile.json"
+    }, 
+    "26eaed8df2e64c3bb35b204c091d8034": {
+        "summary": "Constraint: Catalog ", 
+        "description": "Constraint: Catalog ", 
+        "externalValue": "https://hl7.org/fhir/R4/catalog.profile.json"
+    }, 
+    "2848467c34de4ec584127ae455582747": {
+        "summary": "Constraint: Cholesterol ", 
+        "description": "Constraint: Cholesterol ", 
+        "externalValue": "https://hl7.org/fhir/R4/cholesterol.profile.json"
+    }, 
+    "933ad20cf919408c9553bd97a5d166be": {
+        "summary": "Constraint: ClinicalDocument ", 
+        "description": "Constraint: ClinicalDocument ", 
+        "externalValue": "https://hl7.org/fhir/R4/clinicaldocument.profile.json"
+    }, 
+    "a8b7aef4e7824fb7860e5d1081d2b264": {
+        "summary": "Constraint: DeviceMetricObservation ", 
+        "description": "Constraint: DeviceMetricObservation ", 
+        "externalValue": "https://hl7.org/fhir/R4/devicemetricobservation.profile.json"
+    }, 
+    "d2e937305b7b4b28b2f93fbc7057dc88": {
+        "summary": "Constraint: DiagnosticReport-Genetics ", 
+        "description": "Constraint: DiagnosticReport-Genetics ", 
+        "externalValue": "https://hl7.org/fhir/R4/diagnosticreport-genetics.profile.json"
+    }, 
+    "ec2a6761c9b64c3aaf56b8f889c6c51c": {
+        "summary": "Constraint: elementdefinition-de ", 
+        "description": "Constraint: elementdefinition-de ", 
+        "externalValue": "https://hl7.org/fhir/R4/elementdefinition-de.profile.json"
+    }, 
+    "bfd2bf82c24745eaadfc96b1c2a4ad9b": {
+        "summary": "Constraint: FamilyMemberHistory-Genetic ", 
+        "description": "Constraint: FamilyMemberHistory-Genetic ", 
+        "externalValue": "https://hl7.org/fhir/R4/familymemberhistory-genetic.profile.json"
+    }, 
+    "1a51a88db2d04483a335d3078bb27691": {
+        "summary": "Constraint: GroupDefinition ", 
+        "description": "Constraint: GroupDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/groupdefinition.profile.json"
+    }, 
+    "166f2e4980164d44be0a68c7dabe2126": {
+        "summary": "Constraint: HDLCholesterol ", 
+        "description": "Constraint: HDLCholesterol ", 
+        "externalValue": "https://hl7.org/fhir/R4/hdlcholesterol.profile.json"
+    }, 
+    "fbb8e4e848e94e71bb3af48a184b9f5f": {
+        "summary": "Constraint: HeadCircum ", 
+        "description": "Constraint: HeadCircum ", 
+        "externalValue": "https://hl7.org/fhir/R4/headcircum.profile.json"
+    }, 
+    "9e382368c4504ac4ac6a21399fb17854": {
+        "summary": "Constraint: HeartRate ", 
+        "description": "Constraint: HeartRate ", 
+        "externalValue": "https://hl7.org/fhir/R4/heartrate.profile.json"
+    }, 
+    "4a6e149f239f40e99cc4cb1627d8117e": {
+        "summary": "Constraint: HLAResult ", 
+        "description": "Constraint: HLAResult ", 
+        "externalValue": "https://hl7.org/fhir/R4/hlaresult.profile.json"
+    }, 
+    "517638682e844a5c91a1865dd4a9496f": {
+        "summary": "Constraint: LDLCholesterol ", 
+        "description": "Constraint: LDLCholesterol ", 
+        "externalValue": "https://hl7.org/fhir/R4/ldlcholesterol.profile.json"
+    }, 
+    "122372ea733d41f79d0a6aafcd82bcc9": {
+        "summary": "Constraint: LipidProfile ", 
+        "description": "Constraint: LipidProfile ", 
+        "externalValue": "https://hl7.org/fhir/R4/lipidprofile.profile.json"
+    }, 
+    "893cff2e997649ef9ba72036ff7fc6ca": {
+        "summary": "Constraint: Observation-Genetics ", 
+        "description": "Constraint: Observation-Genetics ", 
+        "externalValue": "https://hl7.org/fhir/R4/observation-genetics.profile.json"
+    }, 
+    "cd56f7242e414899a20ae2db2bcf89e0": {
+        "summary": "Constraint: OxygenSat ", 
+        "description": "Constraint: OxygenSat ", 
+        "externalValue": "https://hl7.org/fhir/R4/oxygensat.profile.json"
+    }, 
+    "4b718888fc05471db22446ef84398daf": {
+        "summary": "Constraint: PICOElement ", 
+        "description": "Constraint: PICOElement ", 
+        "externalValue": "https://hl7.org/fhir/R4/picoelement.profile.json"
+    }, 
+    "5709f731046c4ee5a4c7b604d15ee3ac": {
+        "summary": "Constraint: provenance-relevant-history ", 
+        "description": "Constraint: provenance-relevant-history ", 
+        "externalValue": "https://hl7.org/fhir/R4/provenance-relevant-history.profile.json"
+    }, 
+    "15954534574c48beab833ddab0e18b9a": {
+        "summary": "Constraint: RespRate ", 
+        "description": "Constraint: RespRate ", 
+        "externalValue": "https://hl7.org/fhir/R4/resprate.profile.json"
+    }, 
+    "41c855011c634ab9a74a34b725ec6202": {
+        "summary": "Constraint: ServiceRequest-Genetics ", 
+        "description": "Constraint: ServiceRequest-Genetics ", 
+        "externalValue": "https://hl7.org/fhir/R4/servicerequest-genetics.profile.json"
+    }, 
+    "6047939ab7304926a35c3964b83267c5": {
+        "summary": "Constraint: ShareableCodeSystem ", 
+        "description": "Constraint: ShareableCodeSystem ", 
+        "externalValue": "https://hl7.org/fhir/R4/shareablecodesystem.profile.json"
+    }, 
+    "c773c4692d234c96b2a5bd27b3b9cfe6": {
+        "summary": "Constraint: ShareableValueSet ", 
+        "description": "Constraint: ShareableValueSet ", 
+        "externalValue": "https://hl7.org/fhir/R4/shareablevalueset.profile.json"
+    }, 
+    "dfbce53a826f4bd4adb02850295aaf15": {
+        "summary": "Constraint: Synthesis ", 
+        "description": "Constraint: Synthesis ", 
+        "externalValue": "https://hl7.org/fhir/R4/synthesis.profile.json"
+    }, 
+    "78a5be8eda6e4c5fa6da651c90ccc9f5": {
+        "summary": "Constraint: Triglyceride ", 
+        "description": "Constraint: Triglyceride ", 
+        "externalValue": "https://hl7.org/fhir/R4/triglyceride.profile.json"
+    }, 
+    "9d07afd4eb4a4fddaa6316558b2ac241": {
+        "summary": "Constraint: VitalSigns ", 
+        "description": "Constraint: VitalSigns ", 
+        "externalValue": "https://hl7.org/fhir/R4/vitalsigns.profile.json"
+    }, 
+    "6a1da61687564210a3d5ccb63b3dad4e": {
+        "summary": "Constraint: VitalsPanel ", 
+        "description": "Constraint: VitalsPanel ", 
+        "externalValue": "https://hl7.org/fhir/R4/vitalspanel.profile.json"
+    }, 
+    "640355d01f004fcfb0594e36174924c1": {
+        "summary": "Constraint: CDSHooksGuidanceResponse ", 
+        "description": "Constraint: CDSHooksGuidanceResponse ", 
+        "externalValue": "https://hl7.org/fhir/R4/cdshooksguidanceresponse.profile.json"
+    }, 
+    "bf20a4e7e1ca4ed785424dc83b2e3bdd": {
+        "summary": "Constraint: CDSHooksRequestGroup ", 
+        "description": "Constraint: CDSHooksRequestGroup ", 
+        "externalValue": "https://hl7.org/fhir/R4/cdshooksrequestgroup.profile.json"
+    }, 
+    "d9dea3f2128648669db300d7a5ccd6e6": {
+        "summary": "Constraint: CDSHooksServicePlanDefinition ", 
+        "description": "Constraint: CDSHooksServicePlanDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/cdshooksserviceplandefinition.profile.json"
+    }, 
+    "c3bdee89f26f46ac8e22d9f743e5d4af": {
+        "summary": "Constraint: ComputablePlanDefinition ", 
+        "description": "Constraint: ComputablePlanDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/computableplandefinition.profile.json"
+    }, 
+    "9152b591452345e9b574e9d97f89e8f2": {
+        "summary": "Constraint: CQF-Questionnaire ", 
+        "description": "Constraint: CQF-Questionnaire ", 
+        "externalValue": "https://hl7.org/fhir/R4/cqf-questionnaire.profile.json"
+    }, 
+    "bc1ea61195764ddda02b4faee13546b2": {
+        "summary": "Constraint: CQLLibrary ", 
+        "description": "Constraint: CQLLibrary ", 
+        "externalValue": "https://hl7.org/fhir/R4/cqllibrary.profile.json"
+    }, 
+    "4dbc2f4c9d9740bc92dccd4c6c4b4d56": {
+        "summary": "Constraint: ShareableActivityDefinition ", 
+        "description": "Constraint: ShareableActivityDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/shareableactivitydefinition.profile.json"
+    }, 
+    "20c7fbb5adc64bb9ac344bac939cec8b": {
+        "summary": "Constraint: ShareableLibrary ", 
+        "description": "Constraint: ShareableLibrary ", 
+        "externalValue": "https://hl7.org/fhir/R4/shareablelibrary.profile.json"
+    }, 
+    "daecc5193b774cdf88971a2c760852a6": {
+        "summary": "Constraint: ShareableMeasure ", 
+        "description": "Constraint: ShareableMeasure ", 
+        "externalValue": "https://hl7.org/fhir/R4/shareablemeasure.profile.json"
+    }, 
+    "99f0da6bb728455eb7247dfbc3aa277b": {
+        "summary": "Constraint: ShareablePlanDefinition ", 
+        "description": "Constraint: ShareablePlanDefinition ", 
+        "externalValue": "https://hl7.org/fhir/R4/shareableplandefinition.profile.json"
+    }, 
+    "6eb4009d754548e2990402429611cf6d": {
+        "summary": "Constraint: ehrsrle-auditevent ", 
+        "description": "Constraint: ehrsrle-auditevent ", 
+        "externalValue": "https://hl7.org/fhir/R4/ehrsrle/ehrsrle-auditevent.profile.json"
+    }, 
+    "744ad6a97f7548cfb70cd4f671678ad7": {
+        "summary": "Constraint: ehrsrle-provenance ", 
+        "description": "Constraint: ehrsrle-provenance ", 
+        "externalValue": "https://hl7.org/fhir/R4/ehrsrle/ehrsrle-provenance.profile.json"
+    }, 
+    "http://fhir-registry.smarthealthit.org/StructureDefinition/capabilities": {
+        "summary": "Extension: http://fhir-registry.smarthealthit.org/StructureDefinition/capabilities", 
+        "description": "Extension: http://fhir-registry.smarthealthit.org/StructureDefinition/capabilities", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-capabilities.json"
+    }, 
+    "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris": {
+        "summary": "Extension: http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris", 
+        "description": "Extension: http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-oauth-uris.json"
+    }, 
+    "11179-objectClass": {
+        "summary": "Extension: 11179-objectClass", 
+        "description": "Extension: 11179-objectClass", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-11179-objectclass.json"
+    }, 
+    "11179-objectClassProperty": {
+        "summary": "Extension: 11179-objectClassProperty", 
+        "description": "Extension: 11179-objectClassProperty", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-11179-objectclassproperty.json"
+    }, 
+    "11179-permitted-value-conceptmap": {
+        "summary": "Extension: 11179-permitted-value-conceptmap", 
+        "description": "Extension: 11179-permitted-value-conceptmap", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-11179-permitted-value-conceptmap.json"
+    }, 
+    "11179-permitted-value-valueset": {
+        "summary": "Extension: 11179-permitted-value-valueset", 
+        "description": "Extension: 11179-permitted-value-valueset", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-11179-permitted-value-valueset.json"
+    }, 
+    "DiagnosticReport-geneticsAnalysis": {
+        "summary": "Extension: DiagnosticReport-geneticsAnalysis", 
+        "description": "Extension: DiagnosticReport-geneticsAnalysis", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-geneticsanalysis.json"
+    }, 
+    "DiagnosticReport-geneticsAssessedCondition": {
+        "summary": "Extension: DiagnosticReport-geneticsAssessedCondition", 
+        "description": "Extension: DiagnosticReport-geneticsAssessedCondition", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-geneticsassessedcondition.json"
+    }, 
+    "DiagnosticReport-geneticsFamilyMemberHistory": {
+        "summary": "Extension: DiagnosticReport-geneticsFamilyMemberHistory", 
+        "description": "Extension: DiagnosticReport-geneticsFamilyMemberHistory", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-geneticsfamilymemberhistory.json"
+    }, 
+    "DiagnosticReport-geneticsReferences": {
+        "summary": "Extension: DiagnosticReport-geneticsReferences", 
+        "description": "Extension: DiagnosticReport-geneticsReferences", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-geneticsreferences.json"
+    }, 
+    "allergyintolerance-assertedDate": {
+        "summary": "Extension: allergyintolerance-assertedDate", 
+        "description": "Extension: allergyintolerance-assertedDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-allergyintolerance-asserteddate.json"
+    }, 
+    "allergyintolerance-certainty": {
+        "summary": "Extension: allergyintolerance-certainty", 
+        "description": "Extension: allergyintolerance-certainty", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-allergyintolerance-certainty.json"
+    }, 
+    "allergyintolerance-duration": {
+        "summary": "Extension: allergyintolerance-duration", 
+        "description": "Extension: allergyintolerance-duration", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-allergyintolerance-duration.json"
+    }, 
+    "allergyintolerance-reasonRefuted": {
+        "summary": "Extension: allergyintolerance-reasonRefuted", 
+        "description": "Extension: allergyintolerance-reasonRefuted", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-allergyintolerance-reasonrefuted.json"
+    }, 
+    "allergyintolerance-resolutionAge": {
+        "summary": "Extension: allergyintolerance-resolutionAge", 
+        "description": "Extension: allergyintolerance-resolutionAge", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-allergyintolerance-resolutionage.json"
+    }, 
+    "allergyintolerance-substanceExposureRisk": {
+        "summary": "Extension: allergyintolerance-substanceExposureRisk", 
+        "description": "Extension: allergyintolerance-substanceExposureRisk", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-allergyintolerance-substanceexposurerisk.json"
+    }, 
+    "auditevent-Accession": {
+        "summary": "Extension: auditevent-Accession", 
+        "description": "Extension: auditevent-Accession", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-accession.json"
+    }, 
+    "auditevent-Anonymized": {
+        "summary": "Extension: auditevent-Anonymized", 
+        "description": "Extension: auditevent-Anonymized", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-anonymized.json"
+    }, 
+    "auditevent-Encrypted": {
+        "summary": "Extension: auditevent-Encrypted", 
+        "description": "Extension: auditevent-Encrypted", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-encrypted.json"
+    }, 
+    "auditevent-Instance": {
+        "summary": "Extension: auditevent-Instance", 
+        "description": "Extension: auditevent-Instance", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-instance.json"
+    }, 
+    "auditevent-MPPS": {
+        "summary": "Extension: auditevent-MPPS", 
+        "description": "Extension: auditevent-MPPS", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-mpps.json"
+    }, 
+    "auditevent-NumberOfInstances": {
+        "summary": "Extension: auditevent-NumberOfInstances", 
+        "description": "Extension: auditevent-NumberOfInstances", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-numberofinstances.json"
+    }, 
+    "auditevent-ParticipantObjectContainsStudy": {
+        "summary": "Extension: auditevent-ParticipantObjectContainsStudy", 
+        "description": "Extension: auditevent-ParticipantObjectContainsStudy", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-participantobjectcontainsstudy.json"
+    }, 
+    "auditevent-SOPClass": {
+        "summary": "Extension: auditevent-SOPClass", 
+        "description": "Extension: auditevent-SOPClass", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-auditevent-sopclass.json"
+    }, 
+    "bodySite": {
+        "summary": "Extension: bodySite", 
+        "description": "Extension: bodySite", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-bodysite.json"
+    }, 
+    "capabilitystatement-expectation": {
+        "summary": "Extension: capabilitystatement-expectation", 
+        "description": "Extension: capabilitystatement-expectation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-capabilitystatement-expectation.json"
+    }, 
+    "capabilitystatement-prohibited": {
+        "summary": "Extension: capabilitystatement-prohibited", 
+        "description": "Extension: capabilitystatement-prohibited", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-capabilitystatement-prohibited.json"
+    }, 
+    "capabilitystatement-search-parameter-combination": {
+        "summary": "Extension: capabilitystatement-search-parameter-combination", 
+        "description": "Extension: capabilitystatement-search-parameter-combination", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-capabilitystatement-search-parameter-combination.json"
+    }, 
+    "capabilitystatement-supported-system": {
+        "summary": "Extension: capabilitystatement-supported-system", 
+        "description": "Extension: capabilitystatement-supported-system", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-capabilitystatement-supported-system.json"
+    }, 
+    "capabilitystatement-websocket": {
+        "summary": "Extension: capabilitystatement-websocket", 
+        "description": "Extension: capabilitystatement-websocket", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-capabilitystatement-websocket.json"
+    }, 
+    "careplan-activity-title": {
+        "summary": "Extension: careplan-activity-title", 
+        "description": "Extension: careplan-activity-title", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-careplan-activity-title.json"
+    }, 
+    "codesystem-alternate": {
+        "summary": "Extension: codesystem-alternate", 
+        "description": "Extension: codesystem-alternate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-alternate.json"
+    }, 
+    "codesystem-author": {
+        "summary": "Extension: codesystem-author", 
+        "description": "Extension: codesystem-author", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-author.json"
+    }, 
+    "codesystem-concept-comments": {
+        "summary": "Extension: codesystem-concept-comments", 
+        "description": "Extension: codesystem-concept-comments", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-concept-comments.json"
+    }, 
+    "codesystem-conceptOrder": {
+        "summary": "Extension: codesystem-conceptOrder", 
+        "description": "Extension: codesystem-conceptOrder", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-conceptorder.json"
+    }, 
+    "codesystem-effectiveDate": {
+        "summary": "Extension: codesystem-effectiveDate", 
+        "description": "Extension: codesystem-effectiveDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-effectivedate.json"
+    }, 
+    "codesystem-expirationDate": {
+        "summary": "Extension: codesystem-expirationDate", 
+        "description": "Extension: codesystem-expirationDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-expirationdate.json"
+    }, 
+    "codesystem-history": {
+        "summary": "Extension: codesystem-history", 
+        "description": "Extension: codesystem-history", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-history.json"
+    }, 
+    "codesystem-keyWord": {
+        "summary": "Extension: codesystem-keyWord", 
+        "description": "Extension: codesystem-keyWord", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-keyword.json"
+    }, 
+    "codesystem-label": {
+        "summary": "Extension: codesystem-label", 
+        "description": "Extension: codesystem-label", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-label.json"
+    }, 
+    "codesystem-map": {
+        "summary": "Extension: codesystem-map", 
+        "description": "Extension: codesystem-map", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-map.json"
+    }, 
+    "codesystem-otherName": {
+        "summary": "Extension: codesystem-otherName", 
+        "description": "Extension: codesystem-otherName", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-othername.json"
+    }, 
+    "codesystem-replacedby": {
+        "summary": "Extension: codesystem-replacedby", 
+        "description": "Extension: codesystem-replacedby", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-replacedby.json"
+    }, 
+    "codesystem-sourceReference": {
+        "summary": "Extension: codesystem-sourceReference", 
+        "description": "Extension: codesystem-sourceReference", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-sourcereference.json"
+    }, 
+    "codesystem-trusted-expansion": {
+        "summary": "Extension: codesystem-trusted-expansion", 
+        "description": "Extension: codesystem-trusted-expansion", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-trusted-expansion.json"
+    }, 
+    "codesystem-usage": {
+        "summary": "Extension: codesystem-usage", 
+        "description": "Extension: codesystem-usage", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-usage.json"
+    }, 
+    "codesystem-warning": {
+        "summary": "Extension: codesystem-warning", 
+        "description": "Extension: codesystem-warning", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-warning.json"
+    }, 
+    "codesystem-workflowStatus": {
+        "summary": "Extension: codesystem-workflowStatus", 
+        "description": "Extension: codesystem-workflowStatus", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-codesystem-workflowstatus.json"
+    }, 
+    "coding-sctdescid": {
+        "summary": "Extension: coding-sctdescid", 
+        "description": "Extension: coding-sctdescid", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-coding-sctdescid.json"
+    }, 
+    "communication-media": {
+        "summary": "Extension: communication-media", 
+        "description": "Extension: communication-media", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-communication-media.json"
+    }, 
+    "communicationrequest-initiatingLocation": {
+        "summary": "Extension: communicationrequest-initiatingLocation", 
+        "description": "Extension: communicationrequest-initiatingLocation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-communicationrequest-initiatinglocation.json"
+    }, 
+    "composition-clinicaldocument-otherConfidentiality": {
+        "summary": "Extension: composition-clinicaldocument-otherConfidentiality", 
+        "description": "Extension: composition-clinicaldocument-otherConfidentiality", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-composition-clinicaldocument-otherconfidentiality.json"
+    }, 
+    "composition-clinicaldocument-versionNumber": {
+        "summary": "Extension: composition-clinicaldocument-versionNumber", 
+        "description": "Extension: composition-clinicaldocument-versionNumber", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-composition-clinicaldocument-versionnumber.json"
+    }, 
+    "composition-section-subject": {
+        "summary": "Extension: composition-section-subject", 
+        "description": "Extension: composition-section-subject", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-composition-section-subject.json"
+    }, 
+    "concept-bidirectional": {
+        "summary": "Extension: concept-bidirectional", 
+        "description": "Extension: concept-bidirectional", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-concept-bidirectional.json"
+    }, 
+    "condition-assertedDate": {
+        "summary": "Extension: condition-assertedDate", 
+        "description": "Extension: condition-assertedDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-condition-asserteddate.json"
+    }, 
+    "condition-dueTo": {
+        "summary": "Extension: condition-dueTo", 
+        "description": "Extension: condition-dueTo", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-condition-dueto.json"
+    }, 
+    "condition-occurredFollowing": {
+        "summary": "Extension: condition-occurredFollowing", 
+        "description": "Extension: condition-occurredFollowing", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-condition-occurredfollowing.json"
+    }, 
+    "condition-outcome": {
+        "summary": "Extension: condition-outcome", 
+        "description": "Extension: condition-outcome", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-condition-outcome.json"
+    }, 
+    "condition-related": {
+        "summary": "Extension: condition-related", 
+        "description": "Extension: condition-related", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-condition-related.json"
+    }, 
+    "condition-ruledOut": {
+        "summary": "Extension: condition-ruledOut", 
+        "description": "Extension: condition-ruledOut", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-condition-ruledout.json"
+    }, 
+    "consent-NotificationEndpoint": {
+        "summary": "Extension: consent-NotificationEndpoint", 
+        "description": "Extension: consent-NotificationEndpoint", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-consent-notificationendpoint.json"
+    }, 
+    "consent-Transcriber": {
+        "summary": "Extension: consent-Transcriber", 
+        "description": "Extension: consent-Transcriber", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-consent-transcriber.json"
+    }, 
+    "consent-Witness": {
+        "summary": "Extension: consent-Witness", 
+        "description": "Extension: consent-Witness", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-consent-witness.json"
+    }, 
+    "consent-location": {
+        "summary": "Extension: consent-location", 
+        "description": "Extension: consent-location", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-consent-location.json"
+    }, 
+    "contactpoint-area": {
+        "summary": "Extension: contactpoint-area", 
+        "description": "Extension: contactpoint-area", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-contactpoint-area.json"
+    }, 
+    "contactpoint-country": {
+        "summary": "Extension: contactpoint-country", 
+        "description": "Extension: contactpoint-country", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-contactpoint-country.json"
+    }, 
+    "contactpoint-extension": {
+        "summary": "Extension: contactpoint-extension", 
+        "description": "Extension: contactpoint-extension", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-contactpoint-extension.json"
+    }, 
+    "contactpoint-local": {
+        "summary": "Extension: contactpoint-local", 
+        "description": "Extension: contactpoint-local", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-contactpoint-local.json"
+    }, 
+    "cqf-calculatedValue": {
+        "summary": "Extension: cqf-calculatedValue", 
+        "description": "Extension: cqf-calculatedValue", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-calculatedvalue.json"
+    }, 
+    "cqf-cdsHooksEndpoint": {
+        "summary": "Extension: cqf-cdsHooksEndpoint", 
+        "description": "Extension: cqf-cdsHooksEndpoint", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-cdshooksendpoint.json"
+    }, 
+    "cqf-citation": {
+        "summary": "Extension: cqf-citation", 
+        "description": "Extension: cqf-citation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-citation.json"
+    }, 
+    "cqf-encounterClass": {
+        "summary": "Extension: cqf-encounterClass", 
+        "description": "Extension: cqf-encounterClass", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-encounterclass.json"
+    }, 
+    "cqf-encounterType": {
+        "summary": "Extension: cqf-encounterType", 
+        "description": "Extension: cqf-encounterType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-encountertype.json"
+    }, 
+    "cqf-expression": {
+        "summary": "Extension: cqf-expression", 
+        "description": "Extension: cqf-expression", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-expression.json"
+    }, 
+    "cqf-initialValue": {
+        "summary": "Extension: cqf-initialValue", 
+        "description": "Extension: cqf-initialValue", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-initialvalue.json"
+    }, 
+    "cqf-initiatingOrganization": {
+        "summary": "Extension: cqf-initiatingOrganization", 
+        "description": "Extension: cqf-initiatingOrganization", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-initiatingorganization.json"
+    }, 
+    "cqf-initiatingPerson": {
+        "summary": "Extension: cqf-initiatingPerson", 
+        "description": "Extension: cqf-initiatingPerson", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-initiatingperson.json"
+    }, 
+    "cqf-library": {
+        "summary": "Extension: cqf-library", 
+        "description": "Extension: cqf-library", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-library.json"
+    }, 
+    "cqf-measureInfo": {
+        "summary": "Extension: cqf-measureInfo", 
+        "description": "Extension: cqf-measureInfo", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-measureinfo.json"
+    }, 
+    "cqf-qualityOfEvidence": {
+        "summary": "Extension: cqf-qualityOfEvidence", 
+        "description": "Extension: cqf-qualityOfEvidence", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-qualityofevidence.json"
+    }, 
+    "cqf-receivingOrganization": {
+        "summary": "Extension: cqf-receivingOrganization", 
+        "description": "Extension: cqf-receivingOrganization", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-receivingorganization.json"
+    }, 
+    "cqf-receivingPerson": {
+        "summary": "Extension: cqf-receivingPerson", 
+        "description": "Extension: cqf-receivingPerson", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-receivingperson.json"
+    }, 
+    "cqf-recipientLanguage": {
+        "summary": "Extension: cqf-recipientLanguage", 
+        "description": "Extension: cqf-recipientLanguage", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-recipientlanguage.json"
+    }, 
+    "cqf-recipientType": {
+        "summary": "Extension: cqf-recipientType", 
+        "description": "Extension: cqf-recipientType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-recipienttype.json"
+    }, 
+    "cqf-relativeDateTime": {
+        "summary": "Extension: cqf-relativeDateTime", 
+        "description": "Extension: cqf-relativeDateTime", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-relativedatetime.json"
+    }, 
+    "cqf-strengthOfRecommendation": {
+        "summary": "Extension: cqf-strengthOfRecommendation", 
+        "description": "Extension: cqf-strengthOfRecommendation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-strengthofrecommendation.json"
+    }, 
+    "cqf-systemUserLanguage": {
+        "summary": "Extension: cqf-systemUserLanguage", 
+        "description": "Extension: cqf-systemUserLanguage", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-systemuserlanguage.json"
+    }, 
+    "cqf-systemUserTaskContext": {
+        "summary": "Extension: cqf-systemUserTaskContext", 
+        "description": "Extension: cqf-systemUserTaskContext", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-systemusertaskcontext.json"
+    }, 
+    "cqf-systemUserType": {
+        "summary": "Extension: cqf-systemUserType", 
+        "description": "Extension: cqf-systemUserType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqf-systemusertype.json"
+    }, 
+    "cqm-ValidityPeriod": {
+        "summary": "Extension: cqm-ValidityPeriod", 
+        "description": "Extension: cqm-ValidityPeriod", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-cqm-validityperiod.json"
+    }, 
+    "data-absent-reason": {
+        "summary": "Extension: data-absent-reason", 
+        "description": "Extension: data-absent-reason", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-data-absent-reason.json"
+    }, 
+    "designNote": {
+        "summary": "Extension: designNote", 
+        "description": "Extension: designNote", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-designnote.json"
+    }, 
+    "device-implantStatus": {
+        "summary": "Extension: device-implantStatus", 
+        "description": "Extension: device-implantStatus", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-device-implantstatus.json"
+    }, 
+    "devicerequest-patientInstruction": {
+        "summary": "Extension: devicerequest-patientInstruction", 
+        "description": "Extension: devicerequest-patientInstruction", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-devicerequest-patientinstruction.json"
+    }, 
+    "diagnosticReport-addendumOf": {
+        "summary": "Extension: diagnosticReport-addendumOf", 
+        "description": "Extension: diagnosticReport-addendumOf", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-addendumof.json"
+    }, 
+    "diagnosticReport-extends": {
+        "summary": "Extension: diagnosticReport-extends", 
+        "description": "Extension: diagnosticReport-extends", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-extends.json"
+    }, 
+    "diagnosticReport-locationPerformed": {
+        "summary": "Extension: diagnosticReport-locationPerformed", 
+        "description": "Extension: diagnosticReport-locationPerformed", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-locationperformed.json"
+    }, 
+    "diagnosticReport-replaces": {
+        "summary": "Extension: diagnosticReport-replaces", 
+        "description": "Extension: diagnosticReport-replaces", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-replaces.json"
+    }, 
+    "diagnosticReport-risk": {
+        "summary": "Extension: diagnosticReport-risk", 
+        "description": "Extension: diagnosticReport-risk", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-risk.json"
+    }, 
+    "diagnosticReport-summaryOf": {
+        "summary": "Extension: diagnosticReport-summaryOf", 
+        "description": "Extension: diagnosticReport-summaryOf", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-diagnosticreport-summaryof.json"
+    }, 
+    "display": {
+        "summary": "Extension: display", 
+        "description": "Extension: display", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-display.json"
+    }, 
+    "elementdefinition-allowedUnits": {
+        "summary": "Extension: elementdefinition-allowedUnits", 
+        "description": "Extension: elementdefinition-allowedUnits", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-allowedunits.json"
+    }, 
+    "elementdefinition-bestpractice": {
+        "summary": "Extension: elementdefinition-bestpractice", 
+        "description": "Extension: elementdefinition-bestpractice", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-bestpractice.json"
+    }, 
+    "elementdefinition-bestpractice-explanation": {
+        "summary": "Extension: elementdefinition-bestpractice-explanation", 
+        "description": "Extension: elementdefinition-bestpractice-explanation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-bestpractice-explanation.json"
+    }, 
+    "elementdefinition-bindingName": {
+        "summary": "Extension: elementdefinition-bindingName", 
+        "description": "Extension: elementdefinition-bindingName", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-bindingname.json"
+    }, 
+    "elementdefinition-equivalence": {
+        "summary": "Extension: elementdefinition-equivalence", 
+        "description": "Extension: elementdefinition-equivalence", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-equivalence.json"
+    }, 
+    "elementdefinition-identifier": {
+        "summary": "Extension: elementdefinition-identifier", 
+        "description": "Extension: elementdefinition-identifier", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-identifier.json"
+    }, 
+    "elementdefinition-inheritedExtensibleValueSet": {
+        "summary": "Extension: elementdefinition-inheritedExtensibleValueSet", 
+        "description": "Extension: elementdefinition-inheritedExtensibleValueSet", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-inheritedextensiblevalueset.json"
+    }, 
+    "elementdefinition-isCommonBinding": {
+        "summary": "Extension: elementdefinition-isCommonBinding", 
+        "description": "Extension: elementdefinition-isCommonBinding", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-iscommonbinding.json"
+    }, 
+    "elementdefinition-maxValueSet": {
+        "summary": "Extension: elementdefinition-maxValueSet", 
+        "description": "Extension: elementdefinition-maxValueSet", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.json"
+    }, 
+    "elementdefinition-minValueSet": {
+        "summary": "Extension: elementdefinition-minValueSet", 
+        "description": "Extension: elementdefinition-minValueSet", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-minvalueset.json"
+    }, 
+    "elementdefinition-namespace": {
+        "summary": "Extension: elementdefinition-namespace", 
+        "description": "Extension: elementdefinition-namespace", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-namespace.json"
+    }, 
+    "elementdefinition-profile-element": {
+        "summary": "Extension: elementdefinition-profile-element", 
+        "description": "Extension: elementdefinition-profile-element", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-profile-element.json"
+    }, 
+    "elementdefinition-question": {
+        "summary": "Extension: elementdefinition-question", 
+        "description": "Extension: elementdefinition-question", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-question.json"
+    }, 
+    "elementdefinition-selector": {
+        "summary": "Extension: elementdefinition-selector", 
+        "description": "Extension: elementdefinition-selector", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-selector.json"
+    }, 
+    "elementdefinition-translatable": {
+        "summary": "Extension: elementdefinition-translatable", 
+        "description": "Extension: elementdefinition-translatable", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-elementdefinition-translatable.json"
+    }, 
+    "encounter-associatedEncounter": {
+        "summary": "Extension: encounter-associatedEncounter", 
+        "description": "Extension: encounter-associatedEncounter", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-encounter-associatedencounter.json"
+    }, 
+    "encounter-modeOfArrival": {
+        "summary": "Extension: encounter-modeOfArrival", 
+        "description": "Extension: encounter-modeOfArrival", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-encounter-modeofarrival.json"
+    }, 
+    "encounter-reasonCancelled": {
+        "summary": "Extension: encounter-reasonCancelled", 
+        "description": "Extension: encounter-reasonCancelled", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-encounter-reasoncancelled.json"
+    }, 
+    "entryFormat": {
+        "summary": "Extension: entryFormat", 
+        "description": "Extension: entryFormat", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-entryformat.json"
+    }, 
+    "event-basedOn": {
+        "summary": "Extension: event-basedOn", 
+        "description": "Extension: event-basedOn", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-event-basedon.json"
+    }, 
+    "event-eventHistory": {
+        "summary": "Extension: event-eventHistory", 
+        "description": "Extension: event-eventHistory", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-event-eventhistory.json"
+    }, 
+    "event-location": {
+        "summary": "Extension: event-location", 
+        "description": "Extension: event-location", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-event-location.json"
+    }, 
+    "event-partOf": {
+        "summary": "Extension: event-partOf", 
+        "description": "Extension: event-partOf", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-event-partof.json"
+    }, 
+    "event-performerFunction": {
+        "summary": "Extension: event-performerFunction", 
+        "description": "Extension: event-performerFunction", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-event-performerfunction.json"
+    }, 
+    "event-statusReason": {
+        "summary": "Extension: event-statusReason", 
+        "description": "Extension: event-statusReason", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-event-statusreason.json"
+    }, 
+    "family-member-history-genetics-observation": {
+        "summary": "Extension: family-member-history-genetics-observation", 
+        "description": "Extension: family-member-history-genetics-observation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-family-member-history-genetics-observation.json"
+    }, 
+    "family-member-history-genetics-parent": {
+        "summary": "Extension: family-member-history-genetics-parent", 
+        "description": "Extension: family-member-history-genetics-parent", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-family-member-history-genetics-parent.json"
+    }, 
+    "family-member-history-genetics-sibling": {
+        "summary": "Extension: family-member-history-genetics-sibling", 
+        "description": "Extension: family-member-history-genetics-sibling", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-family-member-history-genetics-sibling.json"
+    }, 
+    "familymemberhistory-abatement": {
+        "summary": "Extension: familymemberhistory-abatement", 
+        "description": "Extension: familymemberhistory-abatement", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-familymemberhistory-abatement.json"
+    }, 
+    "familymemberhistory-patient-record": {
+        "summary": "Extension: familymemberhistory-patient-record", 
+        "description": "Extension: familymemberhistory-patient-record", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-familymemberhistory-patient-record.json"
+    }, 
+    "familymemberhistory-severity": {
+        "summary": "Extension: familymemberhistory-severity", 
+        "description": "Extension: familymemberhistory-severity", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-familymemberhistory-severity.json"
+    }, 
+    "familymemberhistory-type": {
+        "summary": "Extension: familymemberhistory-type", 
+        "description": "Extension: familymemberhistory-type", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-familymemberhistory-type.json"
+    }, 
+    "flag-detail": {
+        "summary": "Extension: flag-detail", 
+        "description": "Extension: flag-detail", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-flag-detail.json"
+    }, 
+    "flag-priority": {
+        "summary": "Extension: flag-priority", 
+        "description": "Extension: flag-priority", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-flag-priority.json"
+    }, 
+    "geolocation": {
+        "summary": "Extension: geolocation", 
+        "description": "Extension: geolocation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-geolocation.json"
+    }, 
+    "goal-acceptance": {
+        "summary": "Extension: goal-acceptance", 
+        "description": "Extension: goal-acceptance", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-goal-acceptance.json"
+    }, 
+    "goal-reasonRejected": {
+        "summary": "Extension: goal-reasonRejected", 
+        "description": "Extension: goal-reasonRejected", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-goal-reasonrejected.json"
+    }, 
+    "goal-relationship": {
+        "summary": "Extension: goal-relationship", 
+        "description": "Extension: goal-relationship", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-goal-relationship.json"
+    }, 
+    "hla-genotyping-results-allele-database": {
+        "summary": "Extension: hla-genotyping-results-allele-database", 
+        "description": "Extension: hla-genotyping-results-allele-database", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-hla-genotyping-results-allele-database.json"
+    }, 
+    "hla-genotyping-results-glstring": {
+        "summary": "Extension: hla-genotyping-results-glstring", 
+        "description": "Extension: hla-genotyping-results-glstring", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-hla-genotyping-results-glstring.json"
+    }, 
+    "hla-genotyping-results-haploid": {
+        "summary": "Extension: hla-genotyping-results-haploid", 
+        "description": "Extension: hla-genotyping-results-haploid", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-hla-genotyping-results-haploid.json"
+    }, 
+    "hla-genotyping-results-method": {
+        "summary": "Extension: hla-genotyping-results-method", 
+        "description": "Extension: hla-genotyping-results-method", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-hla-genotyping-results-method.json"
+    }, 
+    "http-response-header": {
+        "summary": "Extension: http-response-header", 
+        "description": "Extension: http-response-header", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-http-response-header.json"
+    }, 
+    "humanname-assembly-order": {
+        "summary": "Extension: humanname-assembly-order", 
+        "description": "Extension: humanname-assembly-order", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-humanname-assembly-order.json"
+    }, 
+    "humanname-fathers-family": {
+        "summary": "Extension: humanname-fathers-family", 
+        "description": "Extension: humanname-fathers-family", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-humanname-fathers-family.json"
+    }, 
+    "humanname-mothers-family": {
+        "summary": "Extension: humanname-mothers-family", 
+        "description": "Extension: humanname-mothers-family", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-humanname-mothers-family.json"
+    }, 
+    "humanname-own-name": {
+        "summary": "Extension: humanname-own-name", 
+        "description": "Extension: humanname-own-name", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-humanname-own-name.json"
+    }, 
+    "humanname-own-prefix": {
+        "summary": "Extension: humanname-own-prefix", 
+        "description": "Extension: humanname-own-prefix", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-humanname-own-prefix.json"
+    }, 
+    "humanname-partner-name": {
+        "summary": "Extension: humanname-partner-name", 
+        "description": "Extension: humanname-partner-name", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-humanname-partner-name.json"
+    }, 
+    "humanname-partner-prefix": {
+        "summary": "Extension: humanname-partner-prefix", 
+        "description": "Extension: humanname-partner-prefix", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-humanname-partner-prefix.json"
+    }, 
+    "identifier-validDate": {
+        "summary": "Extension: identifier-validDate", 
+        "description": "Extension: identifier-validDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-identifier-validdate.json"
+    }, 
+    "iso21090-AD-use": {
+        "summary": "Extension: iso21090-AD-use", 
+        "description": "Extension: iso21090-AD-use", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-ad-use.json"
+    }, 
+    "iso21090-ADXP-additionalLocator": {
+        "summary": "Extension: iso21090-ADXP-additionalLocator", 
+        "description": "Extension: iso21090-ADXP-additionalLocator", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-additionallocator.json"
+    }, 
+    "iso21090-ADXP-buildingNumberSuffix": {
+        "summary": "Extension: iso21090-ADXP-buildingNumberSuffix", 
+        "description": "Extension: iso21090-ADXP-buildingNumberSuffix", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-buildingnumbersuffix.json"
+    }, 
+    "iso21090-ADXP-careOf": {
+        "summary": "Extension: iso21090-ADXP-careOf", 
+        "description": "Extension: iso21090-ADXP-careOf", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-careof.json"
+    }, 
+    "iso21090-ADXP-censusTract": {
+        "summary": "Extension: iso21090-ADXP-censusTract", 
+        "description": "Extension: iso21090-ADXP-censusTract", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-censustract.json"
+    }, 
+    "iso21090-ADXP-delimiter": {
+        "summary": "Extension: iso21090-ADXP-delimiter", 
+        "description": "Extension: iso21090-ADXP-delimiter", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-delimiter.json"
+    }, 
+    "iso21090-ADXP-deliveryAddressLine": {
+        "summary": "Extension: iso21090-ADXP-deliveryAddressLine", 
+        "description": "Extension: iso21090-ADXP-deliveryAddressLine", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-deliveryaddressline.json"
+    }, 
+    "iso21090-ADXP-deliveryInstallationArea": {
+        "summary": "Extension: iso21090-ADXP-deliveryInstallationArea", 
+        "description": "Extension: iso21090-ADXP-deliveryInstallationArea", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-deliveryinstallationarea.json"
+    }, 
+    "iso21090-ADXP-deliveryInstallationQualifier": {
+        "summary": "Extension: iso21090-ADXP-deliveryInstallationQualifier", 
+        "description": "Extension: iso21090-ADXP-deliveryInstallationQualifier", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-deliveryinstallationqualifier.json"
+    }, 
+    "iso21090-ADXP-deliveryInstallationType": {
+        "summary": "Extension: iso21090-ADXP-deliveryInstallationType", 
+        "description": "Extension: iso21090-ADXP-deliveryInstallationType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-deliveryinstallationtype.json"
+    }, 
+    "iso21090-ADXP-deliveryMode": {
+        "summary": "Extension: iso21090-ADXP-deliveryMode", 
+        "description": "Extension: iso21090-ADXP-deliveryMode", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-deliverymode.json"
+    }, 
+    "iso21090-ADXP-deliveryModeIdentifier": {
+        "summary": "Extension: iso21090-ADXP-deliveryModeIdentifier", 
+        "description": "Extension: iso21090-ADXP-deliveryModeIdentifier", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-deliverymodeidentifier.json"
+    }, 
+    "iso21090-ADXP-direction": {
+        "summary": "Extension: iso21090-ADXP-direction", 
+        "description": "Extension: iso21090-ADXP-direction", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-direction.json"
+    }, 
+    "iso21090-ADXP-houseNumber": {
+        "summary": "Extension: iso21090-ADXP-houseNumber", 
+        "description": "Extension: iso21090-ADXP-houseNumber", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-housenumber.json"
+    }, 
+    "iso21090-ADXP-houseNumberNumeric": {
+        "summary": "Extension: iso21090-ADXP-houseNumberNumeric", 
+        "description": "Extension: iso21090-ADXP-houseNumberNumeric", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-housenumbernumeric.json"
+    }, 
+    "iso21090-ADXP-postBox": {
+        "summary": "Extension: iso21090-ADXP-postBox", 
+        "description": "Extension: iso21090-ADXP-postBox", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-postbox.json"
+    }, 
+    "iso21090-ADXP-precinct": {
+        "summary": "Extension: iso21090-ADXP-precinct", 
+        "description": "Extension: iso21090-ADXP-precinct", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-precinct.json"
+    }, 
+    "iso21090-ADXP-streetAddressLine": {
+        "summary": "Extension: iso21090-ADXP-streetAddressLine", 
+        "description": "Extension: iso21090-ADXP-streetAddressLine", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-streetaddressline.json"
+    }, 
+    "iso21090-ADXP-streetName": {
+        "summary": "Extension: iso21090-ADXP-streetName", 
+        "description": "Extension: iso21090-ADXP-streetName", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-streetname.json"
+    }, 
+    "iso21090-ADXP-streetNameBase": {
+        "summary": "Extension: iso21090-ADXP-streetNameBase", 
+        "description": "Extension: iso21090-ADXP-streetNameBase", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-streetnamebase.json"
+    }, 
+    "iso21090-ADXP-streetNameType": {
+        "summary": "Extension: iso21090-ADXP-streetNameType", 
+        "description": "Extension: iso21090-ADXP-streetNameType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-streetnametype.json"
+    }, 
+    "iso21090-ADXP-unitID": {
+        "summary": "Extension: iso21090-ADXP-unitID", 
+        "description": "Extension: iso21090-ADXP-unitID", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-unitid.json"
+    }, 
+    "iso21090-ADXP-unitType": {
+        "summary": "Extension: iso21090-ADXP-unitType", 
+        "description": "Extension: iso21090-ADXP-unitType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-adxp-unittype.json"
+    }, 
+    "iso21090-EN-qualifier": {
+        "summary": "Extension: iso21090-EN-qualifier", 
+        "description": "Extension: iso21090-EN-qualifier", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-en-qualifier.json"
+    }, 
+    "iso21090-EN-representation": {
+        "summary": "Extension: iso21090-EN-representation", 
+        "description": "Extension: iso21090-EN-representation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-en-representation.json"
+    }, 
+    "iso21090-EN-use": {
+        "summary": "Extension: iso21090-EN-use", 
+        "description": "Extension: iso21090-EN-use", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-en-use.json"
+    }, 
+    "iso21090-PQ-translation": {
+        "summary": "Extension: iso21090-PQ-translation", 
+        "description": "Extension: iso21090-PQ-translation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-pq-translation.json"
+    }, 
+    "iso21090-SC-coding": {
+        "summary": "Extension: iso21090-SC-coding", 
+        "description": "Extension: iso21090-SC-coding", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-sc-coding.json"
+    }, 
+    "iso21090-TEL-address": {
+        "summary": "Extension: iso21090-TEL-address", 
+        "description": "Extension: iso21090-TEL-address", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-tel-address.json"
+    }, 
+    "iso21090-nullFlavor": {
+        "summary": "Extension: iso21090-nullFlavor", 
+        "description": "Extension: iso21090-nullFlavor", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-nullflavor.json"
+    }, 
+    "iso21090-preferred": {
+        "summary": "Extension: iso21090-preferred", 
+        "description": "Extension: iso21090-preferred", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-preferred.json"
+    }, 
+    "iso21090-uncertainty": {
+        "summary": "Extension: iso21090-uncertainty", 
+        "description": "Extension: iso21090-uncertainty", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-uncertainty.json"
+    }, 
+    "iso21090-uncertaintyType": {
+        "summary": "Extension: iso21090-uncertaintyType", 
+        "description": "Extension: iso21090-uncertaintyType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-iso21090-uncertaintytype.json"
+    }, 
+    "language": {
+        "summary": "Extension: language", 
+        "description": "Extension: language", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-language.json"
+    }, 
+    "list-changeBase": {
+        "summary": "Extension: list-changeBase", 
+        "description": "Extension: list-changeBase", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-list-changebase.json"
+    }, 
+    "location-boundary-geojson": {
+        "summary": "Extension: location-boundary-geojson", 
+        "description": "Extension: location-boundary-geojson", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-location-boundary-geojson.json"
+    }, 
+    "location-distance": {
+        "summary": "Extension: location-distance", 
+        "description": "Extension: location-distance", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-location-distance.json"
+    }, 
+    "match-grade": {
+        "summary": "Extension: match-grade", 
+        "description": "Extension: match-grade", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-match-grade.json"
+    }, 
+    "maxDecimalPlaces": {
+        "summary": "Extension: maxDecimalPlaces", 
+        "description": "Extension: maxDecimalPlaces", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-maxdecimalplaces.json"
+    }, 
+    "maxSize": {
+        "summary": "Extension: maxSize", 
+        "description": "Extension: maxSize", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-maxsize.json"
+    }, 
+    "maxValue": {
+        "summary": "Extension: maxValue", 
+        "description": "Extension: maxValue", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-maxvalue.json"
+    }, 
+    "messageheader-response-request": {
+        "summary": "Extension: messageheader-response-request", 
+        "description": "Extension: messageheader-response-request", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-messageheader-response-request.json"
+    }, 
+    "mimeType": {
+        "summary": "Extension: mimeType", 
+        "description": "Extension: mimeType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-mimetype.json"
+    }, 
+    "minLength": {
+        "summary": "Extension: minLength", 
+        "description": "Extension: minLength", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-minlength.json"
+    }, 
+    "minValue": {
+        "summary": "Extension: minValue", 
+        "description": "Extension: minValue", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-minvalue.json"
+    }, 
+    "narrativeLink": {
+        "summary": "Extension: narrativeLink", 
+        "description": "Extension: narrativeLink", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-narrativelink.json"
+    }, 
+    "nutritionorder-adaptiveFeedingDevice": {
+        "summary": "Extension: nutritionorder-adaptiveFeedingDevice", 
+        "description": "Extension: nutritionorder-adaptiveFeedingDevice", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-nutritionorder-adaptivefeedingdevice.json"
+    }, 
+    "observation-bodyPosition": {
+        "summary": "Extension: observation-bodyPosition", 
+        "description": "Extension: observation-bodyPosition", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-bodyposition.json"
+    }, 
+    "observation-delta": {
+        "summary": "Extension: observation-delta", 
+        "description": "Extension: observation-delta", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-delta.json"
+    }, 
+    "observation-deviceCode": {
+        "summary": "Extension: observation-deviceCode", 
+        "description": "Extension: observation-deviceCode", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-devicecode.json"
+    }, 
+    "observation-focusCode": {
+        "summary": "Extension: observation-focusCode", 
+        "description": "Extension: observation-focusCode", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-focuscode.json"
+    }, 
+    "observation-gatewayDevice": {
+        "summary": "Extension: observation-gatewayDevice", 
+        "description": "Extension: observation-gatewayDevice", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-gatewaydevice.json"
+    }, 
+    "observation-geneticsAllele": {
+        "summary": "Extension: observation-geneticsAllele", 
+        "description": "Extension: observation-geneticsAllele", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsallele.json"
+    }, 
+    "observation-geneticsAminoAcidChange": {
+        "summary": "Extension: observation-geneticsAminoAcidChange", 
+        "description": "Extension: observation-geneticsAminoAcidChange", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsaminoacidchange.json"
+    }, 
+    "observation-geneticsAncestry": {
+        "summary": "Extension: observation-geneticsAncestry", 
+        "description": "Extension: observation-geneticsAncestry", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsancestry.json"
+    }, 
+    "observation-geneticsCopyNumberEvent": {
+        "summary": "Extension: observation-geneticsCopyNumberEvent", 
+        "description": "Extension: observation-geneticsCopyNumberEvent", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticscopynumberevent.json"
+    }, 
+    "observation-geneticsDNARegionName": {
+        "summary": "Extension: observation-geneticsDNARegionName", 
+        "description": "Extension: observation-geneticsDNARegionName", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsdnaregionname.json"
+    }, 
+    "observation-geneticsGene": {
+        "summary": "Extension: observation-geneticsGene", 
+        "description": "Extension: observation-geneticsGene", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsgene.json"
+    }, 
+    "observation-geneticsGenomicSourceClass": {
+        "summary": "Extension: observation-geneticsGenomicSourceClass", 
+        "description": "Extension: observation-geneticsGenomicSourceClass", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsgenomicsourceclass.json"
+    }, 
+    "observation-geneticsInterpretation": {
+        "summary": "Extension: observation-geneticsInterpretation", 
+        "description": "Extension: observation-geneticsInterpretation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsinterpretation.json"
+    }, 
+    "observation-geneticsPhaseSet": {
+        "summary": "Extension: observation-geneticsPhaseSet", 
+        "description": "Extension: observation-geneticsPhaseSet", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsphaseset.json"
+    }, 
+    "observation-geneticsVariant": {
+        "summary": "Extension: observation-geneticsVariant", 
+        "description": "Extension: observation-geneticsVariant", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-geneticsvariant.json"
+    }, 
+    "observation-precondition": {
+        "summary": "Extension: observation-precondition", 
+        "description": "Extension: observation-precondition", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-precondition.json"
+    }, 
+    "observation-reagent": {
+        "summary": "Extension: observation-reagent", 
+        "description": "Extension: observation-reagent", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-reagent.json"
+    }, 
+    "observation-replaces": {
+        "summary": "Extension: observation-replaces", 
+        "description": "Extension: observation-replaces", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-replaces.json"
+    }, 
+    "observation-secondaryFinding": {
+        "summary": "Extension: observation-secondaryFinding", 
+        "description": "Extension: observation-secondaryFinding", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-secondaryfinding.json"
+    }, 
+    "observation-sequelTo": {
+        "summary": "Extension: observation-sequelTo", 
+        "description": "Extension: observation-sequelTo", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-sequelto.json"
+    }, 
+    "observation-specimenCode": {
+        "summary": "Extension: observation-specimenCode", 
+        "description": "Extension: observation-specimenCode", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-specimencode.json"
+    }, 
+    "observation-timeOffset": {
+        "summary": "Extension: observation-timeOffset", 
+        "description": "Extension: observation-timeOffset", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-observation-timeoffset.json"
+    }, 
+    "operationdefinition-allowed-type": {
+        "summary": "Extension: operationdefinition-allowed-type", 
+        "description": "Extension: operationdefinition-allowed-type", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-operationdefinition-allowed-type.json"
+    }, 
+    "operationdefinition-profile": {
+        "summary": "Extension: operationdefinition-profile", 
+        "description": "Extension: operationdefinition-profile", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-operationdefinition-profile.json"
+    }, 
+    "operationoutcome-authority": {
+        "summary": "Extension: operationoutcome-authority", 
+        "description": "Extension: operationoutcome-authority", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-operationoutcome-authority.json"
+    }, 
+    "operationoutcome-detectedIssue": {
+        "summary": "Extension: operationoutcome-detectedIssue", 
+        "description": "Extension: operationoutcome-detectedIssue", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-operationoutcome-detectedissue.json"
+    }, 
+    "operationoutcome-issue-source": {
+        "summary": "Extension: operationoutcome-issue-source", 
+        "description": "Extension: operationoutcome-issue-source", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-operationoutcome-issue-source.json"
+    }, 
+    "ordinalValue": {
+        "summary": "Extension: ordinalValue", 
+        "description": "Extension: ordinalValue", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-ordinalvalue.json"
+    }, 
+    "organization-period": {
+        "summary": "Extension: organization-period", 
+        "description": "Extension: organization-period", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-organization-period.json"
+    }, 
+    "organization-preferredContact": {
+        "summary": "Extension: organization-preferredContact", 
+        "description": "Extension: organization-preferredContact", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-organization-preferredcontact.json"
+    }, 
+    "organizationaffiliation-primaryInd": {
+        "summary": "Extension: organizationaffiliation-primaryInd", 
+        "description": "Extension: organizationaffiliation-primaryInd", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-organizationaffiliation-primaryind.json"
+    }, 
+    "originalText": {
+        "summary": "Extension: originalText", 
+        "description": "Extension: originalText", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-originaltext.json"
+    }, 
+    "parameters-fullUrl": {
+        "summary": "Extension: parameters-fullUrl", 
+        "description": "Extension: parameters-fullUrl", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-parameters-fullurl.json"
+    }, 
+    "patient-adoptionInfo": {
+        "summary": "Extension: patient-adoptionInfo", 
+        "description": "Extension: patient-adoptionInfo", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-adoptioninfo.json"
+    }, 
+    "patient-animal": {
+        "summary": "Extension: patient-animal", 
+        "description": "Extension: patient-animal", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-animal.json"
+    }, 
+    "patient-birthPlace": {
+        "summary": "Extension: patient-birthPlace", 
+        "description": "Extension: patient-birthPlace", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-birthplace.json"
+    }, 
+    "patient-birthTime": {
+        "summary": "Extension: patient-birthTime", 
+        "description": "Extension: patient-birthTime", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-birthtime.json"
+    }, 
+    "patient-cadavericDonor": {
+        "summary": "Extension: patient-cadavericDonor", 
+        "description": "Extension: patient-cadavericDonor", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-cadavericdonor.json"
+    }, 
+    "patient-citizenship": {
+        "summary": "Extension: patient-citizenship", 
+        "description": "Extension: patient-citizenship", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-citizenship.json"
+    }, 
+    "patient-congregation": {
+        "summary": "Extension: patient-congregation", 
+        "description": "Extension: patient-congregation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-congregation.json"
+    }, 
+    "patient-disability": {
+        "summary": "Extension: patient-disability", 
+        "description": "Extension: patient-disability", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-disability.json"
+    }, 
+    "patient-genderIdentity": {
+        "summary": "Extension: patient-genderIdentity", 
+        "description": "Extension: patient-genderIdentity", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-genderidentity.json"
+    }, 
+    "patient-importance": {
+        "summary": "Extension: patient-importance", 
+        "description": "Extension: patient-importance", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-importance.json"
+    }, 
+    "patient-interpreterRequired": {
+        "summary": "Extension: patient-interpreterRequired", 
+        "description": "Extension: patient-interpreterRequired", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-interpreterrequired.json"
+    }, 
+    "patient-mothersMaidenName": {
+        "summary": "Extension: patient-mothersMaidenName", 
+        "description": "Extension: patient-mothersMaidenName", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-mothersmaidenname.json"
+    }, 
+    "patient-nationality": {
+        "summary": "Extension: patient-nationality", 
+        "description": "Extension: patient-nationality", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-nationality.json"
+    }, 
+    "patient-preferenceType": {
+        "summary": "Extension: patient-preferenceType", 
+        "description": "Extension: patient-preferenceType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-preferencetype.json"
+    }, 
+    "patient-proficiency": {
+        "summary": "Extension: patient-proficiency", 
+        "description": "Extension: patient-proficiency", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-proficiency.json"
+    }, 
+    "patient-relatedPerson": {
+        "summary": "Extension: patient-relatedPerson", 
+        "description": "Extension: patient-relatedPerson", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-relatedperson.json"
+    }, 
+    "patient-religion": {
+        "summary": "Extension: patient-religion", 
+        "description": "Extension: patient-religion", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-patient-religion.json"
+    }, 
+    "practitioner-animalSpecies": {
+        "summary": "Extension: practitioner-animalSpecies", 
+        "description": "Extension: practitioner-animalSpecies", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-practitioner-animalspecies.json"
+    }, 
+    "practitionerrole-primaryInd": {
+        "summary": "Extension: practitionerrole-primaryInd", 
+        "description": "Extension: practitionerrole-primaryInd", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-practitionerrole-primaryind.json"
+    }, 
+    "procedure-approachBodyStructure": {
+        "summary": "Extension: procedure-approachBodyStructure", 
+        "description": "Extension: procedure-approachBodyStructure", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-approachbodystructure.json"
+    }, 
+    "procedure-causedBy": {
+        "summary": "Extension: procedure-causedBy", 
+        "description": "Extension: procedure-causedBy", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-causedby.json"
+    }, 
+    "procedure-directedBy": {
+        "summary": "Extension: procedure-directedBy", 
+        "description": "Extension: procedure-directedBy", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-directedby.json"
+    }, 
+    "procedure-incisionDateTime": {
+        "summary": "Extension: procedure-incisionDateTime", 
+        "description": "Extension: procedure-incisionDateTime", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-incisiondatetime.json"
+    }, 
+    "procedure-method": {
+        "summary": "Extension: procedure-method", 
+        "description": "Extension: procedure-method", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-method.json"
+    }, 
+    "procedure-progressStatus": {
+        "summary": "Extension: procedure-progressStatus", 
+        "description": "Extension: procedure-progressStatus", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-progressstatus.json"
+    }, 
+    "procedure-schedule": {
+        "summary": "Extension: procedure-schedule", 
+        "description": "Extension: procedure-schedule", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-schedule.json"
+    }, 
+    "procedure-targetBodyStructure": {
+        "summary": "Extension: procedure-targetBodyStructure", 
+        "description": "Extension: procedure-targetBodyStructure", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-procedure-targetbodystructure.json"
+    }, 
+    "quantity-precision": {
+        "summary": "Extension: quantity-precision", 
+        "description": "Extension: quantity-precision", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-quantity-precision.json"
+    }, 
+    "questionnaire-baseType": {
+        "summary": "Extension: questionnaire-baseType", 
+        "description": "Extension: questionnaire-baseType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-basetype.json"
+    }, 
+    "questionnaire-choiceOrientation": {
+        "summary": "Extension: questionnaire-choiceOrientation", 
+        "description": "Extension: questionnaire-choiceOrientation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-choiceorientation.json"
+    }, 
+    "questionnaire-constraint": {
+        "summary": "Extension: questionnaire-constraint", 
+        "description": "Extension: questionnaire-constraint", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-constraint.json"
+    }, 
+    "questionnaire-displayCategory": {
+        "summary": "Extension: questionnaire-displayCategory", 
+        "description": "Extension: questionnaire-displayCategory", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-displaycategory.json"
+    }, 
+    "questionnaire-fhirType": {
+        "summary": "Extension: questionnaire-fhirType", 
+        "description": "Extension: questionnaire-fhirType", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-fhirtype.json"
+    }, 
+    "questionnaire-hidden": {
+        "summary": "Extension: questionnaire-hidden", 
+        "description": "Extension: questionnaire-hidden", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-hidden.json"
+    }, 
+    "questionnaire-itemControl": {
+        "summary": "Extension: questionnaire-itemControl", 
+        "description": "Extension: questionnaire-itemControl", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-itemcontrol.json"
+    }, 
+    "questionnaire-maxOccurs": {
+        "summary": "Extension: questionnaire-maxOccurs", 
+        "description": "Extension: questionnaire-maxOccurs", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-maxoccurs.json"
+    }, 
+    "questionnaire-minOccurs": {
+        "summary": "Extension: questionnaire-minOccurs", 
+        "description": "Extension: questionnaire-minOccurs", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-minoccurs.json"
+    }, 
+    "questionnaire-optionExclusive": {
+        "summary": "Extension: questionnaire-optionExclusive", 
+        "description": "Extension: questionnaire-optionExclusive", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-optionexclusive.json"
+    }, 
+    "questionnaire-optionPrefix": {
+        "summary": "Extension: questionnaire-optionPrefix", 
+        "description": "Extension: questionnaire-optionPrefix", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-optionprefix.json"
+    }, 
+    "questionnaire-referenceFilter": {
+        "summary": "Extension: questionnaire-referenceFilter", 
+        "description": "Extension: questionnaire-referenceFilter", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-referencefilter.json"
+    }, 
+    "questionnaire-referenceProfile": {
+        "summary": "Extension: questionnaire-referenceProfile", 
+        "description": "Extension: questionnaire-referenceProfile", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-referenceprofile.json"
+    }, 
+    "questionnaire-referenceResource": {
+        "summary": "Extension: questionnaire-referenceResource", 
+        "description": "Extension: questionnaire-referenceResource", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-referenceresource.json"
+    }, 
+    "questionnaire-signatureRequired": {
+        "summary": "Extension: questionnaire-signatureRequired", 
+        "description": "Extension: questionnaire-signatureRequired", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-signaturerequired.json"
+    }, 
+    "questionnaire-sliderStepValue": {
+        "summary": "Extension: questionnaire-sliderStepValue", 
+        "description": "Extension: questionnaire-sliderStepValue", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-sliderstepvalue.json"
+    }, 
+    "questionnaire-supportLink": {
+        "summary": "Extension: questionnaire-supportLink", 
+        "description": "Extension: questionnaire-supportLink", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-supportlink.json"
+    }, 
+    "questionnaire-unit": {
+        "summary": "Extension: questionnaire-unit", 
+        "description": "Extension: questionnaire-unit", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-unit.json"
+    }, 
+    "questionnaire-unitOption": {
+        "summary": "Extension: questionnaire-unitOption", 
+        "description": "Extension: questionnaire-unitOption", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-unitoption.json"
+    }, 
+    "questionnaire-unitValueSet": {
+        "summary": "Extension: questionnaire-unitValueSet", 
+        "description": "Extension: questionnaire-unitValueSet", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-unitvalueset.json"
+    }, 
+    "questionnaire-usageMode": {
+        "summary": "Extension: questionnaire-usageMode", 
+        "description": "Extension: questionnaire-usageMode", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaire-usagemode.json"
+    }, 
+    "questionnaireresponse-author": {
+        "summary": "Extension: questionnaireresponse-author", 
+        "description": "Extension: questionnaireresponse-author", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaireresponse-author.json"
+    }, 
+    "questionnaireresponse-completionMode": {
+        "summary": "Extension: questionnaireresponse-completionMode", 
+        "description": "Extension: questionnaireresponse-completionMode", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaireresponse-completionmode.json"
+    }, 
+    "questionnaireresponse-reason": {
+        "summary": "Extension: questionnaireresponse-reason", 
+        "description": "Extension: questionnaireresponse-reason", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaireresponse-reason.json"
+    }, 
+    "questionnaireresponse-reviewer": {
+        "summary": "Extension: questionnaireresponse-reviewer", 
+        "description": "Extension: questionnaireresponse-reviewer", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaireresponse-reviewer.json"
+    }, 
+    "questionnaireresponse-signature": {
+        "summary": "Extension: questionnaireresponse-signature", 
+        "description": "Extension: questionnaireresponse-signature", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-questionnaireresponse-signature.json"
+    }, 
+    "regex": {
+        "summary": "Extension: regex", 
+        "description": "Extension: regex", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-regex.json"
+    }, 
+    "relative-date": {
+        "summary": "Extension: relative-date", 
+        "description": "Extension: relative-date", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-relative-date.json"
+    }, 
+    "rendered-value": {
+        "summary": "Extension: rendered-value", 
+        "description": "Extension: rendered-value", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-rendered-value.json"
+    }, 
+    "rendering-markdown": {
+        "summary": "Extension: rendering-markdown", 
+        "description": "Extension: rendering-markdown", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-rendering-markdown.json"
+    }, 
+    "rendering-style": {
+        "summary": "Extension: rendering-style", 
+        "description": "Extension: rendering-style", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-rendering-style.json"
+    }, 
+    "rendering-styleSensitive": {
+        "summary": "Extension: rendering-styleSensitive", 
+        "description": "Extension: rendering-styleSensitive", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-rendering-stylesensitive.json"
+    }, 
+    "rendering-xhtml": {
+        "summary": "Extension: rendering-xhtml", 
+        "description": "Extension: rendering-xhtml", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-rendering-xhtml.json"
+    }, 
+    "replaces": {
+        "summary": "Extension: replaces", 
+        "description": "Extension: replaces", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-replaces.json"
+    }, 
+    "request-doNotPerform": {
+        "summary": "Extension: request-doNotPerform", 
+        "description": "Extension: request-doNotPerform", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-request-donotperform.json"
+    }, 
+    "request-insurance": {
+        "summary": "Extension: request-insurance", 
+        "description": "Extension: request-insurance", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-request-insurance.json"
+    }, 
+    "request-performerOrder": {
+        "summary": "Extension: request-performerOrder", 
+        "description": "Extension: request-performerOrder", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-request-performerorder.json"
+    }, 
+    "request-relevantHistory": {
+        "summary": "Extension: request-relevantHistory", 
+        "description": "Extension: request-relevantHistory", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-request-relevanthistory.json"
+    }, 
+    "request-replaces": {
+        "summary": "Extension: request-replaces", 
+        "description": "Extension: request-replaces", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-request-replaces.json"
+    }, 
+    "request-statusReason": {
+        "summary": "Extension: request-statusReason", 
+        "description": "Extension: request-statusReason", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-request-statusreason.json"
+    }, 
+    "resource-approvalDate": {
+        "summary": "Extension: resource-approvalDate", 
+        "description": "Extension: resource-approvalDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-resource-approvaldate.json"
+    }, 
+    "resource-effectivePeriod": {
+        "summary": "Extension: resource-effectivePeriod", 
+        "description": "Extension: resource-effectivePeriod", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-resource-effectiveperiod.json"
+    }, 
+    "resource-lastReviewDate": {
+        "summary": "Extension: resource-lastReviewDate", 
+        "description": "Extension: resource-lastReviewDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-resource-lastreviewdate.json"
+    }, 
+    "resource-pertainsToGoal": {
+        "summary": "Extension: resource-pertainsToGoal", 
+        "description": "Extension: resource-pertainsToGoal", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-resource-pertainstogoal.json"
+    }, 
+    "servicerequest-geneticsItem": {
+        "summary": "Extension: servicerequest-geneticsItem", 
+        "description": "Extension: servicerequest-geneticsItem", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-servicerequest-geneticsitem.json"
+    }, 
+    "servicerequest-precondition": {
+        "summary": "Extension: servicerequest-precondition", 
+        "description": "Extension: servicerequest-precondition", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-servicerequest-precondition.json"
+    }, 
+    "servicerequest-questionnaireRequest": {
+        "summary": "Extension: servicerequest-questionnaireRequest", 
+        "description": "Extension: servicerequest-questionnaireRequest", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-servicerequest-questionnairerequest.json"
+    }, 
+    "specimen-collectionPriority": {
+        "summary": "Extension: specimen-collectionPriority", 
+        "description": "Extension: specimen-collectionPriority", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-specimen-collectionpriority.json"
+    }, 
+    "specimen-isDryWeight": {
+        "summary": "Extension: specimen-isDryWeight", 
+        "description": "Extension: specimen-isDryWeight", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-specimen-isdryweight.json"
+    }, 
+    "specimen-processingTime": {
+        "summary": "Extension: specimen-processingTime", 
+        "description": "Extension: specimen-processingTime", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-specimen-processingtime.json"
+    }, 
+    "specimen-sequenceNumber": {
+        "summary": "Extension: specimen-sequenceNumber", 
+        "description": "Extension: specimen-sequenceNumber", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-specimen-sequencenumber.json"
+    }, 
+    "specimen-specialHandling": {
+        "summary": "Extension: specimen-specialHandling", 
+        "description": "Extension: specimen-specialHandling", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-specimen-specialhandling.json"
+    }, 
+    "structuredefinition-ancestor": {
+        "summary": "Extension: structuredefinition-ancestor", 
+        "description": "Extension: structuredefinition-ancestor", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-ancestor.json"
+    }, 
+    "structuredefinition-applicable-version": {
+        "summary": "Extension: structuredefinition-applicable-version", 
+        "description": "Extension: structuredefinition-applicable-version", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-applicable-version.json"
+    }, 
+    "structuredefinition-category": {
+        "summary": "Extension: structuredefinition-category", 
+        "description": "Extension: structuredefinition-category", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-category.json"
+    }, 
+    "structuredefinition-codegen-super": {
+        "summary": "Extension: structuredefinition-codegen-super", 
+        "description": "Extension: structuredefinition-codegen-super", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-codegen-super.json"
+    }, 
+    "structuredefinition-dependencies": {
+        "summary": "Extension: structuredefinition-dependencies", 
+        "description": "Extension: structuredefinition-dependencies", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-dependencies.json"
+    }, 
+    "structuredefinition-display-hint": {
+        "summary": "Extension: structuredefinition-display-hint", 
+        "description": "Extension: structuredefinition-display-hint", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-display-hint.json"
+    }, 
+    "structuredefinition-explicit-type-name": {
+        "summary": "Extension: structuredefinition-explicit-type-name", 
+        "description": "Extension: structuredefinition-explicit-type-name", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-explicit-type-name.json"
+    }, 
+    "structuredefinition-fhir-type": {
+        "summary": "Extension: structuredefinition-fhir-type", 
+        "description": "Extension: structuredefinition-fhir-type", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-fhir-type.json"
+    }, 
+    "structuredefinition-fmm": {
+        "summary": "Extension: structuredefinition-fmm", 
+        "description": "Extension: structuredefinition-fmm", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-fmm.json"
+    }, 
+    "structuredefinition-fmm-no-warnings": {
+        "summary": "Extension: structuredefinition-fmm-no-warnings", 
+        "description": "Extension: structuredefinition-fmm-no-warnings", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-fmm-no-warnings.json"
+    }, 
+    "structuredefinition-hierarchy": {
+        "summary": "Extension: structuredefinition-hierarchy", 
+        "description": "Extension: structuredefinition-hierarchy", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-hierarchy.json"
+    }, 
+    "structuredefinition-normative-version": {
+        "summary": "Extension: structuredefinition-normative-version", 
+        "description": "Extension: structuredefinition-normative-version", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-normative-version.json"
+    }, 
+    "structuredefinition-security-category": {
+        "summary": "Extension: structuredefinition-security-category", 
+        "description": "Extension: structuredefinition-security-category", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-security-category.json"
+    }, 
+    "structuredefinition-standards-status": {
+        "summary": "Extension: structuredefinition-standards-status", 
+        "description": "Extension: structuredefinition-standards-status", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-standards-status.json"
+    }, 
+    "structuredefinition-summary": {
+        "summary": "Extension: structuredefinition-summary", 
+        "description": "Extension: structuredefinition-summary", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-summary.json"
+    }, 
+    "structuredefinition-table-name": {
+        "summary": "Extension: structuredefinition-table-name", 
+        "description": "Extension: structuredefinition-table-name", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-table-name.json"
+    }, 
+    "structuredefinition-template-status": {
+        "summary": "Extension: structuredefinition-template-status", 
+        "description": "Extension: structuredefinition-template-status", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-template-status.json"
+    }, 
+    "structuredefinition-wg": {
+        "summary": "Extension: structuredefinition-wg", 
+        "description": "Extension: structuredefinition-wg", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-wg.json"
+    }, 
+    "structuredefinition-xml-no-order": {
+        "summary": "Extension: structuredefinition-xml-no-order", 
+        "description": "Extension: structuredefinition-xml-no-order", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-structuredefinition-xml-no-order.json"
+    }, 
+    "task-candidateList": {
+        "summary": "Extension: task-candidateList", 
+        "description": "Extension: task-candidateList", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-task-candidatelist.json"
+    }, 
+    "task-replaces": {
+        "summary": "Extension: task-replaces", 
+        "description": "Extension: task-replaces", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-task-replaces.json"
+    }, 
+    "timing-dayOfMonth": {
+        "summary": "Extension: timing-dayOfMonth", 
+        "description": "Extension: timing-dayOfMonth", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-timing-dayofmonth.json"
+    }, 
+    "timing-daysOfCycle": {
+        "summary": "Extension: timing-daysOfCycle", 
+        "description": "Extension: timing-daysOfCycle", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-timing-daysofcycle.json"
+    }, 
+    "timing-exact": {
+        "summary": "Extension: timing-exact", 
+        "description": "Extension: timing-exact", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-timing-exact.json"
+    }, 
+    "translation": {
+        "summary": "Extension: translation", 
+        "description": "Extension: translation", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-translation.json"
+    }, 
+    "tz-code": {
+        "summary": "Extension: tz-code", 
+        "description": "Extension: tz-code", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-tz-code.json"
+    }, 
+    "tz-offset": {
+        "summary": "Extension: tz-offset", 
+        "description": "Extension: tz-offset", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-tz-offset.json"
+    }, 
+    "usagecontext-group": {
+        "summary": "Extension: usagecontext-group", 
+        "description": "Extension: usagecontext-group", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-usagecontext-group.json"
+    }, 
+    "valueset-activityStatusDate": {
+        "summary": "Extension: valueset-activityStatusDate", 
+        "description": "Extension: valueset-activityStatusDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-activitystatusdate.json"
+    }, 
+    "valueset-author": {
+        "summary": "Extension: valueset-author", 
+        "description": "Extension: valueset-author", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-author.json"
+    }, 
+    "valueset-authoritativeSource": {
+        "summary": "Extension: valueset-authoritativeSource", 
+        "description": "Extension: valueset-authoritativeSource", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-authoritativesource.json"
+    }, 
+    "valueset-caseSensitive": {
+        "summary": "Extension: valueset-caseSensitive", 
+        "description": "Extension: valueset-caseSensitive", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-casesensitive.json"
+    }, 
+    "valueset-concept-comments": {
+        "summary": "Extension: valueset-concept-comments", 
+        "description": "Extension: valueset-concept-comments", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-concept-comments.json"
+    }, 
+    "valueset-concept-definition": {
+        "summary": "Extension: valueset-concept-definition", 
+        "description": "Extension: valueset-concept-definition", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-concept-definition.json"
+    }, 
+    "valueset-conceptOrder": {
+        "summary": "Extension: valueset-conceptOrder", 
+        "description": "Extension: valueset-conceptOrder", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-conceptorder.json"
+    }, 
+    "valueset-deprecated": {
+        "summary": "Extension: valueset-deprecated", 
+        "description": "Extension: valueset-deprecated", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-deprecated.json"
+    }, 
+    "valueset-effectiveDate": {
+        "summary": "Extension: valueset-effectiveDate", 
+        "description": "Extension: valueset-effectiveDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-effectivedate.json"
+    }, 
+    "valueset-expand-group": {
+        "summary": "Extension: valueset-expand-group", 
+        "description": "Extension: valueset-expand-group", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-expand-group.json"
+    }, 
+    "valueset-expand-rules": {
+        "summary": "Extension: valueset-expand-rules", 
+        "description": "Extension: valueset-expand-rules", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-expand-rules.json"
+    }, 
+    "valueset-expansionSource": {
+        "summary": "Extension: valueset-expansionSource", 
+        "description": "Extension: valueset-expansionSource", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-expansionsource.json"
+    }, 
+    "valueset-expirationDate": {
+        "summary": "Extension: valueset-expirationDate", 
+        "description": "Extension: valueset-expirationDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-expirationdate.json"
+    }, 
+    "valueset-expression": {
+        "summary": "Extension: valueset-expression", 
+        "description": "Extension: valueset-expression", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-expression.json"
+    }, 
+    "valueset-extensible": {
+        "summary": "Extension: valueset-extensible", 
+        "description": "Extension: valueset-extensible", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-extensible.json"
+    }, 
+    "valueset-keyWord": {
+        "summary": "Extension: valueset-keyWord", 
+        "description": "Extension: valueset-keyWord", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-keyword.json"
+    }, 
+    "valueset-label": {
+        "summary": "Extension: valueset-label", 
+        "description": "Extension: valueset-label", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-label.json"
+    }, 
+    "valueset-map": {
+        "summary": "Extension: valueset-map", 
+        "description": "Extension: valueset-map", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-map.json"
+    }, 
+    "valueset-otherName": {
+        "summary": "Extension: valueset-otherName", 
+        "description": "Extension: valueset-otherName", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-othername.json"
+    }, 
+    "valueset-parameterSource": {
+        "summary": "Extension: valueset-parameterSource", 
+        "description": "Extension: valueset-parameterSource", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-parametersource.json"
+    }, 
+    "valueset-reference": {
+        "summary": "Extension: valueset-reference", 
+        "description": "Extension: valueset-reference", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-reference.json"
+    }, 
+    "valueset-rules-text": {
+        "summary": "Extension: valueset-rules-text", 
+        "description": "Extension: valueset-rules-text", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-rules-text.json"
+    }, 
+    "valueset-sourceReference": {
+        "summary": "Extension: valueset-sourceReference", 
+        "description": "Extension: valueset-sourceReference", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-sourcereference.json"
+    }, 
+    "valueset-special-status": {
+        "summary": "Extension: valueset-special-status", 
+        "description": "Extension: valueset-special-status", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-special-status.json"
+    }, 
+    "valueset-steward": {
+        "summary": "Extension: valueset-steward", 
+        "description": "Extension: valueset-steward", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-steward.json"
+    }, 
+    "valueset-supplement": {
+        "summary": "Extension: valueset-supplement", 
+        "description": "Extension: valueset-supplement", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-supplement.json"
+    }, 
+    "valueset-system": {
+        "summary": "Extension: valueset-system", 
+        "description": "Extension: valueset-system", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-system.json"
+    }, 
+    "valueset-systemName": {
+        "summary": "Extension: valueset-systemName", 
+        "description": "Extension: valueset-systemName", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-systemname.json"
+    }, 
+    "valueset-systemRef": {
+        "summary": "Extension: valueset-systemRef", 
+        "description": "Extension: valueset-systemRef", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-systemref.json"
+    }, 
+    "valueset-toocostly": {
+        "summary": "Extension: valueset-toocostly", 
+        "description": "Extension: valueset-toocostly", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-toocostly.json"
+    }, 
+    "valueset-trusted-expansion": {
+        "summary": "Extension: valueset-trusted-expansion", 
+        "description": "Extension: valueset-trusted-expansion", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-trusted-expansion.json"
+    }, 
+    "valueset-unclosed": {
+        "summary": "Extension: valueset-unclosed", 
+        "description": "Extension: valueset-unclosed", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-unclosed.json"
+    }, 
+    "valueset-usage": {
+        "summary": "Extension: valueset-usage", 
+        "description": "Extension: valueset-usage", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-usage.json"
+    }, 
+    "valueset-warning": {
+        "summary": "Extension: valueset-warning", 
+        "description": "Extension: valueset-warning", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-warning.json"
+    }, 
+    "valueset-workflowStatus": {
+        "summary": "Extension: valueset-workflowStatus", 
+        "description": "Extension: valueset-workflowStatus", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-valueset-workflowstatus.json"
+    }, 
+    "variable": {
+        "summary": "Extension: variable", 
+        "description": "Extension: variable", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-variable.json"
+    }, 
+    "workflow-episodeOfCare": {
+        "summary": "Extension: workflow-episodeOfCare", 
+        "description": "Extension: workflow-episodeOfCare", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-episodeofcare.json"
+    }, 
+    "workflow-instantiatesCanonical": {
+        "summary": "Extension: workflow-instantiatesCanonical", 
+        "description": "Extension: workflow-instantiatesCanonical", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-instantiatescanonical.json"
+    }, 
+    "workflow-instantiatesUri": {
+        "summary": "Extension: workflow-instantiatesUri", 
+        "description": "Extension: workflow-instantiatesUri", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-instantiatesuri.json"
+    }, 
+    "workflow-reasonCode": {
+        "summary": "Extension: workflow-reasonCode", 
+        "description": "Extension: workflow-reasonCode", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-reasoncode.json"
+    }, 
+    "workflow-reasonReference": {
+        "summary": "Extension: workflow-reasonReference", 
+        "description": "Extension: workflow-reasonReference", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-reasonreference.json"
+    }, 
+    "workflow-relatedArtifact": {
+        "summary": "Extension: workflow-relatedArtifact", 
+        "description": "Extension: workflow-relatedArtifact", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-relatedartifact.json"
+    }, 
+    "workflow-researchStudy": {
+        "summary": "Extension: workflow-researchStudy", 
+        "description": "Extension: workflow-researchStudy", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-researchstudy.json"
+    }, 
+    "workflow-supportingInfo": {
+        "summary": "Extension: workflow-supportingInfo", 
+        "description": "Extension: workflow-supportingInfo", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-workflow-supportinginfo.json"
+    }, 
+    "openEHR-administration": {
+        "summary": "Extension: openEHR-administration", 
+        "description": "Extension: openEHR-administration", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-administration.json"
+    }, 
+    "openEHR-careplan": {
+        "summary": "Extension: openEHR-careplan", 
+        "description": "Extension: openEHR-careplan", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-careplan.json"
+    }, 
+    "openEHR-exposureDate": {
+        "summary": "Extension: openEHR-exposureDate", 
+        "description": "Extension: openEHR-exposureDate", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-exposuredate.json"
+    }, 
+    "openEHR-exposureDescription": {
+        "summary": "Extension: openEHR-exposureDescription", 
+        "description": "Extension: openEHR-exposureDescription", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-exposuredescription.json"
+    }, 
+    "openEHR-exposureDuration": {
+        "summary": "Extension: openEHR-exposureDuration", 
+        "description": "Extension: openEHR-exposureDuration", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-exposureduration.json"
+    }, 
+    "openEHR-location": {
+        "summary": "Extension: openEHR-location", 
+        "description": "Extension: openEHR-location", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-location.json"
+    }, 
+    "openEHR-management": {
+        "summary": "Extension: openEHR-management", 
+        "description": "Extension: openEHR-management", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-management.json"
+    }, 
+    "openEHR-test": {
+        "summary": "Extension: openEHR-test", 
+        "description": "Extension: openEHR-test", 
+        "externalValue": "https://hl7.org/fhir/R4/extension-openehr-test.json"
+    }, 
+    "example-section-library": {
+        "summary": "Example: Example showing how to define Section Level Profiles", 
+        "description": "Example: Example showing how to define Section Level Profiles", 
+        "externalValue": "https://hl7.org/fhir/R4/structuredefinition-example-section-library.json"
+    }, 
+    "example-composition": {
+        "summary": "Example: Example showing how to use Section Level Profiles", 
+        "description": "Example: Example showing how to use Section Level Profiles", 
+        "externalValue": "https://hl7.org/fhir/R4/structuredefinition-example-composition.json"
+    }
+}

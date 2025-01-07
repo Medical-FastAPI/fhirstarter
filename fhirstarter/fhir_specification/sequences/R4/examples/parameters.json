@@ -1,0 +1,45 @@
+{
+    "example": {
+        "summary": "Parameters Example", 
+        "description": "Parameters Example", 
+        "value": {
+            "resourceType": "Parameters", 
+            "parameter": [
+                {
+                    "name": "exact", 
+                    "valueBoolean": true
+                }, 
+                {
+                    "name": "property", 
+                    "part": [
+                        {
+                            "name": "code", 
+                            "valueCode": "focus"
+                        }, 
+                        {
+                            "name": "value", 
+                            "valueCode": "top"
+                        }
+                    ]
+                }, 
+                {
+                    "name": "patient", 
+                    "resource": {
+                        "resourceType": "Patient", 
+                        "id": "example", 
+                        "name": [
+                            {
+                                "use": "official", 
+                                "family": "Chalmers", 
+                                "given": [
+                                    "Peter", 
+                                    "James"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

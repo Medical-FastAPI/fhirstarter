@@ -1,0 +1,109 @@
+{
+    "1": {
+        "summary": "Wing within a hospital", 
+        "description": "Wing within a hospital", 
+        "value": {
+            "resourceType": "Location", 
+            "id": "1", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Burgers UMC, South Wing, second floor</div>"
+            }, 
+            "identifier": [
+                {
+                    "value": "B1-S.F2"
+                }
+            ], 
+            "status": "active", 
+            "name": "South Wing, second floor", 
+            "alias": [
+                "BU MC, SW, F2", 
+                "Burgers University Medical Center, South Wing, second floor"
+            ], 
+            "description": "Second floor of the Old South Wing, formerly in use by Psychiatry", 
+            "mode": "instance", 
+            "telecom": [
+                {
+                    "system": "phone", 
+                    "value": "2328", 
+                    "use": "work"
+                }, 
+                {
+                    "system": "fax", 
+                    "value": "2329", 
+                    "use": "work"
+                }, 
+                {
+                    "system": "email", 
+                    "value": "second wing admissions"
+                }, 
+                {
+                    "system": "url", 
+                    "value": "http://sampleorg.com/southwing", 
+                    "use": "work"
+                }
+            ], 
+            "address": {
+                "use": "work", 
+                "line": [
+                    "Galapagosweg 91, Building A"
+                ], 
+                "city": "Den Burg", 
+                "postalCode": "9105 PZ", 
+                "country": "NLD"
+            }, 
+            "physicalType": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/location-physical-type", 
+                        "code": "wi", 
+                        "display": "Wing"
+                    }
+                ]
+            }, 
+            "position": {
+                "longitude": -83.6945691, 
+                "latitude": 42.25475478, 
+                "altitude": 0
+            }, 
+            "managingOrganization": {
+                "reference": "Organization/f001"
+            }, 
+            "endpoint": [
+                {
+                    "reference": "Endpoint/example"
+                }
+            ]
+        }
+    }, 
+    "2": {
+        "summary": "Operation room within hospital", 
+        "description": "Operation room within hospital", 
+        "externalValue": "https://hl7.org/fhir/R4/location-example-room.json"
+    }, 
+    "amb": {
+        "summary": "Ambulance provided by Burgers Healthcare", 
+        "description": "Ambulance provided by Burgers Healthcare", 
+        "externalValue": "https://hl7.org/fhir/R4/location-example-ambulance.json"
+    }, 
+    "ph": {
+        "summary": "Patient's Home which can be used for remote encounters", 
+        "description": "Patient's Home which can be used for remote encounters", 
+        "externalValue": "https://hl7.org/fhir/R4/location-example-patients-home.json"
+    }, 
+    "ukp": {
+        "summary": "UK Pharmacy Jurisdiction", 
+        "description": "UK Pharmacy Jurisdiction", 
+        "externalValue": "https://hl7.org/fhir/R4/location-example-ukpharmacy.json"
+    }, 
+    "hl7": {
+        "summary": "HL7 HQ Location", 
+        "description": "HL7 HQ Location", 
+        "externalValue": "https://hl7.org/fhir/R4/location-example-hl7hq.json"
+    }, 
+    "3ad0687e-f477-468c-afd5-fcc2bf897819": {
+        "summary": "General location examples", 
+        "description": "General location examples", 
+        "externalValue": "https://hl7.org/fhir/R4/location-examples-general.json"
+    }
+}

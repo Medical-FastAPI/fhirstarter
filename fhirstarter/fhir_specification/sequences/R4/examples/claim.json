@@ -1,0 +1,193 @@
+{
+    "100150": {
+        "summary": "Simple dental Claim", 
+        "description": "Simple dental Claim", 
+        "value": {
+            "resourceType": "Claim", 
+            "id": "100150", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">A human-readable rendering of the Oral Health Claim</div>"
+            }, 
+            "identifier": [
+                {
+                    "system": "http://happyvalley.com/claim", 
+                    "value": "12345"
+                }
+            ], 
+            "status": "active", 
+            "type": {
+                "coding": [
+                    {
+                        "system": "http://terminology.hl7.org/CodeSystem/claim-type", 
+                        "code": "oral"
+                    }
+                ]
+            }, 
+            "use": "claim", 
+            "patient": {
+                "reference": "Patient/1"
+            }, 
+            "created": "2014-08-16", 
+            "insurer": {
+                "reference": "Organization/2"
+            }, 
+            "provider": {
+                "reference": "Organization/1"
+            }, 
+            "priority": {
+                "coding": [
+                    {
+                        "code": "normal"
+                    }
+                ]
+            }, 
+            "payee": {
+                "type": {
+                    "coding": [
+                        {
+                            "code": "provider"
+                        }
+                    ]
+                }
+            }, 
+            "careTeam": [
+                {
+                    "sequence": 1, 
+                    "provider": {
+                        "reference": "Practitioner/example"
+                    }
+                }
+            ], 
+            "diagnosis": [
+                {
+                    "sequence": 1, 
+                    "diagnosisCodeableConcept": {
+                        "coding": [
+                            {
+                                "code": "123456"
+                            }
+                        ]
+                    }
+                }
+            ], 
+            "insurance": [
+                {
+                    "sequence": 1, 
+                    "focal": true, 
+                    "identifier": {
+                        "system": "http://happyvalley.com/claim", 
+                        "value": "12345"
+                    }, 
+                    "coverage": {
+                        "reference": "Coverage/9876B1"
+                    }
+                }
+            ], 
+            "item": [
+                {
+                    "sequence": 1, 
+                    "careTeamSequence": [
+                        1
+                    ], 
+                    "productOrService": {
+                        "coding": [
+                            {
+                                "code": "1200"
+                            }
+                        ]
+                    }, 
+                    "servicedDate": "2014-08-16", 
+                    "unitPrice": {
+                        "value": 135.57, 
+                        "currency": "USD"
+                    }, 
+                    "net": {
+                        "value": 135.57, 
+                        "currency": "USD"
+                    }
+                }
+            ]
+        }
+    }, 
+    "100151": {
+        "summary": "Average dental Claim with Information (Missing Teeth and Student)", 
+        "description": "Average dental Claim with Information (Missing Teeth and Student)", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-oral-average.json"
+    }, 
+    "100152": {
+        "summary": "SOA Dental Claim (Contained)", 
+        "description": "SOA Dental Claim (Contained)", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-oral-contained.json"
+    }, 
+    "100154": {
+        "summary": "SOA Dental Claim using identifiers", 
+        "description": "SOA Dental Claim using identifiers", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-oral-identifier.json"
+    }, 
+    "100155": {
+        "summary": "SOA Dental Claim using identifiers and Contained", 
+        "description": "SOA Dental Claim using identifiers and Contained", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-oral-contained-identifier.json"
+    }, 
+    "100156": {
+        "summary": "PreAuthorization with Bridge and Crown", 
+        "description": "PreAuthorization with Bridge and Crown", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-oral-bridge.json"
+    }, 
+    "100153": {
+        "summary": "PreAuthorization with Orthodontic Treatment Plan", 
+        "description": "PreAuthorization with Orthodontic Treatment Plan", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-oral-orthoplan.json"
+    }, 
+    "660150": {
+        "summary": "Simple Vision Claim", 
+        "description": "Simple Vision Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-vision.json"
+    }, 
+    "660151": {
+        "summary": "Glasses Claim", 
+        "description": "Glasses Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-vision-glasses.json"
+    }, 
+    "660152": {
+        "summary": "Glasses Claim, 3 Tier, Secondary Coverage", 
+        "description": "Glasses Claim, 3 Tier, Secondary Coverage", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-vision-glasses-3tier.json"
+    }, 
+    "960150": {
+        "summary": "Simple Institutional Service Claim", 
+        "description": "Simple Institutional Service Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-institutional.json"
+    }, 
+    "960151": {
+        "summary": "Rich Institutional Service Claim", 
+        "description": "Rich Institutional Service Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-institutional-rich.json"
+    }, 
+    "860150": {
+        "summary": "Simple Professional Service Claim", 
+        "description": "Simple Professional Service Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-professional.json"
+    }, 
+    "760150": {
+        "summary": "Simple Pharmacy Service Claim", 
+        "description": "Simple Pharmacy Service Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-pharmacy.json"
+    }, 
+    "760151": {
+        "summary": "Simple Pharmacy Medication Claim", 
+        "description": "Simple Pharmacy Medication Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-pharmacy-medication.json"
+    }, 
+    "760152": {
+        "summary": "Simple Pharmacy Compound Claim", 
+        "description": "Simple Pharmacy Compound Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-pharmacy-compound.json"
+    }, 
+    "MED-00050": {
+        "summary": "Simple US Medical Surgery Claim", 
+        "description": "Simple US Medical Surgery Claim", 
+        "externalValue": "https://hl7.org/fhir/R4/claim-example-cms1500-medical.json"
+    }
+}

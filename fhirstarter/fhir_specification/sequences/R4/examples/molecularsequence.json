@@ -1,0 +1,128 @@
+{
+    "example": {
+        "summary": "Simple sequence example", 
+        "description": "Simple sequence example", 
+        "value": {
+            "resourceType": "MolecularSequence", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: example</p><p><b>type</b>: dna</p><p><b>coordinateSystem</b>: 0</p><p><b>patient</b>: <a>Patient/example</a></p><h3>ReferenceSeqs</h3><table><tr><td>-</td><td><b>ReferenceSeqId</b></td><td><b>Strand</b></td><td><b>WindowStart</b></td><td><b>WindowEnd</b></td></tr><tr><td>*</td><td>NC_000009.11 <span>(Details : {http://www.ncbi.nlm.nih.gov/nuccore code 'NC_000009.11' = 'NC_000009.11)</span></td><td>watson</td><td>22125500</td><td>22125510</td></tr></table><h3>Variants</h3><table><tr><td>-</td><td><b>Start</b></td><td><b>End</b></td><td><b>ObservedAllele</b></td><td><b>ReferenceAllele</b></td></tr><tr><td>*</td><td>22125503</td><td>22125504</td><td>C</td><td>G</td></tr></table><h3>Repositories</h3><table><tr><td>-</td><td><b>Type</b></td><td><b>Url</b></td><td><b>Name</b></td><td><b>VariantsetId</b></td></tr><tr><td>*</td><td>openapi</td><td><a>http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json</a></td><td>GA4GH API</td><td>3:rs1333049</td></tr></table></div>"
+            }, 
+            "type": "dna", 
+            "coordinateSystem": 0, 
+            "patient": {
+                "reference": "Patient/example"
+            }, 
+            "referenceSeq": {
+                "referenceSeqId": {
+                    "coding": [
+                        {
+                            "system": "http://www.ncbi.nlm.nih.gov/nuccore", 
+                            "code": "NC_000009.11"
+                        }
+                    ]
+                }, 
+                "strand": "watson", 
+                "windowStart": 22125500, 
+                "windowEnd": 22125510
+            }, 
+            "variant": [
+                {
+                    "start": 22125503, 
+                    "end": 22125504, 
+                    "observedAllele": "C", 
+                    "referenceAllele": "G"
+                }
+            ], 
+            "repository": [
+                {
+                    "type": "openapi", 
+                    "url": "http://grch37.rest.ensembl.org/ga4gh/variants/3:rs1333049?content-type=application/json", 
+                    "name": "GA4GH API", 
+                    "variantsetId": "3:rs1333049"
+                }
+            ]
+        }
+    }, 
+    "fda-example": {
+        "summary": "MolecularSequence example from precisionFDA", 
+        "description": "MolecularSequence example from precisionFDA", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-example-fda.json"
+    }, 
+    "sequence-complex-variant": {
+        "summary": "Example of representing complex variants in MolecularSequence resource", 
+        "description": "Example of representing complex variants in MolecularSequence resource", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-complex-variant.json"
+    }, 
+    "example-pgx-1": {
+        "summary": "Example of a single varaint on a reference MolecularSequence related to a haplotype observation in PGx example", 
+        "description": "Example of a single varaint on a reference MolecularSequence related to a haplotype observation in PGx example", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-example-pgx-1.json"
+    }, 
+    "example-pgx-2": {
+        "summary": "Example of another single varaint on a reference MolecularSequence related to a haplotype observation in PGx example, which will form with the other haplotype data to be a diplotype observation.", 
+        "description": "Example of another single varaint on a reference MolecularSequence related to a haplotype observation in PGx example, which will form with the other haplotype data to be a diplotype observation.", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-example-pgx-2.json"
+    }, 
+    "example-TPMT-one": {
+        "summary": "Example of a TPMT SNP data that support a haplotype observation", 
+        "description": "Example of a TPMT SNP data that support a haplotype observation", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-example-TPMT-one.json"
+    }, 
+    "example-TPMT-two": {
+        "summary": "Example of another TPMT SNP data that support a haplotype observation", 
+        "description": "Example of another TPMT SNP data that support a haplotype observation", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-example-TPMT-two.json"
+    }, 
+    "graphic-example-1": {
+        "summary": "MolecularSequence Graphic example-1", 
+        "description": "MolecularSequence Graphic example-1", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-graphic-example-1.json"
+    }, 
+    "graphic-example-2": {
+        "summary": "MolecularSequence Graphic example-2", 
+        "description": "MolecularSequence Graphic example-2", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-graphic-example-2.json"
+    }, 
+    "graphic-example-3": {
+        "summary": "MolecularSequence Graphic example-3", 
+        "description": "MolecularSequence Graphic example-3", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-graphic-example-3.json"
+    }, 
+    "graphic-example-4": {
+        "summary": "MolecularSequence Graphic example-4", 
+        "description": "MolecularSequence Graphic example-4", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-graphic-example-4.json"
+    }, 
+    "graphic-example-5": {
+        "summary": "MolecularSequence Graphic example-5", 
+        "description": "MolecularSequence Graphic example-5", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-graphic-example-5.json"
+    }, 
+    "coord-0-base": {
+        "summary": "Example of a record with 0-based coordinatesystem", 
+        "description": "Example of a record with 0-based coordinatesystem", 
+        "externalValue": "https://hl7.org/fhir/R4/coord-0base-example.json"
+    }, 
+    "coord-1-base": {
+        "summary": "Example of a record with 1-based coordinatesystem", 
+        "description": "Example of a record with 1-based coordinatesystem", 
+        "externalValue": "https://hl7.org/fhir/R4/coord-1base-example.json"
+    }, 
+    "fda-vcf-comparison": {
+        "summary": "MolecularSequence example for vcf comparison on precisionFDA", 
+        "description": "MolecularSequence example for vcf comparison on precisionFDA", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-example-fda-comparisons.json"
+    }, 
+    "fda-vcfeval-comparison": {
+        "summary": "MolecularSequence example for vcf and Hap.py comparison on precisionFDA", 
+        "description": "MolecularSequence example for vcf and Hap.py comparison on precisionFDA", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-example-fda-vcfeval.json"
+    }, 
+    "breastcancer": {
+        "summary": "MolecularSequence example for patient with breast cancer gene variant", 
+        "description": "MolecularSequence example for patient with breast cancer gene variant", 
+        "externalValue": "https://hl7.org/fhir/R4/sequence-genetics-example-breastcancer.json"
+    }
+}

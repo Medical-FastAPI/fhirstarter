@@ -1,0 +1,55 @@
+{
+    "101": {
+        "summary": "General Outcome Example", 
+        "description": "General Outcome Example", 
+        "value": {
+            "resourceType": "OperationOutcome", 
+            "id": "101", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n      <p>The code &quot;W&quot; is not known and not legal Patient.gender.</p>\n    </div>"
+            }, 
+            "issue": [
+                {
+                    "severity": "error", 
+                    "code": "code-invalid", 
+                    "details": {
+                        "text": "The code \"W\" is not known and not legal in this context"
+                    }, 
+                    "diagnostics": "Acme.Interop.FHIRProcessors.Patient.processGender line 2453", 
+                    "location": [
+                        "/f:Patient/f:gender"
+                    ], 
+                    "expression": [
+                        "Patient.gender"
+                    ]
+                }
+            ]
+        }
+    }, 
+    "exception": {
+        "summary": "An error that might be returned when an unexpected exception happens on a server", 
+        "description": "An error that might be returned when an unexpected exception happens on a server", 
+        "externalValue": "https://hl7.org/fhir/R4/operationoutcome-example-exception.json"
+    }, 
+    "allok": {
+        "summary": "An operation outcome that could be returned after a successful operation (no issues)", 
+        "description": "An operation outcome that could be returned after a successful operation (no issues)", 
+        "externalValue": "https://hl7.org/fhir/R4/operationoutcome-example-allok.json"
+    }, 
+    "validationfail": {
+        "summary": "A validator has found problems with a resource", 
+        "description": "A validator has found problems with a resource", 
+        "externalValue": "https://hl7.org/fhir/R4/operationoutcome-example-validationfail.json"
+    }, 
+    "searchfail": {
+        "summary": "A search error (illegal modifier)", 
+        "description": "A search error (illegal modifier)", 
+        "externalValue": "https://hl7.org/fhir/R4/operationoutcome-example-searchfail.json"
+    }, 
+    "break-the-glass": {
+        "summary": "A note that additional information might be available if Break-The-Glass is used", 
+        "description": "A note that additional information might be available if Break-The-Glass is used", 
+        "externalValue": "https://hl7.org/fhir/R4/operationoutcome-example-break-the-glass.json"
+    }
+}

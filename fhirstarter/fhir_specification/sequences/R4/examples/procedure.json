@@ -1,0 +1,135 @@
+{
+    "example": {
+        "summary": "General Procedure Example", 
+        "description": "General Procedure Example", 
+        "value": {
+            "resourceType": "Procedure", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Routine Appendectomy</div>"
+            }, 
+            "status": "completed", 
+            "code": {
+                "coding": [
+                    {
+                        "system": "http://snomed.info/sct", 
+                        "code": "80146002", 
+                        "display": "Appendectomy (Procedure)"
+                    }
+                ], 
+                "text": "Appendectomy"
+            }, 
+            "subject": {
+                "reference": "Patient/example"
+            }, 
+            "performedDateTime": "2013-04-05", 
+            "recorder": {
+                "reference": "Practitioner/example", 
+                "display": "Dr Cecil Surgeon"
+            }, 
+            "asserter": {
+                "reference": "Practitioner/example", 
+                "display": "Dr Cecil Surgeon"
+            }, 
+            "performer": [
+                {
+                    "actor": {
+                        "reference": "Practitioner/example", 
+                        "display": "Dr Cecil Surgeon"
+                    }
+                }
+            ], 
+            "reasonCode": [
+                {
+                    "text": "Generalized abdominal pain 24 hours. Localized in RIF with rebound and guarding"
+                }
+            ], 
+            "followUp": [
+                {
+                    "text": "ROS 5 days  - 2013-04-10"
+                }
+            ], 
+            "note": [
+                {
+                    "text": "Routine Appendectomy. Appendix was inflamed and in retro-caecal position"
+                }
+            ]
+        }
+    }, 
+    "biopsy": {
+        "summary": "Example of a Biopsy", 
+        "description": "Example of a Biopsy", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-biopsy.json"
+    }, 
+    "f201": {
+        "summary": "Real-world procedure example", 
+        "description": "Real-world procedure example", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-f201-tpf.json"
+    }, 
+    "f001": {
+        "summary": "Real-world procedure example", 
+        "description": "Real-world procedure example", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-f001-heart.json"
+    }, 
+    "f002": {
+        "summary": "Real-world procedure example", 
+        "description": "Real-world procedure example", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-f002-lung.json"
+    }, 
+    "f003": {
+        "summary": "Real-world procedure example", 
+        "description": "Real-world procedure example", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-f003-abscess.json"
+    }, 
+    "f004": {
+        "summary": "Real-world procedure example", 
+        "description": "Real-world procedure example", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-f004-tracheotomy.json"
+    }, 
+    "example-implant": {
+        "summary": "Example of a device manipulation", 
+        "description": "Example of a device manipulation", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-implant.json"
+    }, 
+    "ambulation": {
+        "summary": "Example of ambulation procedure", 
+        "description": "Example of ambulation procedure", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-ambulation.json"
+    }, 
+    "colon-biopsy": {
+        "summary": "Example of biopsy procedure that was part of a colonoscopy", 
+        "description": "Example of biopsy procedure that was part of a colonoscopy", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-colon-biopsy.json"
+    }, 
+    "colonoscopy": {
+        "summary": "Example of colonoscopy procedure with complication", 
+        "description": "Example of colonoscopy procedure with complication", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-colonoscopy.json"
+    }, 
+    "appendectomy-narrative": {
+        "summary": "Example of an appendectomy procedure that is primarily narrative", 
+        "description": "Example of an appendectomy procedure that is primarily narrative", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-appendectomy-narrative.json"
+    }, 
+    "ob": {
+        "summary": "Example of an obstetric procedure", 
+        "description": "Example of an obstetric procedure", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-ob.json"
+    }, 
+    "physical-therapy": {
+        "summary": "Example of a physical therapy evaluation procedure", 
+        "description": "Example of a physical therapy evaluation procedure", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-physical-therapy.json"
+    }, 
+    "education": {
+        "summary": "Example of patient education", 
+        "description": "Example of patient education", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-education.json"
+    }, 
+    "HCBS": {
+        "summary": "Example of personal care services provided at person's home", 
+        "description": "Example of personal care services provided at person's home", 
+        "externalValue": "https://hl7.org/fhir/R4/procedure-example-HCBS.json"
+    }
+}

@@ -1,0 +1,76 @@
+{
+    "example": {
+        "summary": "Example Endpoint", 
+        "description": "Example Endpoint", 
+        "value": {
+            "resourceType": "Endpoint", 
+            "id": "example", 
+            "text": {
+                "status": "generated", 
+                "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n\t\t\tHealth Intersections CarePlan Hub<br/>\n\t\t\tCarePlans can be uploaded to/from this loccation\n\t\t</div>"
+            }, 
+            "identifier": [
+                {
+                    "system": "http://example.org/enpoint-identifier", 
+                    "value": "epcp12"
+                }
+            ], 
+            "status": "active", 
+            "connectionType": {
+                "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type", 
+                "code": "hl7-fhir-rest"
+            }, 
+            "name": "Health Intersections CarePlan Hub", 
+            "managingOrganization": {
+                "reference": "Organization/hl7"
+            }, 
+            "contact": [
+                {
+                    "system": "email", 
+                    "value": "endpointmanager@example.org", 
+                    "use": "work"
+                }
+            ], 
+            "period": {
+                "start": "2014-09-01"
+            }, 
+            "payloadType": [
+                {
+                    "coding": [
+                        {
+                            "system": "http://hl7.org/fhir/resource-types", 
+                            "code": "CarePlan"
+                        }
+                    ]
+                }
+            ], 
+            "payloadMimeType": [
+                "application/fhir+xml"
+            ], 
+            "address": "http://fhir3.healthintersections.com.au/open/CarePlan", 
+            "header": [
+                "bearer-code BASGS534s4"
+            ]
+        }
+    }, 
+    "b0a5e4277-83c4-4adb-87e2-e3efe3369b6f": {
+        "summary": "Collection of endpoint examples", 
+        "description": "Collection of endpoint examples", 
+        "externalValue": "https://hl7.org/fhir/R4/endpoint-examples-general-template.json"
+    }, 
+    "example-iid": {
+        "summary": "Example of IHE-IID endpoint", 
+        "description": "Example of IHE-IID endpoint", 
+        "externalValue": "https://hl7.org/fhir/R4/endpoint-example-iid.json"
+    }, 
+    "example-wadors": {
+        "summary": "Example of DICOM WADO-RS endpoint", 
+        "description": "Example of DICOM WADO-RS endpoint", 
+        "externalValue": "https://hl7.org/fhir/R4/endpoint-example-wadors.json"
+    }, 
+    "direct-endpoint": {
+        "summary": "Example of a DIRECT endpoint", 
+        "description": "Example of a DIRECT endpoint", 
+        "externalValue": "https://hl7.org/fhir/R4/endpoint-example-direct.json"
+    }
+}
